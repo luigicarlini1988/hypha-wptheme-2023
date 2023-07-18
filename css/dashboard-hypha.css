@@ -1,0 +1,65 @@
+/* dashbaord style will be here*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@300;400;600;700&display=swap');
+
+:root {
+
+/* Colors: */
+--dark-blu: #1B2B5E;
+--medium-blu: #293E83;
+--light-blu: #3550AF;
+--white-blu: #F4F8FB;
+--yellow: #FFBC00;
+--light-sand: #F7F7F2;
+--dark-sand: #F1F1F7;
+--grey: #E5E5E5;
+--titles: 'DM Serif Display', serif;
+--bodys: 'Raleway', sans-serif;
+--box-shadow: 0px 0px 20px rgba(186,182,164,0.3);
+--radial-blu-gradient: radial-gradient( #253979 , #0D1A45);
+}
+
+
+
+.grafana-app {
+  background-image:url('https://hypha.earth/img/3-steps-back.jpg')!important;
+  background-size:cover;
+}
+
+.grafana-app h1, .grafana-app h2, .grafana-app h3, .grafana-app h4 {
+    font-family: var(--bodys)!important;
+    color: var(--yellow);
+    text-transform: capitalize;
+    font-size: 14px!important;
+}
+
+.css-1ejir9x:hover {
+    color: var(--light-sand);
+}
+
+.panel-container {
+    background-color: var(--dark-blu);
+    border: 1px solid var(--medium-blu);
+    overflow:hidden;
+    border-radius:10px;
+    color: var(--light-sand)!important;
+  }
+
+.panel-content,
+.flot-temp-elem {
+  color:var(--light-sand)!important;
+}
+
+  .css-1xodasp {
+    padding:40px;
+  }
+
+  .panel-title {
+    background-color:var(--medium-blu);
+  }
+
+  .grafana-app .react-grid-layout .react-grid-item:first-child,
+  .grafana-app .panel-height-helper,
+  .panel-info-corner--info .panel-info-corner-inner  {
+    display:none;
+  }

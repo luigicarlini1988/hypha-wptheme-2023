@@ -1,0 +1,75 @@
+/* dashbaord style will be here*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@300;400;600;700&display=swap');
+
+:root {
+
+/* Colors: */
+--dark-blu: #1B2B5E;
+--medium-blu: #293E83;
+--light-blu: #3550AF;
+--white-blu: #F4F8FB;
+--white: #fff;
+--yellow: #FFBC00;
+--light-sand: #F7F7F2;
+--dark-sand: #F1F1F7;
+--grey: #E5E5E5;
+--titles: 'DM Serif Display', serif;
+--bodys: 'Raleway', sans-serif;
+--box-shadow: 0px 0px 20px rgba(186,182,164,0.3);
+--radial-blu-gradient: radial-gradient( #253979 , #0D1A45);
+}
+
+
+
+.grafana-app {
+  background: var(--dark-sand);
+}
+
+.grafana-app h1, .grafana-app h2, .grafana-app h3, .grafana-app h4 {
+    font-family: var(--bodys)!important;
+    color: var(--dark-blu);
+    text-transform: capitalize;
+    font-size: 12px!important;
+    font-weight: 700;
+}
+
+.css-1ejir9x:hover {
+    color: var(--yellow);
+}
+
+.panel-container {
+    background-color: var(--white);
+    overflow: hidden;
+    border:0px solid white;
+    box-shadow: 0px 0px 4px rgb(40 40 140 / 10%);
+    border-radius:20px;
+    color: var(--dark-blu)!important;
+  }
+
+.panel-content,
+.flot-temp-elem {
+  color:var(--dark-blu)!important;
+}
+
+  .css-1xodasp {
+    padding:40px;
+  }
+
+  .panel-header:hover {
+    background-color:var(--dark-blu);
+  }
+
+  .panel-header:hover .css-1ejir9x {
+    color:var(--yellow);
+  }
+
+  .panel-title {
+
+  }
+
+  .grafana-app .react-grid-layout .react-grid-item:first-child,
+  .grafana-app .panel-height-helper,
+  .panel-info-corner--info .panel-info-corner-inner  {
+    display:none;
+  }
