@@ -203,14 +203,26 @@
 
                 <article id="post-<?php the_ID(); ?>" class="news-item">
                     <div class="wrappo">
+                        <?php 
+                            if ( !has_post_format( 'video' )) {
+                            ?>
                         <div class="top-right-link">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg">
                         </div>
-                        <p class="text-14 bold light-blu">
-                            <?php $tex = get_the_term_list( $post->ID, 'section'); echo $tex; ?></p>
+
+                        <?php } ?>
+
                         <a href="<?php the_permalink(); ?>">
                             <?php $medium_large = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium_large');?>
                             <img class="news-thumb" src="<?php echo esc_url($medium_large['0']); ?>" loading="lazy" />
+                            <?php 
+                            if ( has_post_format( 'video' )) {
+                            ?>
+                            <div class="player-icon">
+                                <img
+                                    src="http://localhost:8000/wp-content/themes/hypha2023/img/icons/play-big-icon.svg">
+                            </div>
+                            <?php } ?>
 
                             <h3 class="text-24"><?php the_title(); ?></h3>
                         </a>
@@ -222,7 +234,7 @@
                             <?php echo get_avatar( get_the_author_meta( 'ID' ), 96 ); ?>
                             <p class="text-14 bold white">
                                 <?php $fname = get_the_author_meta('first_name');
-                echo $fname; ?>
+                                echo $fname; ?>
                             </p>
                             <p class="text-12 grey">
                                 <i><?php $post_date = get_the_date( 'j M, Y' ); echo $post_date; ?></i>

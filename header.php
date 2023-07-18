@@ -27,8 +27,8 @@
 
 
 
-    <!-- carousel CSS / HOME-->
-    <?php if( is_page_template('home-template.php') ) :?>
+    <!-- carousel CSS / HOME / Features -->
+    <?php if( is_page_template('home-template.php') || is_singular( 'feature') || is_page_template('features-category-shape.php') || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.theme.default.min.css" />
     <?php endif;?>
@@ -60,6 +60,12 @@
     <!-- Get Started CSS -->
     <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php') ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
+    <?php endif;?>
+
+
+    <!-- Features CSS -->
+    <?php if( is_singular( 'feature') || is_page_template('features-category-shape.php') ||  is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/features.css">
     <?php endif;?>
 
 
@@ -122,7 +128,7 @@
             <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
         </div>
 
-        <?php if( is_page_template('hypha-news.php') || is_category()  || is_home() || is_single() && (!is_singular( 'educational' )) ) :?>
+        <?php if( is_page_template('hypha-news.php') || is_category()  || is_home() || is_single() && (!is_singular( 'educational' )) && (!is_singular( 'feature')) ) :?>
         <div class="news-menu">
             <div class="area flex align-center">
                 <nav>
