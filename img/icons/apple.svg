@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.552" height="24.884" viewBox="0 0 20.552 24.884">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#61a9fc"/>
+      <stop offset="1" stop-color="#315bce"/>
+    </linearGradient>
+  </defs>
+  <path id="apple-black-logo-svgrepo-com" d="M16.23,12.679a5.275,5.275,0,0,0,3.2,4.829A13.061,13.061,0,0,1,17.781,20.9c-.995,1.454-2.027,2.9-3.653,2.932-1.6.029-2.112-.948-3.939-.948s-2.4.918-3.91.977c-1.57.059-2.765-1.572-3.768-3.021C.461,17.881-1.1,12.471,1,8.819A5.842,5.842,0,0,1,5.936,5.828c1.542-.029,3,1.037,3.939,1.037s2.71-1.283,4.569-1.094a5.575,5.575,0,0,1,4.365,2.367,5.4,5.4,0,0,0-2.579,4.541m-3-8.869A5.257,5.257,0,0,0,14.468,0a5.35,5.35,0,0,0-3.516,1.809A5,5,0,0,0,9.686,5.5a4.426,4.426,0,0,0,3.54-1.69" transform="translate(0.508 0.518)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+</svg>

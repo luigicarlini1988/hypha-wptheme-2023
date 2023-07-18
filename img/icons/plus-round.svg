@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.904" height="41.904" viewBox="0 0 41.904 41.904">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.142" y1="0.845" x2="0.868" y2="0.067" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#61a9fc"/>
+      <stop offset="1" stop-color="#315bce"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4539" data-name="Group 4539" transform="translate(-1017 -258)">
+    <g id="Group_4384" data-name="Group 4384" transform="translate(1017 258)">
+      <circle id="Ellipse_462" data-name="Ellipse 462" cx="20.952" cy="20.952" r="20.952" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_4538" data-name="Group 4538" transform="translate(1028.973 269.973)">
+      <path id="Line_9" data-name="Line 9" d="M0,18.959a1,1,0,0,1-1-1V0A1,1,0,0,1,0-1,1,1,0,0,1,1,0V17.959A1,1,0,0,1,0,18.959Z" transform="translate(8.979 0)" fill="#f4f8fb"/>
+      <path id="Line_10" data-name="Line 10" d="M17.959,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H17.959a1,1,0,0,1,1,1A1,1,0,0,1,17.959,1Z" transform="translate(0 8.979)" fill="#f4f8fb"/>
+    </g>
+  </g>
+</svg>

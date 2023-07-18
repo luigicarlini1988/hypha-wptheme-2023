@@ -1,110 +1,89 @@
-<?php
+<?php get_header(); ?>
 
+<main class="dark-theme">
+    <section class="news-hero-top category">
 
- get_header();
- ?>
-
-
-<main id="blog">
-
-    <div class="blog-resp-logo">
-        <a href="<?php echo home_url(); ?>">
-            <img class="dark-log" src="<?php echo get_template_directory_uri(); ?>/img/hypha-logo-dark.svg"
-                alt="hypha" />
-        </a>
-    </div>
-
-    <div id="scroll_top"></div>
-
-    <div class="foglio">
-        <div class="blog-inside-top">
-            <a class="backlink" href="<?php echo home_url(); ?>/news-dashboard/">Back to news dashboard</a>
-            <h1>Hypha News Archive</h1>
-        </div>
-    </div>
-
-    <div class="foglio">
-        <div class="flexi-cont">
-
-
-
-            <?php if ( have_posts() ) :
-          // Do we have any posts/pages in the databse that match our query?
-          ?>
-
-
-
-            <?php while ( have_posts() ) : the_post();
-            // If we have a page to show, start a loop that will display it
-            ?>
-
-            <article id="post-<?php the_ID(); ?>" class="featured-article">
-
-                <a href="<?php the_permalink(); ?>">
-                    <div class="blog-image-wrapper">
-
-                        <?php $medium_large = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium_large');?>
-                        <img src="<?php echo esc_url($medium_large['0']); ?>" />
-
-                    </div>
-                </a>
-
-
-
-                <div class="article-meta">
-                    <div class="post-category">
-                        <?php the_category(', '); ?>
-                    </div>
-                    <div class="auth">
-                        <span class="name-author"><?php
-                    $fname = get_the_author_meta('first_name');
-                    $lname = get_the_author_meta('last_name');
-                    $full_name = '';
-
-                    if( empty($fname)){
-                        $full_name = $lname;
-                    } elseif( empty( $lname )){
-                        $full_name = $fname;
-                    } else {
-                        //both first name and last name are present
-                        $full_name = "{$fname} {$lname}";
-                    }
-
-                    echo $full_name;
-                    ?>
-                        </span>
-                    </div>
-                    <div class="post-date">
-                        | <?php $post_date = get_the_date( 'j M, Y' ); echo $post_date; ?>
-                    </div>
+        <div class="area news-top-area">
+            <div class="resp-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg">
+            </div>
+            <div class="sub-section flex align-center">
+                <div class="icon small">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/news.svg" />
                 </div>
 
-                <a class="link-title" href="<?php the_permalink(); ?>">
-                    <h4 class="post-title"><?php the_title(); ?></h2>
-                </a>
+                <div class="breadcrumbs">
+                    <a href="<?php echo home_url(); ?>/news/">News</a> > Hypha News Archive
+                </div>
+            </div>
+            <h1 class="title-big white">Hypha News Archive</h1>
+        </div>
 
-                <p><?php echo wp_kses_post( wp_trim_words( $post->post_content, 16 ) ); ?></p>
 
-            </article>
+    </section>
+
+    <section class="cat-article-wrap">
+        <div class="area wrap flex gap-20">
+
+            <?php if ( have_posts() ) :
+                // Do we have any posts/pages in the databse that match our query?
+                ?>
+
+            <?php while ( have_posts() ) : the_post();
+                    // If we have a page to show, start a loop that will display it
+                    ?>
+
+            <div class="col-4">
+
+                <article id="post-<?php the_ID(); ?>" class="news-item">
+                    <div class="wrappo">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg">
+                        </div>
+                        <p class="text-14 bold light-blu"><?php the_category(', '); ?></p>
+                        <a href="<?php the_permalink(); ?>">
+                            <?php $medium_large = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium_large');?>
+                            <img class="news-thumb" src="<?php echo esc_url($medium_large['0']); ?>" loading="lazy" />
+
+                            <h3 class="text-24"><?php the_title(); ?></h3>
+                        </a>
+                        <div class="author-meta gap-10 flex align-center">
+                            <?php echo get_avatar( get_the_author_meta( 'ID' ), 96 ); ?>
+                            <p class="text-14 bold white">
+                                <?php $fname = get_the_author_meta('first_name');
+                 echo $fname; ?>
+                            </p>
+                            <p class="text-12 grey">
+                                <i><?php $post_date = get_the_date( 'j M, Y' ); echo $post_date; ?></i>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+
+            </div>
+
             <?php
-            endwhile;
-            endif;
-         ?>
+                endwhile;
+                endif;
+            ?>
 
         </div>
 
-        <div class="pagination-blog">
-            <div class="past-page">
-                <?php previous_posts_link( __( '< Newer Articles', 'textdomain' ) ); // Display a link to  newer posts, if there are any, with the text 'newer' ?>
-            </div>
-            <div class="next-page">
-                <?php next_posts_link( __(  'Older Articles >', 'textdomain' ) ); // Display a link to  older posts, if there are any, with the text 'older' ?>
+        <div class="area blog-navigation flex align-center justify-center">
+            <div class="pagination-blog">
+                <div class="past-page">
+                    <?php previous_posts_link( __( '< Newer Articles', 'textdomain' ) ); // Display a link to  newer posts, if there are any, with the text 'newer' ?>
+                </div>
+                <div class="next-page">
+                    <?php next_posts_link( __(  'Older Articles >', 'textdomain' ) ); // Display a link to  older posts, if there are any, with the text 'older' ?>
+                </div>
             </div>
         </div>
 
-    </div>
+    </section>
 
-    </div>
+
 
 </main>
 

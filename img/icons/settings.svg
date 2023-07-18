@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.636" height="29.147" viewBox="0 0 30.636 29.147">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.886" y1="0.907" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#61a9fc"/>
+      <stop offset="1" stop-color="#315bce"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4334" data-name="Group 4334" transform="translate(-1158.957 -2088)">
+    <path id="Path_1120" data-name="Path 1120" d="M13.116,24.807V1.457a1.457,1.457,0,0,1,2.915,0V24.807h1.457a1.457,1.457,0,0,1,0,2.915H16.031v1.457a1.457,1.457,0,0,1-2.915,0V27.721H11.659a1.457,1.457,0,1,1,0-2.915Zm10.2-21.892V1.457a1.457,1.457,0,0,1,2.915,0V2.915H27.69a1.457,1.457,0,1,1,0,2.915H26.233V29.179a1.457,1.457,0,0,1-2.915,0V5.829H21.861a1.457,1.457,0,1,1,0-2.915ZM5.829,7.287H7.287a1.457,1.457,0,0,1,0,2.915H5.829V29.179a1.457,1.457,0,0,1-2.915,0V10.2H1.457a1.457,1.457,0,1,1,0-2.915H2.915V1.457a1.457,1.457,0,1,1,2.915,0Z" transform="translate(1189.593 2088) rotate(90)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
