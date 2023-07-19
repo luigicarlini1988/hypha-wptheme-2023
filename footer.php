@@ -197,6 +197,11 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/get-started-dev.js"></script>
 <?php endif;?>
 
+<!-- Get Started JOIN Js -->
+<?php if( is_page_template('get-started-join.php') ) :?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/get-started-join.js"></script>
+<?php endif;?>
+
 <!-- Feature CPT -->
 <?php if( is_singular( 'feature') || is_page_template('features-category-shape.php')  || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/features-carousel.js"></script>

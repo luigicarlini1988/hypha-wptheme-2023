@@ -22,7 +22,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg" />
             </div>
             <div class="get-start-icon-case">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
             </div>
             <div class="col-9">
                 <div class="sub-section flex align-center">
