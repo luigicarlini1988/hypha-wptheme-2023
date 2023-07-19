@@ -467,6 +467,27 @@ form button:hover {
     background: var(--lb-transp-hover);
 }
 
+.video-button {
+    color:var(--white);
+    font-size:18px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    transition-duration: .3s;
+}
+
+.video-button img {
+    width:34px;
+    transition-duration: .3s;
+}
+
+.video-button:hover {
+    color:var(--light-blu);
+}
+
+.video-button:hover img {
+    transform:scale(1.1);
+}
 
 /* fake feature button with icon*/
 

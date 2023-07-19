@@ -12,8 +12,8 @@
     padding:0;
 }
 
-.get-started-hero .button {
-    margin-top:30px;
+.get-started-hero .buttons {
+    margin-top:50px;
 }
 
 .get-started-hero .sub-section {
@@ -150,6 +150,7 @@
 .get-step {
     min-height:100svh;
     width:100%;
+    position:relative;
 }
 
 
@@ -358,4 +359,49 @@
 
   .get-pricing {
     padding-bottom:120px;
+  }
+
+
+  /*get started intro*/
+
+  .get-started-hero.intro .area {
+    min-height:0;
+  }
+
+  .get-started-hero.intro .col-8 {
+    padding-top:90px;
+  }
+
+  .get-started-hero.intro .col-x {
+    width:calc(50% - 10px);
+  } 
+
+  .get-started-hero.intro .area:last-child {
+    padding:100px 0px;
+    position:relative;
+    z-index:2;
+  }
+
+  .absolut-alert {
+    color:var(--light-blu);
+    position:absolute;
+    top:-30px;
+    left:-10px;
+    font-style: italic;
+    font-size:14px;
+  }
+
+  .bottom-alert {
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    font-style: italic;
+    font-size:14px;
+    color:var(--white);
+    line-height:22px;
+  }
+
+  .bottom-alert a {
+    color:var(--light-blu);
+    text-decoration: underline;
   }

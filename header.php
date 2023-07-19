@@ -58,7 +58,7 @@
     <?php endif;?>
 
     <!-- Get Started CSS -->
-    <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php') ) :?>
+    <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php')  || is_page_template('get-started-account.php')  || is_page_template('get-started-join.php') ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
     <?php endif;?>
 

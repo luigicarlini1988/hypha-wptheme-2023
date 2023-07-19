@@ -181,8 +181,13 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ecosystem-builder.js"></script>
 <?php endif;?>
 
+<!-- Get Started ACCOUNT Js -->
+<?php if( is_page_template('get-started-account.php') ) :?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/get-started-account.js"></script>
+<?php endif;?>
 
-<!-- Get Started CREATE Js -->
+
+<!-- Get Started CREATE DAO Js -->
 <?php if( is_page_template('get-started-create.php') ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/get-started-create.js"></script>
 <?php endif;?>
