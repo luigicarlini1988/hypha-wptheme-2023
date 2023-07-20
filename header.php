@@ -27,8 +27,8 @@
 
 
 
-    <!-- carousel CSS / HOME / Features -->
-    <?php if( is_page_template('home-template.php') || is_singular( 'feature') || is_page_template('features-category-shape.php') || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
+    <!-- carousel CSS / HOME / Features / about-us -->
+    <?php if( is_page_template('home-template.php') || is_page_template('about-us.php') || is_singular( 'feature') || is_page_template('features-category-shape.php') || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.theme.default.min.css" />
     <?php endif;?>
@@ -57,8 +57,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pricing-plans.css">
     <?php endif;?>
 
-    <!-- Get Started CSS -->
-    <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php')  || is_page_template('get-started-account.php')  || is_page_template('get-started-join.php') ) :?>
+    <!-- Get Started CSS (and about us) -->
+    <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php')  || is_page_template('get-started-account.php')  || is_page_template('get-started-join.php') || is_page_template('about-us.php') ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
     <?php endif;?>
 

@@ -1957,3 +1957,95 @@ table td {
     margin:0;
     font-size:14px;
 }
+
+
+/* about us */
+
+#about-us .text-20 {
+    margin-bottom:0px;
+}
+
+.values .area:not(:last-child) {
+    margin-bottom:0px;
+}
+
+.values .area .col-half:nth-child(even) {
+    margin-top:100px;
+}
+
+.values  {
+    padding-top:20px;
+}
+
+#timeline-carousel {
+    padding-top:60px;
+}
+
+#achievements {
+    overflow: hidden;
+}
+
+#timeline-carousel.owl-carousel .owl-stage-outer {
+    overflow: visible;
+}
+
+#timeline-carousel .owl-nav {
+    top: -20px;
+    margin-top: 0;
+    right: 0;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+
+#testimonials.dao-members {
+    padding:80px 0px 100px 0px;
+    background-image:url('../img/backgrounds/header-alternative.png');
+    background-size:cover;
+    background-position:center;
+}
+
+.members-card .testim-bottom {
+    font-size:14px;
+    font-style: italic;
+}
+
+.members-card .testim-bottom img {
+    height:20px;
+    max-width:20px!important;
+}
+
+.members-card .testim-bottom div:first-child {
+    margin-right:26px;
+}
+
+.special-image {
+    aspect-ratio: 4 / 5;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+.special-image img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position:relative;
+}
+
+.get-start-icon-case.about-us {
+    background:transparent;
+}
+
+.get-start-icon-case.about-us img {
+    width:78px;
+    height:78px;
+    max-height: 78px;
+    position:relative;
+    filter:brightness(1) grayscale(0);
+}
+
+.work-with-us {
+    padding-bottom:120px;
+}

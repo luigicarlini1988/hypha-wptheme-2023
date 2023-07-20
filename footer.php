@@ -147,8 +147,8 @@
 
 
 
-<!-- carousel JS / HOME / Feature CPT - Group -->
-<?php if( is_page_template('home-template.php') || is_singular( 'feature') || is_page_template('features-category-shape.php')  || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
+<!-- carousel JS / HOME / Feature CPT - Group - About Us -->
+<?php if( is_page_template('home-template.php') || is_singular( 'feature') || is_page_template('features-category-shape.php')  || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php') || is_page_template('about-us.php') ) :?>
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3-10-1-min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.js"></script>
@@ -165,9 +165,15 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/testimonialscarousel.js"></script>
 <?php endif;?>
 
+<!-- about-us carousel / HOME -->
+<?php if( is_page_template('about-us.php') ) :?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/timeline-carousel.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/testimonialscarousel.js"></script>
+<?php endif;?>
 
-<!-- Global Animations Js / News / pricing plans / education / archives / Group (CPT Category) -->
-<?php if( is_page_template('hypha-news.php')  || is_page_template('generic-page.php') || is_page_template('get-started.php')  || is_page_template('hypha-education.php') || is_post_type_archive('educational')  || is_tax('section')  || is_category() || is_home() || is_single() || is_page_template('pricing-plans.php') || is_page_template('pricing-dao-builder.php') || is_page_template('pricing-ecosystem-builder.php') || is_page_template('pricing-developer.php') || is_tax('group') || is_page_template('features-category-shape.php')  || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
+
+<!-- Global Animations Js / News / pricing plans / education / archives / Group (CPT Category) / About us -->
+<?php if( is_page_template('hypha-news.php')  || is_page_template('generic-page.php') || is_page_template('get-started.php')  || is_page_template('hypha-education.php') || is_post_type_archive('educational')  || is_tax('section')  || is_category() || is_home() || is_single() || is_page_template('pricing-plans.php') || is_page_template('pricing-dao-builder.php') || is_page_template('pricing-ecosystem-builder.php') || is_page_template('pricing-developer.php') || is_tax('group') || is_page_template('features-category-shape.php')  || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php') || is_page_template('about-us.php')  ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/global-animations.js"></script>
 <?php endif;?>
 

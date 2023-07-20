@@ -172,7 +172,8 @@
                 <div class="buttons">
 
                     <a href="#opening" class="button secondary">DAOs vs traditional orgs</a>
-                    <a href="" class="button primary">What is a DAO</a>
+                    <a href="<?php echo home_url(); ?>/what-is-a-dao/" target="_blank" class="button primary">What is a
+                        DAO</a>
                 </div>
 
             </div>

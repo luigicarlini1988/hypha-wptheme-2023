@@ -771,7 +771,22 @@
         row-gap: 30px;
     }
 
+
+    .values .area:not(:last-child) {
+        margin-bottom:60px;
+    }
     
+    .values .area .col-half:nth-child(even) {
+        margin-top:0px;
+    }
+
+    .values  {
+        padding-top:0;
+    }
+
+    .special-image {
+        aspect-ratio: 5 / 4;
+    }
 }
 
 
@@ -1031,6 +1046,17 @@
     .get-started-hero.intro .col-x {
         width:100%;
       } 
+
+      #timeline-carousel {
+        padding-top: 30px;
+        margin-top:30px;
+    }
+
+
+
+    .work-with-us {
+        padding-bottom:80px;
+    }
 }
 
 
