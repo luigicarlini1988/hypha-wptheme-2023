@@ -43,6 +43,13 @@ body,html {
     height:0;
 }
 
+a.simple-link {
+    color:var(--light-blu);
+}
+a.simple-link:hover {
+    text-decoration: underline;
+}
+
 .white {
     color:var(--white);
 }

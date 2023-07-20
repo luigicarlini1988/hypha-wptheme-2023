@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="breadcrumbs">
-                        <a href="#">Get Started</a> > <?php the_title();  ?>
+                        <a href="<?php echo home_url(); ?>/get-started/">Get Started</a> > <?php the_title();  ?>
                     </div>
                 </div>
                 <h1 class="title-giga">Create your <br />Hypha Account</h1>
@@ -41,7 +41,7 @@
                     <a href="#begin" class="button primary">Let's begin</a>
                     <a href="#" class="video-button"><img
                             src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg" />Watch the
-                        video</a>
+                        tutorial</a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
 
                             <p class="subtitle">Step 1 > <span class="white">Hypha Onboarding<span></p>
                         </div>
-                        <p class="title-medium">Where the magin begins</p>
+                        <p class="title-medium">Where the magic begins</p>
                         <div class="get-image-resp flex align-center justify-center">
 
                             <div class="full-screen-dao">
@@ -69,10 +69,9 @@
                             </div>
 
                         </div>
-                        <p>Open the onboarding in a new browser tab by clicking the "sign-up" button. The
-                            onboarding is fairly simple, but click the "next step" button and keep this page under
-                            your radar
-                            for a detailed walk through of each step</p>
+                        <p>Start by opening Hypha’s DAO Platform in a new tab and create your personalized Hypha
+                            Account. From there, easily navigate the step-by-step onboarding process. For additional
+                            assistance, refer back to this page.</p>
                         <div class="buttons flex gap-20">
                             <a href="#inside-anchor-2" class="button primary">Sign-up</a>
                             <a href="#inside-anchor-2" class="button secondary">Next Step</a>
@@ -99,16 +98,19 @@
 
                             <p class="subtitle">Step 2 > <span class="white">Invite<span></p>
                         </div>
-                        <p class="title-medium">Scan the unique QRcode invite and download the Hypha Wallet App</p>
+                        <p class="title-medium">Accept your invitation to be part of the next big thing</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-account/step-2.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
-                        <a href="#inside-anchor-3" class="button secondary">Next Step</a>
+                        <p>Secure access to your Hypha Account by scanning your personalized QR code invitation to
+                            download the Hypha Wallet App on your smartphone.</p>
+                        <div class="buttons flex gap-20">
+                            <a href="#inside-anchor-3" class="button secondary">Next Step</a>
+                            <a href="#inside-anchor-3" class="button secondary">What is a Wallet?</a>
+                        </div>
                     </div>
                     <div class="col-half flex  justify-center">
                         <div class="onb-images flex wrap align-center justify-center">
@@ -266,15 +268,15 @@
 
                             <p class="subtitle">Step 7 > <span class="white">Enter Hypha DAO<span></p>
                         </div>
-                        <p class="title-medium">All set! Click this button to visit Hypha DAO</p>
+                        <p class="title-medium">Time to dive in, explore and connect!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-account/step-7.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>You're in good company! Enter the Hypha DAO to join hundreds of innovative, boundary-pushing,
+                            talented members like yourself.</p>
                         <a href="#inside-anchor-8" class="button secondary">Next Step</a>
                     </div>
                     <div class="col-half flex  justify-center">
@@ -296,9 +298,9 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 8 > <span class="white">Welcome!<span></p>
+                            <p class="subtitle">Step 8 > <span class="white">Welcome to Hypha DAO!<span></p>
                         </div>
-                        <p class="title-medium">Welcome to Hypha Network!</p>
+                        <p class="title-medium">Time to settle in and get involved!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
@@ -355,7 +357,7 @@
 
                     <p class="subtitle">What's Next?</p>
                 </div>
-                <h3 class="title-medium">You are now ready to:</h3>
+                <h3 class="title-medium">Continue your DAO journey:</h3>
 
             </div>
 

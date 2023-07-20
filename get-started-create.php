@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="breadcrumbs">
-                        <a href="#">Get Started</a> > <?php the_title();  ?>
+                        <a href="<?php echo home_url(); ?>/get-started/">Get Started</a> > <?php the_title();  ?>
                     </div>
                 </div>
                 <h1 class="title-giga"><?php the_title();  ?></h1>
@@ -41,7 +41,7 @@
                     <a href="#begin" class="button primary">Let's begin</a>
                     <a href="#" class="video-button"><img
                             src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg" />Watch the
-                        video</a>
+                        tutorial</a>
                 </div>
             </div>
         </div>
@@ -58,9 +58,9 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 1 > <span class="white">Login your Hypha Account*</span></p>
+                            <p class="subtitle">Step 1 > <span class="white">Login</span></p>
                         </div>
-                        <p class="title-medium">Visit the DAO launcher and log-in your account</p>
+                        <p class="title-medium">Take the first step by logging into Hypha's DAO Launcher</p>
                         <div class="get-image-resp flex align-center justify-center">
 
                             <div class="full-screen-dao">
@@ -69,8 +69,12 @@
                             </div>
 
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Get excited to join a thriving community of 100+ DAOs! <br />Note: <span class="white">A
+                                Hypha
+                                Account is required</span> for
+                            this step. Don't have one yet? <br /> <a class="simple-link"
+                                href="<?php echo home_url(); ?>/get-started/create-hypha-account/">Click here to create
+                                yours now.</a></p>
                         <div class="buttons flex gap-20">
                             <a href="#" class="button primary">DAO Launcher</a>
                             <a href="#inside-anchor-2" class="button secondary">Next Step</a>
@@ -87,10 +91,10 @@
                         </div>
                     </div>
 
-                    <div class="bottom-alert">
+                    <!-- <div class="bottom-alert">
                         *Hypha Account required<br />
                         <a href="#">Click here to discover how to create one</a>
-                    </div>
+                    </div> -->
                 </div>
 
 
@@ -103,15 +107,15 @@
 
                             <p class="subtitle">Step 2 > <span class="white">Create your DAO</span></p>
                         </div>
-                        <p class="title-medium">Create and publish your DAO in just 1 step!</p>
+                        <p class="title-medium">Easily create your DAO in just a few clicks</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-dao/create-8.jpg" />
                             </div>
                         </div>
-                        <p>After you log-in, you’ll be redirected to the DAO launcher screen, where you can create
-                            and publish your DAO in only 1 step!</p>
+                        <p>We can’t wait to learn more about your DAO and how the thriving Hypha Network can help
+                            support its success!</p>
                         <a href="#inside-anchor-3" class="button secondary">Next Step</a>
                     </div>
                     <div class="col-half flex  justify-center">
@@ -133,18 +137,17 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 3 > <span class="white">Custimise your DAO</span> </p>
+                            <p class="subtitle">Step 3 > <span class="white">Make It Yours</span> </p>
                         </div>
-                        <p class="title-medium">Now its time customise your brand new DAO!</p>
+                        <p class="title-medium">Time to customize your brand new DAO!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-dao/create-10.jpg" />
                             </div>
                         </div>
-                        <p>After the DAO is published, you will have the option to either use one of our pre-defined
-                            templates to get you started faster, or to set it up from scratch to fully tailor it to
-                            your needs. </p>
+                        <p>Your DAO, your way. Easily choose from a variety of pre-designed DAO templates for a seamless
+                            start, or unleash your creativity and design your perfect DAO from scratch!</p>
                         <a href="#inside-anchor-4" class="button secondary">Next Step</a>
                     </div>
                     <div class="col-half flex  justify-center">

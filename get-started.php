@@ -34,7 +34,10 @@
                     <p class="subtitle">3 Easy steps to:</p>
                 </div>
                 <h1 class="title-giga"><?php the_title();  ?></h1>
-                <div class="text-20 light-blu"><?php the_content();  ?></div>
+                <div class="text-20 light-blu">
+                    <?php the_content();  ?>
+
+                </div>
 
             </div>
         </div>
@@ -44,14 +47,14 @@
                 <a class="nostyle" href="<?php echo home_url(); ?>/get-started/create-hypha-account/">
                     <div class="generic-card glow-back has-link">
                         <div class="wrappo">
-                            <div class="absolut-alert">*Required for all other actions</div>
+                            <div class="absolut-alert">*Required for the other options</div>
                             <div class="icon in-card">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
                             </div>
                             <h3 class="title-medium">Create your <br />Hypha Account<span class="light-blu">*</span>
                             </h3>
                             <div class="fake-button space">
-                                <p>Next</p>
+                                <p>LET's DAO it!</p>
                             </div>
                         </div>
                     </div>
@@ -67,7 +70,7 @@
                             </div>
                             <h3 class="title-medium">Create<br />Your DAO</h3>
                             <div class="fake-button space">
-                                <p>Next</p>
+                                <p>Let's begin</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +86,7 @@
                             </div>
                             <h3 class="title-medium">Join a DAO<br /> as Member</h3>
                             <div class="fake-button space">
-                                <p>Next</p>
+                                <p>Find your DAO</p>
                             </div>
                         </div>
                     </div>

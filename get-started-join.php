@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="breadcrumbs">
-                        <a href="#">Get Started</a> > <?php the_title();  ?>
+                        <a href="<?php echo home_url(); ?>/get-started/">Get Started</a> > <?php the_title();  ?>
                     </div>
                 </div>
                 <h1 class="title-giga"><?php the_title();  ?><br /> as a member</h1>
@@ -211,7 +211,7 @@
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-4.png" />
+                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-5.png" />
                             </div>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -226,7 +226,7 @@
 
                             <div class="full-screen-dao flex justify-center align-center">
                                 <img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-4.png" />
+                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-5.png" />
                             </div>
 
                         </div>
