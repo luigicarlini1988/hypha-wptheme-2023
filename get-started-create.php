@@ -60,7 +60,7 @@
 
                             <p class="subtitle">Step 1 > <span class="white">Login</span></p>
                         </div>
-                        <p class="title-medium">Take the first step by logging into Hypha's DAO Launcher</p>
+                        <p class="title-medium">Take The First Step, Log Into Hypha's DAO Launcher</p>
                         <div class="get-image-resp flex align-center justify-center">
 
                             <div class="full-screen-dao">
@@ -137,7 +137,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 3 > <span class="white">Make It Yours</span> </p>
+                            <p class="subtitle">Step 3 > <span class="white">Make It Your Own</span> </p>
                         </div>
                         <p class="title-medium">Time to customize your brand new DAO!</p>
                         <div class="get-image-resp flex align-center justify-center">
@@ -148,7 +148,10 @@
                         </div>
                         <p>Your DAO, your way. Easily choose from a variety of pre-designed DAO templates for a seamless
                             start, or unleash your creativity and design your perfect DAO from scratch!</p>
-                        <a href="#inside-anchor-4" class="button secondary">Next Step</a>
+                        <div class="buttons flex gap-20">
+                            <a href="#inside-anchor-4" class="button secondary">Next Step</a>
+                            <a href="#" class="button secondary">About Templates</a>
+                        </div>
                     </div>
                     <div class="col-half flex  justify-center">
                         <div class="onb-images flex wrap align-center justify-center">

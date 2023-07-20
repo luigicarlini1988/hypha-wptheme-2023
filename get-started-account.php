@@ -58,7 +58,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 1 > <span class="white">Hypha Onboarding<span></p>
+                            <p class="subtitle">Step 1 > <span class="white">Complete Hypha Onboarding<span></p>
                         </div>
                         <p class="title-medium">Where the magic begins</p>
                         <div class="get-image-resp flex align-center justify-center">
@@ -98,7 +98,7 @@
 
                             <p class="subtitle">Step 2 > <span class="white">Invite<span></p>
                         </div>
-                        <p class="title-medium">Accept your invitation to be part of the next big thing</p>
+                        <p class="title-medium">Accept Your Invite to Be Part Of The Next Big Thing</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
@@ -133,7 +133,7 @@
 
                             <p class="subtitle">Step 3 > <span class="white">Create your Account<span></p>
                         </div>
-                        <p class="title-medium">Proceed on your Hypha Wallet Mobile App and create your Account</p>
+                        <p class="title-medium">Easily Create Your Hypha Account in No Time</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="onb-1">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/wallet-2.jpg" />
@@ -142,8 +142,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/wallet-3.jpg" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Simply provide your name and photo and you're good to proceed to the next step!</p>
                         <div class="buttons flex gap-20">
 
                             <a href="#inside-anchor-4" class="button secondary">Next Step</a>
@@ -170,16 +169,15 @@
 
                             <p class="subtitle">Step 4 > <span class="white">Connect Your Account<span></p>
                         </div>
-                        <p class="title-medium">After the account is created on the wallet, click the next button
-                        </p>
+                        <p class="title-medium">Halfway done! Let's connect your account to Hypha's DAO Platform</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-account/step-4.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Protecting your account information is Hypha's priority. Just a few more steps and you'll be
+                            good to go</p>
                         <a href="#inside-anchor-5" class="button secondary">Next Step</a>
                     </div>
                     <div class="col-half flex  justify-center">
@@ -210,8 +208,8 @@
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-account/step-5.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Effortlessly connect your Hypha Account and your Hypha Wallet for easy management and future
+                            access</p>
                         <a href="#inside-anchor-6" class="button secondary">Next Step</a>
                     </div>
                     <div class="col-half flex  justify-center">
@@ -233,18 +231,17 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 6 > <span class="white">Sign your first request<span></p>
+                            <p class="subtitle">Step 6 > <span class="white">Authenticate your account.<span></p>
                         </div>
-                        <p class="title-medium">Use your Hypha Wallet to scan the login transaction request pop-ip
-                        </p>
+                        <p class="title-medium">Ready, Set, Verify!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-account/step-6.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Experience instant activation by scanning your unique QR code and confirming the pop-up on
+                            your Hypha Wallet App. Your account is now registered!</p>
                         <a href="#inside-anchor-7" class="button secondary">Next Step</a>
                     </div>
                     <div class="col-half flex  justify-center">
@@ -307,8 +304,8 @@
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-account/step-8.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Welcome to Hypha DAO, we’re glad you made it! Take some time to get to know the other members
+                            and familiarize yourself with the platform and its benefits.</p>
                         <div class="buttons flex gap-20">
                             <a href="#pricing" class="button secondary">What next?</a>
                             <a href="#" class="button primary">Create Account</a>

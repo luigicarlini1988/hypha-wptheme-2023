@@ -30,12 +30,10 @@
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
                     </div>
-                    <p class="subtitle">About Us</p>
+                    <p class="subtitle"><?php the_title(); ?></p>
                 </div>
-                <h1 class="title-giga">About Hypha</h1>
-                <p class="text-20 light-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <h1 class="title-giga"><?php the_title(); ?></h1>
+                <div class="text-20 light-blu"><?php the_content(); ?></div>
 
                 <div class="buttons gap-50 flex">
                     <a href="#about-us" class="button primary">Read More</a>
@@ -49,7 +47,7 @@
             <div class="col-half">
                 <div class="sub-section flex align-center">
                     <div class="icon small">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/news.svg" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/heart.svg" loading="lazy">
                     </div>
 
                     <h2 class="subtitle">Core Values</h2>
@@ -187,111 +185,52 @@
             </div>
         </div>
         <div class="area">
+            <?php $hypha_memb = get_field('hypha_members');
+            if( $hypha_memb ): ?>
+
             <div id="testimonials-carousel" class="members-card owl-carousel owl-theme">
+
+                <?php foreach($hypha_memb as $post ): 
+                setup_postdata($post); ?>
+
                 <div class="testimonials-card">
-                    <a href="#">
+                    <a href="<?php the_field('linkedin_url'); ?>" target="_blank">
                         <div class="linkedin flex align-center justify-center">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" />
                         </div>
                     </a>
                     <div class="testim-top flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/avatar.jpg" />
+                        <img src="<?php the_field('avatar'); ?>" />
                         <div class="namespace">
-                            <p class="text-20 white">Romina Deramones</p>
-                            <p class="light-blu">Head of Things of the stuff</p>
+                            <div class="text-20 white"><?php the_title(); ?></div>
+                            <p class="light-blu"><?php the_field('job_position'); ?></p>
                         </div>
                     </div>
                     <div class="testim-text">
-                        <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div class="text-small"><?php the_content(); ?></div>
                     </div>
                     <div class="testim-bottom flex justify-left space-between align-center">
                         <div class="flex align-center">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/pin.svg" />
-                            Camberra, Australia
+                            Location: <?php the_field('location'); ?>
                         </div>
 
                         <div class="flex align-center">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/calendar.svg" />
-                            Joined: April 2019
+                            Joined: <?php the_field('joined_on'); ?>
                         </div>
 
                     </div>
                 </div>
 
-                <div class="testimonials-card">
-                    <a href="#">
-                        <div class="linkedin flex align-center justify-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" />
-                        </div>
-                    </a>
-                    <div class="testim-top flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/avatar.jpg" />
-                        <div class="namespace">
-                            <p class="text-20 white">Romina Deramones</p>
-                            <p class="light-blu">Head of Things of the stuff</p>
-                        </div>
-                    </div>
-                    <div class="testim-text">
-                        <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    </div>
-                    <div class="testim-bottom flex justify-left space-between align-center">
-                        <div class="flex align-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/pin.svg" />
-                            Camberra, Australia
-                        </div>
-
-                        <div class="flex align-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/calendar.svg" />
-                            Joined: April 2019
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="testimonials-card">
-                    <a href="#">
-                        <div class="linkedin flex align-center justify-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" />
-                        </div>
-                    </a>
-                    <div class="testim-top flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/avatar.jpg" />
-                        <div class="namespace">
-                            <p class="text-20 white">Romina Deramones</p>
-                            <p class="light-blu">Head of Things of the stuff</p>
-                        </div>
-                    </div>
-                    <div class="testim-text">
-                        <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    </div>
-                    <div class="testim-bottom flex justify-left space-between align-center">
-                        <div class="flex align-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/pin.svg" />
-                            Camberra, Australia
-                        </div>
-
-                        <div class="flex align-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/calendar.svg" />
-                            Joined: April 2019
-                        </div>
-
-                    </div>
-                </div>
-
+                <?php endforeach; ?>
+                <?php wp_reset_postdata(); ?>
 
             </div>
+
+            <?php endif; ?>
+
+        </div>
     </section>
 
     <section class="why-hypha">
