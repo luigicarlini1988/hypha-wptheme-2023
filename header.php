@@ -57,9 +57,22 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/pricing-plans.css">
     <?php endif;?>
 
-    <!-- Get Started CSS (and about us) -->
-    <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php')  || is_page_template('get-started-account.php')  || is_page_template('get-started-join.php') || is_page_template('about-us.php') ) :?>
+    <!-- Get Started CSS -->
+    <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php')  || is_page_template('get-started-account.php')  || is_page_template('get-started-join.php') || is_page_template('about-us.php')  ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
+    <?php endif;?>
+
+    <!-- About Us CSS-->
+    <?php if(  is_page_template('about-us.php') ) :?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
+    <?php endif;?>
+
+
+
+    <!-- Use Cases CSS-->
+    <?php if(  is_page_template('use-cases.php') ) :?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/use-cases.css">
     <?php endif;?>
 
 

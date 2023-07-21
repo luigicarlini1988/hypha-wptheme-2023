@@ -15,9 +15,24 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg" />
             </div>
             <div class="col-9">
+                <?php if( get_field('pre_title_blu_text') ): ?>
+                <div class="sub-section flex align-center">
+                    <div class="icon small">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" loading="lazy" />
+                    </div>
 
-                <h1 class="title-giga"><?php the_title();  ?></h1>
-                <p class="text-20 light-blu"><?php the_field('header_sub_title'); ?></p>
+                    <p class="subtitle">
+                        <?php the_field('pre_title_blu_text'); ?>
+                    </p>
+                </div>
+                <?php endif; ?>
+
+                <h1 class="title-giga">
+                    <?php the_title();  ?>
+                </h1>
+                <p class="text-20 light-blu">
+                    <?php the_field('header_sub_title'); ?>
+                </p>
 
                 <div class="buttons gap-20 flex">
                     <a href="#content-area" class="button secondary">Learn More</a>

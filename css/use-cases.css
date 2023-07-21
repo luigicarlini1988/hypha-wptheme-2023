@@ -1,0 +1,17 @@
+.get-started-hero.intro.use-cases .col-x {
+    width:calc(33% - 11px);
+}
+
+.get-started-hero.intro.use-cases .get-started-hero-back {
+    opacity:.3;
+}
+
+.get-started-hero.intro.use-cases .area:last-child {
+    padding-top:60px;
+}
+
+.get-started-hero.intro.use-cases {
+    background-image:url('../img/backgrounds/header-alternative.png');
+    background-size:cover;
+    background-position:bottom;
+}

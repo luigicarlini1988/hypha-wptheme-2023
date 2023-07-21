@@ -781,6 +781,10 @@
     .special-image {
         aspect-ratio: 5 / 4;
     }
+
+    .get-started-hero.intro.use-cases .col-x {
+        width:100%;
+      } 
 }
 
 
@@ -1037,7 +1041,7 @@
         opacity:0;
     }
 
-    .get-started-hero.intro .col-x {
+    .get-started-hero.intro .col-x{
         width:100%;
       } 
 

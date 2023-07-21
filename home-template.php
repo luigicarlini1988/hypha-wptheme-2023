@@ -554,7 +554,7 @@
 
         <div class="area flex gap-20">
             <div class="col-4">
-                <a class="nostyle" href="#">
+                <a class="nostyle" href="<?php echo home_url(); ?>/startups/">
                     <div class="generic-card glow-back has-link">
                         <div class="wrappo">
                             <h3 class="title-40">Startups</h3>
@@ -574,10 +574,10 @@
             </div>
 
             <div class="col-4">
-                <a class="nostyle" href="#">
+                <a class="nostyle" href="<?php echo home_url(); ?>/impact-projects/">
                     <div class="generic-card glow-back has-link">
                         <div class="wrappo">
-                            <h3 class="title-40">Impact Project</h3>
+                            <h3 class="title-40">Impact Projects</h3>
                             <p class="text-20 light-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do
                                 eiusmod tempor </p>
@@ -594,7 +594,7 @@
             </div>
 
             <div class="col-4">
-                <a class="nostyle" href="#">
+                <a class="nostyle" href="<?php echo home_url(); ?>/consultancies/">
                     <div class="generic-card glow-back has-link">
                         <div class="wrappo">
                             <h3 class="title-40">Consultancies</h3>
