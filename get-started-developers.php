@@ -60,7 +60,8 @@
                         </div>
                         <p class="title-medium">Let's get to know each other better</p>
 
-                        <p>Skip the fees and stake 5 Hypha Tokens per member – a great deal! As we get acquainted, we'll
+                        <p>Skip the fees and stake 5 Hypha Tokens per member – a great deal! After we get acquainted,
+                            we'll
                             fast-track you to the Developer Plan. For now, start with a free plan and witness your
                             vision come to life!</p>
 

@@ -60,7 +60,7 @@
 
                             <p class="subtitle">Step 1 > <span class="white">Login your Hypha Account</span></p>
                         </div>
-                        <p class="title-medium">Take The First Step, Log Into Hypha's DAO Launcher</p>
+                        <p class="title-medium">Let’s Get Started! Log Into Hypha’s DAO Launcher</p>
                         <div class="get-image-resp flex align-center justify-center">
 
                             <div class="full-screen-dao">
@@ -69,9 +69,9 @@
                             </div>
 
                         </div>
-                        <p>Get excited to join a thriving community of 100+ DAOs! <br />Note: <span class="white">A
-                                Hypha
-                                Account is required</span> for
+                        <p>Get excited to join a thriving community of 100+ DAOs! <br />Note: A
+                            Hypha
+                            Account is required for
                             this step. Don't have one yet? <br /> <a class="simple-link"
                                 href="<?php echo home_url(); ?>/get-started/create-hypha-account/">Click here to create
                                 yours now.</a></p>
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                         <p>Your DAO, your way. Easily choose from a variety of pre-designed DAO templates for a seamless
-                            start, or unleash your creativity and design your perfect DAO from scratch!</p>
+                            start, or unleash your creativity and design your perfect DAO from scratch.</p>
                         <div class="buttons flex gap-20">
                             <a href="#inside-anchor-4" class="button secondary">Next Step</a>
                             <a href="#" class="button secondary">About Templates</a>
@@ -174,14 +174,14 @@
 
                             <p class="subtitle">Step 4 > <span class="white">Let's DAO it!</span></p>
                         </div>
-                        <p class="title-medium">Cleared for launch: your new DAO is ready for takeoff!</p>
+                        <p class="title-medium">Cleared for launch: your DAO is ready for takeoff!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-dao/create-11.png" />
                             </div>
                         </div>
-                        <p>You did it! Congratulations on creating your new DAO. From here, take a moment to familiarize
+                        <p>You did it! Congrats on creating your new DAO. From here, take a moment to familiarize
                             yourself with all the possibilities that lie ahead. Your DAO journey to success starts here!
                         </p>
 

@@ -2028,8 +2028,9 @@ table td {
 }
 
 .members-card .testim-bottom img {
-    height:20px;
-    max-width:20px!important;
+    height: 16px;
+    max-width: 14px!important;
+    margin-right: 6px;
 }
 
 .members-card .testim-bottom div:first-child {

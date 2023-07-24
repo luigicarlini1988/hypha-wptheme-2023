@@ -212,7 +212,7 @@
                     <div class="testim-bottom flex justify-left space-between align-center">
                         <div class="flex align-center">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/pin.svg" />
-                            Location: <?php the_field('location'); ?>
+                            <?php the_field('location'); ?>
                         </div>
 
                         <div class="flex align-center">
