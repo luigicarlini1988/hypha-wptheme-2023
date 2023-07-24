@@ -1104,6 +1104,16 @@
     .members-card .testim-bottom {
         gap:10px;
     }
+
+    #audience .col-4 {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .footer-newsletter .text-14 {
+        margin-top: 20px;
+        display: block;
+    }
 }
 
 
@@ -1322,6 +1332,7 @@
     footer form {
         flex-wrap: wrap;
         gap:26px;
+        margin-top: 30px;
     }
 
     .footer-bottom {
