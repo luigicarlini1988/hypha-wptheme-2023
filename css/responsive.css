@@ -532,7 +532,8 @@
         }
 
         
-        .get-started-hero.intro .col-8 {
+        .get-started-hero.intro .col-8,
+        .get-started-hero.about-us .col-7 {
             padding-bottom:0;
         }
 
@@ -782,9 +783,37 @@
         aspect-ratio: 5 / 4;
     }
 
+    .get-started-hero.about-us .col-7 {
+        padding-top:80px;
+    }
+
+    .feat-use-image {
+        display:none;
+    }
+
+    .feat-use-image-resp {
+        display:block;
+        position:relative;
+        border-radius:18px;
+        overflow: hidden;
+        aspect-ratio: 3 / 2;
+        margin:40px 0px;
+    }
+
+    .feat-use-image-resp img {
+        position:relative;
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+    .get-started-hero.about-us .buttons {
+        display:none;
+    }
+
     .get-started-hero.intro.use-cases .col-x {
         width:100%;
-      } 
+    }
 }
 
 
@@ -840,12 +869,14 @@
         width: 65%;
         z-index: 2;
         border-radius:18px;
+        height:auto;
     }
 
     .wallet-resp .wr-2 {
         width: 45%;
         margin-left: -10%;
         border-radius:10px;
+        height:auto;
     }
 
     .stores {
@@ -1041,7 +1072,7 @@
         opacity:0;
     }
 
-    .get-started-hero.intro .col-x{
+    .get-started-hero.intro .col-x {
         width:100%;
       } 
 
@@ -1062,7 +1093,8 @@
 
     /*typography*/
 
-    .title-big {
+    .title-big,
+    .title-56 {
         font-size: 50px;
     }
 
@@ -1083,7 +1115,7 @@
 
 
     .title-giga {
-        font-size:72px;
+        font-size:52px;
     }
 
     
@@ -1331,7 +1363,8 @@
 
     .get-started-hero .col-8,
     .get-started-hero .col-9,
-    .get-started-hero.intro .col-8 {
+    .get-started-hero.intro .col-8,
+    .get-started-hero.about-us .col-7 {
         padding-top:60px;
     }
 

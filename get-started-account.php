@@ -96,7 +96,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 2 > <span class="white">Invite<span></p>
+                            <p class="subtitle">Step 2 > <span class="white">Download the Hypha Wallet App<span></p>
                         </div>
                         <p class="title-medium">Accept Your Invite to Be Part Of The Next Big Thing</p>
                         <div class="get-image-resp flex align-center justify-center">
@@ -142,7 +142,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/wallet-3.jpg" />
                             </div>
                         </div>
-                        <p>Simply provide your name and photo and you're good to proceed to the next step!</p>
+                        <p>Simply provide your name and photo and you're good to proceed!</p>
                         <div class="buttons flex gap-20">
 
                             <a href="#inside-anchor-4" class="button secondary">Next Step</a>
@@ -169,7 +169,7 @@
 
                             <p class="subtitle">Step 4 > <span class="white">Connect Your Account<span></p>
                         </div>
-                        <p class="title-medium">Halfway done! Let's connect your account to Hypha's DAO Platform</p>
+                        <p class="title-medium">Halfway done! Let's connect your account</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
@@ -177,7 +177,7 @@
                             </div>
                         </div>
                         <p>Protecting your account information is Hypha's priority. Just a few more steps and you'll be
-                            good to go</p>
+                            good to go.</p>
                         <a href="#inside-anchor-5" class="button secondary">Next Step</a>
                     </div>
                     <div class="col-half flex  justify-center">
@@ -201,7 +201,7 @@
 
                             <p class="subtitle">Step 5 > <span class="white">login to hypha DAO<span></p>
                         </div>
-                        <p class="title-medium">Now, login to your account by clicking this button</p>
+                        <p class="title-medium">Easily login to your account</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
@@ -231,7 +231,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 6 > <span class="white">Authenticate your account.<span></p>
+                            <p class="subtitle">Step 6 > <span class="white">Authenticate your account<span></p>
                         </div>
                         <p class="title-medium">Ready, Set, Verify!</p>
                         <div class="get-image-resp flex align-center justify-center">
@@ -265,7 +265,7 @@
 
                             <p class="subtitle">Step 7 > <span class="white">Enter Hypha DAO<span></p>
                         </div>
-                        <p class="title-medium">Time to dive in, explore and connect!</p>
+                        <p class="title-medium">Time to dive in, explore, and connect!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: home-template
+ * Template Name: home-template-BK
  *
  */
 
@@ -748,7 +748,7 @@
             </div>
         </div>
 
-
+        <?php/* include('incl/education4articles.php') */?>
         <div class="area flex gap-20">
             <?php $educational_home = get_field('education_articles_section');
             if( $educational_home ): ?>

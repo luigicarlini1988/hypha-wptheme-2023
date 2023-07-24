@@ -15,3 +15,82 @@
     background-size:cover;
     background-position:bottom;
 }
+
+#main-content .text-20 {
+    margin-bottom:0;
+}
+
+
+
+.solutions {
+padding-top:20px;
+}
+
+.solutions .area:not(:last-child) {
+    margin-bottom:60px;
+}
+
+
+
+#features-overview.single-feature {
+    padding-top:30px;
+}
+
+.feature-detail-image {
+    width:100%;
+    border-radius:18px;
+}
+
+.area-spacer {
+    margin-bottom:100px;
+}
+
+.area-spacer:last-child {
+    margin-bottom:0;
+}
+
+.feature-details .area:nth-child(even),
+.feature-details .area:nth-child(even) .col-half{
+    transform:scaleX(-1);
+}
+
+.feature-details.use-case-var .text-20 {
+    margin-bottom:0;
+}
+
+.feature-details.use-case-var .area-spacer:first-child {
+    border-bottom:none;
+}
+
+.feature-details.use-case-var {
+    background-image:url('../img/backgrounds/header-alternative.png');
+    background-size:cover;
+    background-position:bottom;
+}
+.use-edu {
+    padding-bottom:120px;
+}
+
+.feat-use-image {
+    position:relative;
+    aspect-ratio: 1 / 1;
+    border-radius:100%;
+    overflow: hidden;
+    transform:scale(.7) translateX(-50px);
+ 
+}
+
+.feat-use-image img {
+    position:relative;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.feat-use-image-resp {
+    display:none;
+}
+
+.feature-details.use-case-var .button {
+    margin-top:20px;
+}

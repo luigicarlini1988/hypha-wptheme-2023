@@ -1025,6 +1025,11 @@ a .dao-card .wrap {
 }
 
 
+.dao-logo {
+    border-radius:100%;
+    
+}
+
 
 
 
@@ -1960,6 +1965,12 @@ table td {
 
 
 /* about us */
+
+.get-started-hero.about-us {
+    background-image:url('../img/backgrounds/header-alternative.png');
+    background-size:cover;
+    background-position:bottom;
+}
 
 #about-us .text-20 {
     margin-bottom:0px;

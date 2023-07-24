@@ -27,8 +27,8 @@
 
 
 
-    <!-- carousel CSS / HOME / Features / about-us -->
-    <?php if( is_page_template('home-template.php') || is_page_template('about-us.php') || is_singular( 'feature') || is_page_template('features-category-shape.php') || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
+    <!-- carousel CSS / HOME / Features / about-us / use case CPT -->
+    <?php if( is_page_template('home-template.php') || is_page_template('about-us.php') || is_singular( 'feature') || is_page_template('features-category-shape.php') || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php') || is_singular( 'usecase' )  ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.theme.default.min.css" />
     <?php endif;?>
@@ -70,7 +70,7 @@
 
 
     <!-- Use Cases CSS-->
-    <?php if(  is_page_template('use-cases.php') ) :?>
+    <?php if(  is_page_template('use-cases.php') || is_singular( 'usecase' ) ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/use-cases.css">
     <?php endif;?>
@@ -141,7 +141,7 @@
             <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
         </div>
 
-        <?php if( is_page_template('hypha-news.php') || is_category()  || is_home() || is_single() && (!is_singular( 'educational' )) && (!is_singular( 'feature')) ) :?>
+        <?php if( is_page_template('hypha-news.php') || is_category()  || is_home() || is_single() && (!is_singular( 'educational' )) && (!is_singular( 'feature')) && (!is_singular( 'usecase' ))) :?>
         <div class="news-menu">
             <div class="area flex align-center">
                 <nav>

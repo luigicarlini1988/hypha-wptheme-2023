@@ -36,19 +36,18 @@
 
         <div class="area flex wrap gap-20">
 
+            <?php $usecases = get_field('select_use_cases');
+            if( $usecases ): ?>
 
+            <?php foreach( $usecases as $post ): 
+                setup_postdata($post); ?>
             <div class="col-x">
-                <a class="nostyle" href="<?php echo home_url(); ?>/startups/">
+                <a class="nostyle" href="<?php the_permalink(); ?>">
                     <div class="generic-card glow-back has-link">
                         <div class="wrappo">
-                            <h3 class="title-40">Startups</h3>
-                            <p class="text-20 light-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do
-                                eiusmod tempor </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt
-                                ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                            <h3 class="title-40"><?php the_title(); ?></h3>
+                            <p class="text-20 light-blu"><?php the_field('tagline') ?></p>
+                            <p><?php the_content(); ?></p>
                             <div class="fake-button space">
                                 <p>Learn more</p>
                             </div>
@@ -57,45 +56,10 @@
                 </a>
             </div>
 
-            <div class="col-x">
-                <a class="nostyle" href="<?php echo home_url(); ?>/consultancies/">
-                    <div class="generic-card glow-back has-link">
-                        <div class="wrappo">
-                            <h3 class="title-40">Impact Projects</h3>
-                            <p class="text-20 light-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do
-                                eiusmod tempor </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt
-                                ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-                            <div class="fake-button space">
-                                <p>Learn more</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            <?php endforeach; ?>
+            <?php wp_reset_postdata(); ?>
+            <?php endif; ?>
 
-            <div class="col-x">
-                <a class="nostyle" href="<?php echo home_url(); ?>/consultancies/">
-                    <div class="generic-card glow-back has-link">
-                        <div class="wrappo">
-                            <h3 class="title-40">Consultancies</h3>
-                            <p class="text-20 light-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do
-                                eiusmod tempor </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt
-                                ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-                            <div class="fake-button space">
-                                <p>Learn more</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
 
         </div>
     </section>

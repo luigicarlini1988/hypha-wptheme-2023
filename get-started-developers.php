@@ -36,8 +36,7 @@
                     </div>
                 </div>
                 <h1 class="title-giga"><?php the_title();  ?></h1>
-                <p class="text-20 light-blu">Hello developer! We are thrilled to expand our developer community,
-                    this why we decided to offer a specific price plan, just for developers</p>
+                <div class="text-20 light-blu"><?php the_content();  ?></div>
 
                 <div class="buttons gap-20 flex">
                     <a href="#begin" class="button primary">Let's begin</a>
@@ -57,13 +56,13 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 1</p>
+                            <p class="subtitle">Step 1 > <span class="white">Get In touch</span></p>
                         </div>
-                        <p class="title-medium">Get in touch with us</p>
+                        <p class="title-medium">Let's get to know each other better</p>
 
-                        <p>In order to maintain an healthy ecosystem of developers we decided to go for a IRL chat
-                            with you or your DEV group, prior to the “unlock” of the Developer DAO. so that we can
-                            align and offer all the support required. </p>
+                        <p>Skip the fees and stake 5 Hypha Tokens per member – a great deal! As we get acquainted, we'll
+                            fast-track you to the Developer Plan. For now, start with a free plan and witness your
+                            vision come to life!</p>
 
                         <a href="#inside-anchor-2" class="no-resp button secondary">Next Step</a>
                     </div>

@@ -58,7 +58,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 1 > <span class="white">Login your Hypha Account*</span></p>
+                            <p class="subtitle">Step 1 > <span class="white">Login your Hypha Account</span></p>
                         </div>
                         <p class="title-medium">Visit the Our DAO and log-in your account</p>
                         <div class="get-image-resp flex align-center justify-center">
@@ -69,8 +69,10 @@
                             </div>
 
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Get ready to discover unlimited possibilities within the Hypha Network. A Hypha Account is
+                            required for this step. Don’t have one yet? <a class="simple-link"
+                                href="<?php echo home_url(); ?>/get-started/create-hypha-account/">Click here to create
+                                yours now.</a></p>
                         <div class="buttons flex gap-20">
                             <a href="https://dao.hypha.earth/hypha/login" target="_blank"
                                 class="button primary">Login</a>
@@ -88,10 +90,7 @@
                         </div>
                     </div>
 
-                    <div class="bottom-alert">
-                        *Hypha Account required<br />
-                        <a href="#">Click here to discover how to create one</a>
-                    </div>
+
                 </div>
 
 
@@ -102,17 +101,18 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 2 > <span class="white">Visit the Explore Page</span></p>
+                            <p class="subtitle">Step 2 > <span class="white">Find your way to the Explore Page</span>
+                            </p>
                         </div>
-                        <p class="title-medium">Click on the Explore Icon bottom left</p>
+                        <p class="title-medium">Easily navigate to the Explore Icon on the bottom left</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-2.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>After getting familiar with your DAO dashboard, head over to the Explore Page to discover the
+                            95+ DAOs in the Hypha Network.</p>
 
                         <a href="#inside-anchor-3" class="button secondary">Next Step</a>
 
@@ -137,9 +137,10 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 3 > <span class="white">Explore the Hypha Network</span></p>
+                            <p class="subtitle">Step 3 > <span class="white">Explore the Hypha Network!</span></p>
                         </div>
-                        <p class="title-medium">Browse all hypha network DAOs on our Explore page </p>
+                        <p class="title-medium">You're in good company! Get to know the 95+ DAOs in the Hypha Network
+                        </p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
@@ -171,9 +172,9 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 4 > <span class="white">join a DAO</span></p>
+                            <p class="subtitle">Step 4 > <span class="white">Apply to Join a DAO</span></p>
                         </div>
-                        <p class="title-medium">Click the top right button “Became Member”</p>
+                        <p class="title-medium">Found the right DAO for you? Apply to join in on the fun!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img

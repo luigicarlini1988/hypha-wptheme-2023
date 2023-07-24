@@ -58,7 +58,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 1 > <span class="white">Login</span></p>
+                            <p class="subtitle">Step 1 > <span class="white">Login your Hypha Account</span></p>
                         </div>
                         <p class="title-medium">Take The First Step, Log Into Hypha's DAO Launcher</p>
                         <div class="get-image-resp flex align-center justify-center">
@@ -172,17 +172,18 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 4 > Ready!</p>
+                            <p class="subtitle">Step 4 > <span class="white">Let's DAO it!</span></p>
                         </div>
-                        <p class="title-medium">Your DAO is now ready to sail the sees of cheese!</p>
+                        <p class="title-medium">Cleared for launch: your new DAO is ready for takeoff!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-dao/create-11.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>You did it! Congratulations on creating your new DAO. From here, take a moment to familiarize
+                            yourself with all the possibilities that lie ahead. Your DAO journey to success starts here!
+                        </p>
 
                         <div class="buttons flex gap-20">
                             <a href="#" class="button primary">Create DAO</a>

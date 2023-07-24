@@ -8,7 +8,7 @@
  ?>
 
 <main class="dark-theme">
-    <section class="get-started-hero">
+    <section class="get-started-hero about-us">
         <div class="get-started-hero-back">
             <div class="pin-area">
                 <div class="pin pin1"></div>

@@ -1,0 +1,228 @@
+:root {
+
+/* Colors: */
+  --footer-blu: #101B34;  
+  --dark-blu: #111E3B;
+  --card-dark-blu: #17294A;
+  --light-blu: #61A9FC;
+  --lb-transp: rgba(97,169,252,0.1);
+  --lb-transp-hover: rgba(97,169,252,0.2);
+  --lb-transp-3: rgba(97,169,252,0.07);
+  --grey: #7485AA;    
+  --white: #F4F8FB;
+  --gradient: linear-gradient(35Deg, #61A9FC, #315BCE);
+  --titles: 'Playfair Display', serif;
+  --text: 'Work Sans', sans-serif;
+  --kern: -.4px;
+
+  --glow-shadow: 0px 0px 40px rgba(97,169,252,0.2);
+  --glow-shadow-hover: 0px 0px 60px rgba(97,169,252,0.3);
+
+  --box-shadow: 0px 0px 20px rgba(186,182,164,0.3);
+  --radial-blu-gradient: radial-gradient( #17294A , #111E3B);
+}
+
+
+/* Log-in screen */
+
+body.login {
+  background:var(--footer-blu);
+  position:relative;
+
+}
+
+#login {
+  position:relative;
+}
+
+
+body.login::before {
+  position:absolute;
+  width:auto;
+  height:100svh;
+  content:"";
+  background-image: url("../img/backgrounds/svario-tr2.png");
+  background-size: 600px;
+  bottom:0;
+  right:0px;
+  opacity:.2;
+  pointer-events: none;
+}
+
+body.login div#login h1 a {
+  background-image:url(../img/logos/logo-round.svg);
+
+}
+
+body.login form {
+  background: var(--card-dark-blu);
+  color:var(--white);
+  border:none;
+  border-radius:16px;
+}
+
+body.login #login_error, body.login .message, body.login .success {
+      border-left: 4px solid var(--white);
+      background-color: rgba(255,255,255,0.1);
+      color:var(--white);
+      border-radius:4px;
+      box-shadow: none;
+}
+
+
+body.login form label {
+  position:absolute;
+  color:var(--white);
+  font-size:13px;
+  top: -8px;
+  left: 14px;
+  white-space: nowrap;
+}
+
+body.login .forgetmenot {
+  display:flex;
+}
+
+body.login .forgetmenot label {
+  position: relative;
+    left: 0;
+    top: 0;
+}
+
+body.login .forgetmenot input[type=checkbox] {
+  width:25px!important;
+  height:25px!important;
+}
+
+body.login form#loginform p,
+body.login form#loginform .user-pass-wrap {
+  position:relative;
+}
+
+body.login form#loginform  input,
+body.login form#loginform  textarea {
+  border:none;
+  padding:16px 12px;
+  background-color: var(--lb-transp-3);
+  border-radius: 12px;
+  width:100%;
+  color:var(--white);
+  font-family: var(--text);
+  box-sizing: border-box;
+  font-size:16px!important;
+  
+}
+
+body.login form#loginform input[type=submit] {
+  background:var(--gradient);
+  color:var(--white);
+  margin-top: 20px;
+  padding: 8px;
+  text-transform: uppercase;
+  transition-duration: .3s;;
+}
+
+body.login form#loginform input[type=submit]:hover {
+  box-shadow: 0px 0px 40px var(--lb-transp-hover);
+  transform:scale(1.02);
+}
+
+body.login form#loginform input:focus-visible,
+body.login form#loginform  input:focus,
+body.login form#loginform  textarea:focus-visible,
+body.login form#loginform  textarea:focus {
+  color:var(--light-blu);
+  outline:none!important;
+  background:var(--lb-transp);
+  box-shadow: none!important;
+}
+
+footer form button {
+  width:100%;
+}
+
+.login #nav a {
+  color: var(--white);
+  position:relative;
+}
+
+
+.login #nav a:hover {
+  color:var(--white);
+}
+
+
+.login #nav a:before {
+  content:"";
+  width:0%;
+  height:1px;
+  background-color:var(--white);
+  position:absolute;
+  left:0;
+  bottom:-6px;
+  transition-duration:.2s;
+}
+
+
+
+.login #nav a:hover:before {
+  width:100%;
+}
+
+
+.login #backtoblog {
+  display:none;
+}
+
+.login .button.wp-hide-pw {
+  top:3px;
+}
+
+.dashicons-visibility:before {
+  color:var(--white);
+  opacity:.8;
+  transition-duration:.2s;
+}
+
+.dashicons-hidden:before {
+  color:var(--white);
+}
+
+.dashicons-visibility:hover:before {
+  opacity:1;
+}
+
+
+
+
+body.login input[type=checkbox]:checked::before {
+    content: "*";
+    margin: 14px 0px 0px -3px!important;
+    color:var(--white);
+  }
+
+body.login #login h1 {
+    position:relative;
+  }
+
+
+
+.login #backtoblog, .login #nav {
+      padding: 0;
+  }
+
+body.login input[type=checkbox], input[type=radio] {
+    height: 1.5625rem;
+    width: 1.5625rem;
+}
+
+body.login input[type=checkbox]:checked:before {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+
+
+body.login .privacy-policy-page-link {
+  display:none;
+}
