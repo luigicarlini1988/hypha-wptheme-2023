@@ -75,7 +75,10 @@
             </div>
             <div class="col-4">
                 <p class="text-22 white">Subscribe to our Newsletter</p>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt </p>
+                <p class="no-margin-bottom">Get exclusive access to Hypha’s latest news and announcements as a Hypha
+                    Insider.
+                    Subscribe now and
+                    stay ahead of the curve.</p>
             </div>
             <div class="col-8">
                 <form>
@@ -91,6 +94,8 @@
                         <button type="submit" class="mauticform-button">Submit</button>
                     </div>
                 </form>
+                <span class="text-14"><i>By subscribing to our newsletter you accept our <a
+                            href="<?php echo home_url(); ?>/privacy-policy">privacy policy</a></i></span>
             </div>
         </div>
 
@@ -100,7 +105,7 @@
             </div>
             <div class="col-4">
                 <p class="text-22 white">Follow us on our socials</p>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt </p>
+                <p>DAO-ify your social media feeds with educational content, exciting events, and more</p>
             </div>
 
             <div class="col-8 has-social flex gap-20">

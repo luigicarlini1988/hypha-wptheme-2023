@@ -646,7 +646,7 @@
                     <img class="wr-2" src="<?php echo get_template_directory_uri(); ?>/img/wallet-1.jpg" />
                 </div>
                 <div class="buttons wrap">
-                    <a href="" class="button primary">Get Started</a>
+                    <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
                     <a href="" class="button secondary">Learn More</a>
                 </div>
 

@@ -1572,6 +1572,15 @@ footer .text-22 {
     margin-top:0;
 }
 
+.footer-newsletter .text-14 {
+    margin-top:10px;
+    display:block;
+}
+
+.footer-newsletter .text-14 a {
+    text-decoration:underline;
+}
+
 /* footer form */
 
 footer form {
@@ -2065,3 +2074,10 @@ table td {
 .work-with-us {
     padding-bottom:120px;
 }
+
+/* random additional */
+
+p.no-margin-bottom {
+    margin-bottom:0;
+}
+
