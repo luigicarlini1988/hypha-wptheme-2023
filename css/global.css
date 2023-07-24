@@ -1609,6 +1609,10 @@ form  textarea {
     
 }
 
+form input.inlineSearch {
+    width:calc(100% - 70px);
+}
+
 form input:focus-visible,
 form  input:focus,
 form  textarea:focus-visible,

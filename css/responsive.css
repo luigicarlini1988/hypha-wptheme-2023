@@ -814,6 +814,11 @@
     .get-started-hero.intro.use-cases .col-x {
         width:100%;
     }
+
+    .carousel-image img,
+    .embedwrapper {
+        border-radius: 16px;
+    }
 }
 
 
@@ -896,7 +901,7 @@
     }
 
     .col-8.has-social.flex.gap-20 .col-full {
-        width: calc(50% - 28px);
+        width: calc(50% - 10px);
     }
 
     .footer-bottom {
@@ -1086,6 +1091,19 @@
     .work-with-us {
         padding-bottom:80px;
     }
+
+    .carousel-image img,
+    .embedwrapper {
+        border-radius: 10px;
+    }
+
+    .gap-20 .col-8 {
+        width: 100%;
+    }
+
+    .members-card .testim-bottom {
+        gap:10px;
+    }
 }
 
 
@@ -1207,7 +1225,7 @@
     }
 
     #testimonials-carousel .owl-nav {
-        right: auto;
+        right: calc(0% - 40px);
     }
 
     .cta-card .wrappo {
@@ -1454,5 +1472,15 @@
         height: 32px;
         border-radius: 4px;
         background: var(--gradient);
+    }
+
+
+    .get-steps .subtitle {
+        font-size:13px;
+    }
+
+    .breadcrumbs {
+        font-size:13px;
+        font-weight:600;
     }
 }
