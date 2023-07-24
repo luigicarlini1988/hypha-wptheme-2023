@@ -196,7 +196,11 @@
                         </div>
                         <p class="text-20">From a little start-up to a multi-layered organisation, we provide all
                             the features you need to define and easily set up your organization</p>
-                        <a id="featureDisplay1" href="#" class="button primary">Learn More</a>
+                        <div class="buttons flex gap-20">
+                            <a id="featureDisplay1" href="<?php echo home_url(); ?>/features/shape-your-dao/"
+                                class="button primary">Learn More</a>
+                            <a href="<?php echo home_url(); ?>/features/" class="button secondary">All Features</a>
+                        </div>
 
                     </div>
                 </div>
@@ -216,7 +220,12 @@
                         </div>
                         <p class="text-20">a DAO is all about members, agreements and co-creation. We developed a
                             variety of feature that will allow high members engagement and participation</p>
-                        <a id="featureDisplay2" href="#" class="button primary">Learn More</a>
+
+                        <div class="buttons flex gap-20">
+                            <a id="featureDisplay2" href="<?php echo home_url(); ?>/features/engage-your-members/"
+                                class="button primary">Learn More</a>
+                            <a href="<?php echo home_url(); ?>/features/" class="button secondary">All Features</a>
+                        </div>
                     </div>
                 </div>
 
@@ -235,7 +244,11 @@
                         </div>
                         <p class="text-20">All the features you might need to manage your DAO finance and distribute
                             value to your team, members, and community in a transparent and reliable way</p>
-                        <a id="featureDisplay3" href="#" class="button primary">Learn More</a>
+                        <div class="buttons flex gap-20">
+                            <a id="featureDisplay3" href="<?php echo home_url(); ?>/features/distribute-value/"
+                                class="button primary">Learn More</a>
+                            <a href="<?php echo home_url(); ?>/features/" class="button secondary">All Features</a>
+                        </div>
                     </div>
                 </div>
             </div>

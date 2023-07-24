@@ -58,9 +58,9 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 1 > <span class="white">Login your Hypha Account</span></p>
+                            <p class="subtitle">Step 1 > <span class="white">Login to your Hypha Account</span></p>
                         </div>
-                        <p class="title-medium">Visit the Our DAO and log-in your account</p>
+                        <p class="title-medium">Your next adventure awaits! Login to your Hypha Account</p>
                         <div class="get-image-resp flex align-center justify-center">
 
                             <div class="full-screen-dao">
@@ -104,15 +104,15 @@
                             <p class="subtitle">Step 2 > <span class="white">Find your way to the Explore Page</span>
                             </p>
                         </div>
-                        <p class="title-medium">Easily navigate to the Explore Icon on the bottom left</p>
+                        <p class="title-medium">Easily navigate to the Explore Icon</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-2.png" />
                             </div>
                         </div>
-                        <p>After getting familiar with your DAO dashboard, head over to the Explore Page to discover the
-                            95+ DAOs in the Hypha Network.</p>
+                        <p>After getting familiar with your DAO dashboard, head over to the Explore Page to discover all
+                            the DAOs in the Hypha Network.</p>
 
                         <a href="#inside-anchor-3" class="button secondary">Next Step</a>
 
@@ -139,7 +139,7 @@
 
                             <p class="subtitle">Step 3 > <span class="white">Explore the Hypha Network!</span></p>
                         </div>
-                        <p class="title-medium">You're in good company! Get to know the 95+ DAOs in the Hypha Network
+                        <p class="title-medium">You're in good company! Get to know hundreds of DAOs in the Network
                         </p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
@@ -147,8 +147,8 @@
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-3.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Discover your perfect DAO match! With so many DAOs, there's bound to be one (or even
+                            multiple!) that aligns perfectly with your interests.</p>
 
                         <a href="#inside-anchor-4" class="button secondary">Next Step</a>
 
@@ -174,15 +174,15 @@
 
                             <p class="subtitle">Step 4 > <span class="white">Apply to Join a DAO</span></p>
                         </div>
-                        <p class="title-medium">Found the right DAO for you? Apply to join in on the fun!</p>
+                        <p class="title-medium">Find your perfect match? Apply to join now!</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-4.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Congrats on discovering the DAO for you! At Hypha, we prioritize our customers' security and
+                            ensure a bot-free environment by vetting all applicants before admission. </p>
 
                         <a href="#inside-anchor-5" class="button secondary">Next Step</a>
 
@@ -208,15 +208,14 @@
 
                             <p class="subtitle">Step 5 > <span class="white">Enrollment</span></p>
                         </div>
-                        <p class="title-medium">A Dao Enroller is now in charge to let you in!</p>
+                        <p class="title-medium">Your application is under review! Check back for updates.</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
                                     src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-5.png" />
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, </p>
+                        <p>Your work is done for now! Sit back and relax until your application has been approved.</p>
 
                         <a href="https://dao.hypha.earth/hypha/explore" target="_blank" class="button primary">Explore
                             Hypha Network</a>
