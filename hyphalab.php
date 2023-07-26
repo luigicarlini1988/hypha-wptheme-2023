@@ -63,7 +63,7 @@
                             or by inviting Hypha core members to speak at these events.</p>
                         <div class="bottom-card flex gap-20 align-center">
                             <div class="icon big">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/bullhorn.svg" />
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Ambassador Badge</p>
@@ -101,7 +101,7 @@
                             valid.</p>
                         <div class="bottom-card flex gap-20 align-center">
                             <div class="icon big">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/badge-check.svg" />
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Affiliate Badge</p>
@@ -141,7 +141,7 @@
                         </p>
                         <div class="bottom-card flex gap-20 align-center">
                             <div class="icon big">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/briefcase.svg" />
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Consultant Badge</p>
@@ -181,7 +181,7 @@
                             Service DAO back to Hypha DAO.</p>
                         <div class="bottom-card flex gap-20 align-center">
                             <div class="icon big">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Service DAO Badge</p>
@@ -222,7 +222,7 @@
                             Let’s join forces to create a better world together!</p>
                         <div class="bottom-card flex gap-20 align-center">
                             <div class="icon big">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/dev.svg" />
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Developer Badge</p>
