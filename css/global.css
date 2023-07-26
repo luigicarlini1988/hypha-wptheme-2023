@@ -696,7 +696,7 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    padding:20px 18px;
+    padding:20px 14px;
     position:relative;
 }
 
@@ -705,6 +705,7 @@ header nav ul li a {
     color:var(--white);
     font-weight:500;
     transition-duration: .3s;
+    font-size:15px;
     
 }
 
