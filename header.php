@@ -58,7 +58,7 @@
     <?php endif;?>
 
     <!-- Get Started CSS -->
-    <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php')  || is_page_template('get-started-account.php')  || is_page_template('get-started-join.php') || is_page_template('about-us.php')  ) :?>
+    <?php if( is_page_template('get-started.php') || is_page_template('get-started-create.php') || is_page_template('get-started-developers.php')  || is_page_template('get-started-account.php')  || is_page_template('get-started-join.php') ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
     <?php endif;?>
 
@@ -67,12 +67,16 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
     <?php endif;?>
 
-
-
     <!-- Use Cases CSS-->
     <?php if(  is_page_template('use-cases.php') || is_singular( 'usecase' ) ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/use-cases.css">
+    <?php endif;?>
+
+    <!-- Use hyphaLAB-->
+    <?php if(  is_page_template('hyphalab.php')  ) :?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/get-started.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hyphalab.css">
     <?php endif;?>
 
 

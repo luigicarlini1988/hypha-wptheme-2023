@@ -819,6 +819,20 @@
     .embedwrapper {
         border-radius: 16px;
     }
+
+    #hyphalab .area:not(:last-child) {
+        margin-bottom:50px;
+        padding-bottom:50px;
+        border-bottom:1px solid var(--lb-transp);
+    }
+
+    #hyphalab .buttons.hide-resp {
+        display:none;
+    }
+    
+    #hyphalab .buttons.show-resp {
+        display:inline-block;
+    }
 }
 
 
@@ -1114,6 +1128,14 @@
         margin-top: 20px;
         display: block;
     }
+
+    .buttons {
+        width:100%;
+    }
+
+    #hyphalab .buttons.show-resp {
+        margin-top:40px;
+    }
 }
 
 
@@ -1332,7 +1354,7 @@
     footer form {
         flex-wrap: wrap;
         gap:26px;
-        margin-top: 25px;
+        margin-top: 30px;
     }
 
     .footer-bottom {

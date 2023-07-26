@@ -1,0 +1,50 @@
+#hyphalab .icon.big {
+    min-width:100px;
+    min-height:100px;
+    background:var(--gradient);
+}
+
+#hyphalab .icon.big img {
+   width:50px;
+   max-height:50px;
+   filter:brightness(3) grayscale(1);
+}
+
+
+#hyphalab .wrappo p {
+    margin:0;
+}
+
+.fake-label {
+    position:absolute;
+    color:var(--white);
+    font-size:14px;
+    font-style: italic;
+    top:-10px;
+}
+
+.wrappo .bottom-card {
+    margin-top:30px;
+}
+
+#hyphalab .buttons {
+    margin-top:20px;
+}
+
+#hyphalab .area:not(:last-child) {
+    margin-bottom:150px;
+}
+
+.wrappo .bottom-card.flex {
+    flex-wrap: nowrap;
+} 
+
+
+#hyphalab .buttons.hide-resp {
+    margin-top:10px;
+    display: inline-block;
+}
+
+#hyphalab .buttons.show-resp {
+    display:none;
+}
