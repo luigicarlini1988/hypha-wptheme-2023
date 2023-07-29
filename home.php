@@ -22,7 +22,7 @@
 
     </section>
 
-    <section class="cat-article-wrap">
+    <section class="cat-article-wrap archive">
         <div class="area wrap flex gap-20">
 
             <?php if ( have_posts() ) :
@@ -37,13 +37,25 @@
 
                 <article id="post-<?php the_ID(); ?>" class="news-item">
                     <div class="wrappo">
+                        <?php 
+                            if ( !has_post_format( 'video' )) {
+                            ?>
                         <div class="top-right-link">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg">
                         </div>
+
+                        <?php } ?>
                         <p class="text-14 bold light-blu"><?php the_category(', '); ?></p>
                         <a href="<?php the_permalink(); ?>">
                             <?php $medium_large = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium_large');?>
                             <img class="news-thumb" src="<?php echo esc_url($medium_large['0']); ?>" loading="lazy" />
+                            <?php 
+                            if ( has_post_format( 'video' )) {
+                            ?>
+                            <div class="player-icon">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg">
+                            </div>
+                            <?php } ?>
 
                             <h3 class="text-24"><?php the_title(); ?></h3>
                         </a>

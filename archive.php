@@ -23,7 +23,7 @@
 
     </section>
 
-    <section class="cat-article-wrap">
+    <section class="cat-article-wrap archive">
         <div class="area wrap flex gap-20">
 
             <?php if ( have_posts() ) :

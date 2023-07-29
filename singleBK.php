@@ -19,23 +19,11 @@
                     <div class="breadcrumbs">
                         <a href="<?php echo home_url(); ?>/news/">News</a> >
                         <?php the_category(', '); ?>
-                        <?php 
-                            if ( has_post_format( 'video' )) {
-                            ?> >
-                        <h1 class="text-18 white"><?php the_title();  ?></h1>
-                        <?php } ?>
                     </div>
                 </div>
-                <?php 
-                    if ( !has_post_format( 'video' )) {
-                ?>
                 <h1 class="title-big white"><?php the_title();  ?></h1>
-                <?php } ?>
             </div>
 
-            <?php 
-                if ( !has_post_format( 'video' )) {
-            ?>
             <div class="col-4">
                 <div class="social-share flex gap-10 align-center justify-right">
                     <p class="white">Share on socials ></p>
@@ -59,45 +47,22 @@
 
                 </div>
             </div>
-            <?php } ?>
-
-            <?php 
-                if ( has_post_format( 'video' )) {
-            ?>
-            <div class="col-4">
-                <div class="social-share flex gap-10 align-center justify-right">
-                    <p class="white">Share on socials ></p>
-                    <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" /></a>
-                    <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
-                    <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" /></a>
-                </div>
-            </div>
-            <?php } ?>
         </div>
+
+
+
+
 
     </section>
 
     <section class="post-content">
         <div class="area">
 
-            <?php 
-        
-        if ( !has_post_format( 'video' )) {
-            ?>
-
             <div class="wrappo glow-back">
                 <?php $large = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');?>
                 <img src="<?php echo esc_url($large['0']); ?>" />
 
             </div>
-
-            <?php
-          }
-          
-          ?>
 
 
             <div class="text-content">
@@ -168,26 +133,13 @@
             <div class="col-4">
                 <article id="post-<?php the_ID(); ?>" class="news-item">
                     <div class="wrappo">
-                        <?php 
-                            if ( !has_post_format( 'video' )) {
-                            ?>
                         <div class="top-right-link">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg">
                         </div>
-
-                        <?php } ?>
-
                         <p class="text-14 bold light-blu"><?php the_category(', '); ?></p>
                         <a href="<?php the_permalink(); ?>">
                             <?php $medium_large = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium_large');?>
                             <img class="news-thumb" src="<?php echo esc_url($medium_large['0']); ?>" loading="lazy" />
-                            <?php 
-                            if ( has_post_format( 'video' )) {
-                            ?>
-                            <div class="player-icon">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg">
-                            </div>
-                            <?php } ?>
 
                             <h3 class="text-24"><?php the_title(); ?></h3>
                         </a>

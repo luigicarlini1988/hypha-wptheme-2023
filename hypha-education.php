@@ -165,8 +165,7 @@
                             if ( has_post_format( 'video' )) {
                                 ?>
                             <div class="small-player-icon flex align-center">
-                                <img
-                                    src="http://localhost:8000/wp-content/themes/hypha2023/img/icons/play-big-icon.svg">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg">
                                 <p class="white">Video Article</p>
                             </div>
                             <?php } ?>

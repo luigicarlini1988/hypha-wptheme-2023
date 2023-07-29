@@ -219,8 +219,7 @@
                             if ( has_post_format( 'video' )) {
                             ?>
                             <div class="player-icon">
-                                <img
-                                    src="http://localhost:8000/wp-content/themes/hypha2023/img/icons/play-big-icon.svg">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg">
                             </div>
                             <?php } ?>
 

@@ -5,7 +5,7 @@
 	/*-----------------------------------------------------------------------------------*/
 
 // Define the version so we can easily replace it throughout the theme
-define( 'NAKED_VERSION', 1.0 );
+define( 'hypha_version', 1.0 );
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -61,7 +61,7 @@ function my_custom_login_stylesheet() {
 add_action( 'login_enqueue_scripts', 'my_custom_login_stylesheet' );
 
 
-//POst format
+//Post format
 add_theme_support( 'post-formats', array( 'video', 'audio' ) );
 
 //wrapper around iframes
