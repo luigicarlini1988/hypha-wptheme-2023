@@ -348,30 +348,6 @@ text-decoration: underline;
     opacity:1;
 }
 
-.player-icon {
-    position:absolute;
-    aspect-ratio: 16 / 9;
-    left:0;
-    top:0;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-    height:auto;
-    top:36px;
-    transition-duration: .3s;
-}
-
-.player-icon img {
-    width:50px;
-    height:50px;
-    transition-duration: .3s;;
-}
-
-.learn-with-video .news-item:hover .player-icon img {
-
-    transform:scale(1.1);
-}
 
 .col-full.no-results {
     background:var(--card-dark-blu);
@@ -435,6 +411,3 @@ body.single-educational .news-item .top-right-link {
     top:0;
 }
 
-.news-item .wrappo:hover .player-icon {
-    transform:scale(1.15);
-}
