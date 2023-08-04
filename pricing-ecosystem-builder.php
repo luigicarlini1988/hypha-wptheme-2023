@@ -188,7 +188,7 @@
     </section>
 
     <section>
-        <div class="area flex align-center gap-20">
+        <div class="area flex align-center gap-50">
             <div class="col-half">
                 <div class="sub-section flex align-center">
                     <div class="icon small">
