@@ -157,7 +157,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" />
                     </div>
 
-                    <h2 class="subtitle">The best tools to build your DAO</h2>
+                    <h2 class="subtitle">Experience the future of work, today.</h2>
                 </div>
                 <h3 class="title-56">DAOs: the best tools to reach your team's full potential</h3>
             </div>
@@ -197,7 +197,7 @@
                         <p class="text-20">From a little start-up to a multi-layered organisation, we provide all
                             the features you need to define and easily set up your organization</p>
                         <div class="buttons flex gap-20">
-                            <a id="featureDisplay1" href="<?php echo home_url(); ?>/features/shape-your-dao/"
+                            <a id="featureDisplay1" href="<?php echo home_url(); ?>/features/shape-your-organisation/"
                                 class="button primary">Learn More</a>
                             <a href="<?php echo home_url(); ?>/features/" class="button secondary">All Features</a>
                         </div>
@@ -214,7 +214,7 @@
 
                             <h2 class="subtitle">Members Features</h2>
                         </div>
-                        <p class="title-big">Engage <br />Your Members</p>
+                        <p class="title-big">Ignite Team Engagement</p>
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
@@ -222,7 +222,7 @@
                             variety of feature that will allow high members engagement and participation</p>
 
                         <div class="buttons flex gap-20">
-                            <a id="featureDisplay2" href="<?php echo home_url(); ?>/features/engage-your-members/"
+                            <a id="featureDisplay2" href="<?php echo home_url(); ?>/features/ignite-team-engagement/"
                                 class="button primary">Learn More</a>
                             <a href="<?php echo home_url(); ?>/features/" class="button secondary">All Features</a>
                         </div>
@@ -238,14 +238,14 @@
 
                             <h2 class="subtitle">Financial Features</h2>
                         </div>
-                        <p class="title-big">Distribute Value</p>
+                        <p class="title-big">Recognise <br /> and Reward</p>
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
                         <p class="text-20">All the features you might need to manage your DAO finance and distribute
                             value to your team, members, and community in a transparent and reliable way</p>
                         <div class="buttons flex gap-20">
-                            <a id="featureDisplay3" href="<?php echo home_url(); ?>/features/distribute-value/"
+                            <a id="featureDisplay3" href="<?php echo home_url(); ?>/features/recognise-and-reward/"
                                 class="button primary">Learn More</a>
                             <a href="<?php echo home_url(); ?>/features/" class="button secondary">All Features</a>
                         </div>

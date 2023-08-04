@@ -92,7 +92,7 @@
                     </div>
                     <div class="feature-list all">
 
-                        <a href="#">All DAO features</a>
+                        <a href="<?php echo home_url(); ?>/features/" target="_blank">All DAO features</a>
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@
                         <span class="white counter">100</span>
                     </div>
                     <div class="feature-list all">
-                        <a href="#">All DAO features</a>
+                        <a href="<?php echo home_url(); ?>/features/" target="_blank">All DAO features</a>
                     </div>
                 </div>
             </div>
