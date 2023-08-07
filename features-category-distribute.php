@@ -142,11 +142,11 @@
                     array(
                        'taxonomy' => 'group',
                        'field' => 'slug',
-                       'terms' => 'distribute-value'
+                       'terms' => 'recognise-and-reward'
                    ),
                 ),
                 'post_status' => 'publish',
-                'posts_per_page' => '8',
+                'posts_per_page' => '20',
                 'orderby'   => array(
                   'date' =>'DESC'
                 ),
