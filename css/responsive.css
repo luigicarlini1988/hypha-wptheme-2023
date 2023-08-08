@@ -745,7 +745,8 @@
         display:block;
     }
 
-    .feature-cpt-list .wrap .col-4 {
+    .feature-cpt-list .wrap .col-4,
+    .related-features .wrap .col-4 {
         width:calc(50% - 10px);
     }
 
@@ -1048,7 +1049,8 @@
         width:15px;
     }
 
-    .feature-cpt-list .wrap .col-4 {
+    .feature-cpt-list .wrap .col-4,
+    .related-features .wrap .col-4 {
         width:100%;
     }
     

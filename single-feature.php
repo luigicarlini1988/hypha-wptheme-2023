@@ -166,7 +166,7 @@
 
         </div>
         </div>
-        <div class="area flex gap-20">
+        <div class="area flex wrap gap-20">
 
             <?php
  
@@ -177,7 +177,7 @@
                 $args = array(
                     'post_type' => 'feature',
                     'post_status' => 'publish',
-                    'posts_per_page' => 3,
+                    'posts_per_page' => 20,
                     'orderby' => 'rand',
                     'tax_query' => array(
                         array(

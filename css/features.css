@@ -140,7 +140,8 @@
     margin:20px 0px;
 }
 
-.feature-cpt-list .wrap .col-4 {
+.feature-cpt-list .wrap .col-4,
+.related-features .wrap .col-4 {
     width:calc(33.33% - 15px);
 }
 
