@@ -1,19 +1,12 @@
 <?php
-/**
- * Template Name: features-category-distribute
- *
- */
 
  get_header();
  ?>
 
 <main class="dark-theme">
-    <section class="features-hero single-feature">
-        <div class="area flex gap-20 align-bottom">
-            <div class="icon faeture-icon-big">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" />
-            </div>
-            <div class=" resp-logo">
+    <section class="features-hero">
+        <div class="area flex gap-50 align-center">
+            <div class="resp-logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg" />
             </div>
             <div class="col-half">
@@ -22,43 +15,41 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" />
                     </div>
                     <div class="breadcrumbs">
-                        <a href="<?php echo home_url(); ?>/features/">Features</a> 
-                        <a href="<?php echo home_url(); ?>/features/<?php
-                            $terms = get_the_terms( $post->ID , 'group' );
-                            
-                            if ( $terms != null ){
-                            foreach( $terms as $term ) {
-                            
-                            print $term->slug ;
-                            
-                            unset($term);
-                            } } ?>">
-                            <?php
-                            $terms = get_the_terms( $post->ID , 'group' );
-                            
-                            if ( $terms != null ){
-                            foreach( $terms as $term ) {
-                            
-                            print $term->name ;
-                            
-                            unset($term);
-                            } } ?>
-                        </a> > <?php the_title();  ?>
+                        <a href="<?php echo home_url(); ?>/features/">Features</a> >
+                        <?php the_title();  ?>
                     </div>
                 </div>
-                <h1 class="title-big"><?php the_title();  ?></h1>
+                <h1 class="title-big"><?php the_title(); ?></h1>
+                <img class="resp-image shape" src="<?php the_field('header_image') ?>" />
 
-                <p class="text-28 light-blu"><?php the_field('overview_text_big') ?></p>
-
+                <div class="text-20"><?php the_content();  ?></div>
+                <a href="#features-overview" class="button secondary">Discover</a>
             </div>
             <div class="col-half">
-                <p class="text-18"><?php the_field('overview_text_small') ?></p>
+                <img class="feat-top shape" src="<?php the_field('header_image') ?>" />
             </div>
         </div>
     </section>
 
-    <section id="features-overview" class="single-feature">
-        
+    <section id="features-overview">
+        <div class="area flex gap-20 align-bottom">
+            <div class="col-half">
+                <div class="sub-section flex align-center">
+                    <div class="icon small">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/eye.svg" loading="lazy">
+                    </div>
+
+                    <p class="subtitle">Features Overview</p>
+                </div>
+                <p class="text-28 white"><?php the_field('overview_text_big') ?></p>
+            </div>
+
+            <div class="col-half">
+                <p class="text-20"><?php the_field('overview_text_small') ?>
+                </p>
+
+            </div>
+        </div>
 
         <div class="area with-feature-carousel">
             <div id="features-carousel" class="owl-carousel owl-theme">
@@ -130,9 +121,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" loading="lazy">
                     </div>
 
-                    <h2 class="subtitle">Explore Features</h2>
+                    <h2 class="subtitle">Explore "<i><?php the_title(); ?></i>" Features</h2>
                 </div>
-                <p class="text-28 white">Check yout all the features in "<i><?php the_title(); ?></i>"</p>
+                <p class="text-28 white">Want to dive deep? Check out all the features in this
+                    "<i><?php the_title(); ?></i>"
+                    category</p>
             </div>
 
 
@@ -145,7 +138,7 @@
                     array(
                        'taxonomy' => 'group',
                        'field' => 'slug',
-                       'terms' => 'recognise-and-reward'
+                       'terms' => 'shape-your-organisation'
                    ),
                 ),
                 'post_status' => 'publish',
