@@ -144,7 +144,6 @@ section.home-header {
 
 main {
     width:100%;
-    min-height:100svh;
     background:var(--dark-blu);
 }
 
@@ -1612,7 +1611,7 @@ footer .text-22 {
 
 /* footer form */
 
-footer form {
+footer form .mauticform-innerform {
     display:flex;
     gap:20px;
     margin-top:40px;
@@ -1621,6 +1620,10 @@ footer form {
 footer form .mauticform-row {
     position:relative;
     width:100%;
+}
+
+footer form .mauticform-message {
+    transform: translateY(14px);
 }
 
 
