@@ -1679,11 +1679,17 @@ footer form button {
 
 
 
-.form-wrap form {
-    display: flex;
+.form-wrap form .mauticform-page-wrapper {
+    display: flex!important;
     flex-wrap: wrap;
     gap: 30px 20px;
 }
+
+/*.form-wrap form  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}*/
 
 
 form .wrap-area {
@@ -1706,6 +1712,12 @@ textarea {
     resize: vertical;
     max-height: 280px;
     min-height: 60px;
+}
+
+.mauticform-message {
+    color: var(--light-blu);
+    transform: translateY(-70px);
+    font-size: 14px;
 }
 
 

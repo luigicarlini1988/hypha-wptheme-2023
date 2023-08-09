@@ -25,7 +25,7 @@
 
                     <h1 class="subtitle"><?php the_title();  ?></h1>
                 </div>
-                <p class="title-giga">Discover Our Specific Use Cases</p>
+                <p class="title-giga"><?php the_field('header_usecases_title');  ?></p>
                 <div class="text-20 light-blu">
                     <?php the_content();  ?>
 

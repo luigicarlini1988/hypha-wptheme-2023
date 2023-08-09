@@ -92,27 +92,31 @@
 
 
 
-    <!-- mautic form NEW --->
-    <script type="text/javascript">
-    /** This section is only needed once per page if manually copying **/
-    if (typeof MauticSDKLoaded == 'undefined') {
-        var MauticSDKLoaded = true;
-        var head = document.getElementsByTagName('head')[0];
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'https://mautic.hypha.earth/media/js/mautic-form.js?v24222b77';
-        script.onload = function() {
-            MauticSDK.onLoad();
-        };
-        head.appendChild(script);
-        var MauticDomain = 'https://mautic.hypha.earth';
-        var MauticLang = {
-            'submittingMessage': "Please wait..."
-        }
-    } else if (typeof MauticSDK != 'undefined') {
-        MauticSDK.onLoad();
-    }
-    </script>
+    <!-- mautic Lead Gen --->
+    <?php if( is_page_template('lead-form.php') ) :?>
+        <script type="text/javascript">
+        
+                if (typeof MauticSDKLoaded == 'undefined') {
+                    var MauticSDKLoaded = true;
+                    var head            = document.getElementsByTagName('head')[0];
+                    var script          = document.createElement('script');
+                    script.type         = 'text/javascript';
+                    script.src          = 'https://mautic.hypha.earth/media/js/mautic-form.js?vd5dec697';
+                    script.onload       = function() {
+                        MauticSDK.onLoad();
+                    };
+                    head.appendChild(script);
+                    var MauticDomain = 'https://mautic.hypha.earth';
+                    var MauticLang   = {
+                        'submittingMessage': "Please wait..."
+                    }
+                }else if (typeof MauticSDK != 'undefined') {
+                    MauticSDK.onLoad();
+                }
+        </script>
+    <?php endif;?>
+
+    
 
 
 </head>

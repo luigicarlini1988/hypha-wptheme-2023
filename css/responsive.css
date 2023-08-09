@@ -697,6 +697,11 @@
         width:100%;
     }
 
+    .generic-hero.lead .col-half:not(:last-child) {
+        padding-top: 70px;
+        width:100%;
+    }
+
     .generic-hero-back {
         background-position: calc(100% + 50px) top;
     }
