@@ -120,6 +120,46 @@
             </div>
         </div>
 
+        <?php if( get_field('problem4_title') ): ?>
+        <div class="area flex align-center gap-50">
+            <div class="col-half">
+                <p class="subtitle">Problem</p>
+                <p class="title-40 white"><?php the_field('problem4_title') ?></p>
+                <p><?php the_field('problem4_text') ?></p>
+            </div>
+
+            <div class="col-half">
+                <div class="generic-card glow-back">
+                    <div class="wrappo">
+                        <p class="subtitle">Solution</p>
+                        <p class="title-40 white"><?php the_field('solution4_title') ?></p>
+                        <p><?php the_field('solution4_text') ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <?php if( get_field('problem5_title') ): ?>
+        <div class="area flex align-center gap-50">
+            <div class="col-half">
+                <p class="subtitle">Problem</p>
+                <p class="title-40 white"><?php the_field('problem5_title') ?></p>
+                <p><?php the_field('problem5_text') ?></p>
+            </div>
+
+            <div class="col-half">
+                <div class="generic-card glow-back">
+                    <div class="wrappo">
+                        <p class="subtitle">Solution</p>
+                        <p class="title-40 white"><?php the_field('solution5_title') ?></p>
+                        <p><?php the_field('solution5_text') ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
+
     </section>
 
     <section class="feature-details use-case-var">
@@ -177,6 +217,34 @@
                 <img class="feature-detail-image" src="<?php the_field('feature3_image') ?>" />
             </div>
         </div>
+
+        <?php if( get_field('feature4_name') ): ?>
+        <div class="area flex gap-50 align-center area-spacer">
+            <div class="col-half">
+                <h2 class="subtitle"><?php the_field('feature4_name') ?></h2>
+                <p class="title-medium"><?php the_field('feature4_title') ?></p>
+                <p><?php the_field('feature4_description') ?></p>
+                <a href="<?php the_field('feature4_read_more') ?>" class="button secondary">read more</a>
+            </div>
+            <div class="col-half">
+                <img class="feature-detail-image" src="<?php the_field('feature4_image') ?>" />
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <?php if( get_field('feature5_name') ): ?>
+        <div class="area flex gap-50 align-center area-spacer">
+            <div class="col-half">
+                <h2 class="subtitle"><?php the_field('feature5_name') ?></h2>
+                <p class="title-medium"><?php the_field('feature5_title') ?></p>
+                <p><?php the_field('feature5_description') ?></p>
+                <a href="<?php the_field('feature5_read_more') ?>" class="button secondary">read more</a>
+            </div>
+            <div class="col-half">
+                <img class="feature-detail-image" src="<?php the_field('feature5_image') ?>" />
+            </div>
+        </div>
+        <?php endif;?>
     </section>
 
     <section id="testimonials" class="dao-members">
