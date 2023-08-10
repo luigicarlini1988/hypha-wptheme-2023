@@ -36,7 +36,61 @@
                 <div class="text-20 light-blu"><?php the_content(); ?></div>
 
                 <div class="buttons gap-50 flex">
-                    <a href="#about-us" class="button primary">Read More</a>
+                    <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Sign-up for Free!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-network">
+        <div class="area flex gap-20 align-bottom">
+            <div class="col-8">
+                <div class="sub-section flex align-center">
+                    <div class="icon small">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/ecosystem.svg">
+                    </div>
+
+                    <h2 class="subtitle">Hypha Network</h2>
+                </div>
+                <p class="title-big">A Growing Ecosystem<br />
+                    of Interconnected DAOs</p>
+            </div>
+        </div>
+        <div class="area flex gap-20 align-bottom">
+            <div class="col-4">
+                <div class="generic-card glow-back network">
+                    <div class="wrappo">
+
+                        <div class="icon big">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/circles.svg" />
+                        </div>
+                        <p class="text-62">900+</p>
+                        <p class="light-blu">Members</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="generic-card glow-back network">
+                    <div class="wrappo">
+
+                        <div class="icon big">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                        </div>
+                        <p class="text-62">200+</p>
+                        <p class="light-blu">DAOs Enrolled</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="generic-card glow-back network">
+                    <div class="wrappo">
+
+                        <div class="icon big">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/ecosystem.svg" />
+                        </div>
+                        <p class="text-62">5+</p>
+                        <p class="light-blu">Years Building DAOs</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,15 +104,15 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/heart.svg" loading="lazy">
                     </div>
 
-                    <h2 class="subtitle">Core Values</h2>
+                    <h2 class="subtitle">Our Core Values</h2>
                 </div>
                 <p class="title-big">What we stand for</p>
 
             </div>
 
             <div class="col-half">
-                <p class="text-20 light-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et </p>
+                <p class="text-20 light-blu">Hypha members come from diverse backgrounds, bound together by a commitment
+                    to core values guiding our work, behaviors, and actions.</p>
             </div>
         </div>
     </section>
@@ -66,54 +120,80 @@
     <section class="values">
         <div class="area flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Core Value 1</p>
-                <p class="title-medium white">What is our Core val</p>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="title-big white">Integrity</p>
+                <p>Integrity empowers us to live by our moral principles to build and deploy technologies and services
+                    to benefit humanity and our shared planet</p>
             </div>
 
             <div class="col-half">
-                <p class="subtitle">Core Value 2</p>
-                <p class="title-medium white">What is our Core val</p>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="title-big white">Responsability</p>
+                <p>Our sense of individual and collective responsibility drives how we take accountability for becoming
+                    a mature and thriving organism while acting by our values.</p>
             </div>
         </div>
         <div class="area flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Core Value 1</p>
-                <p class="title-medium white">What is our Core val</p>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="title-big white">Trust</p>
+                <p>Trust commits us to creating honest and empowering solutions, connecting us to the heart of humanity.
+                </p>
             </div>
 
             <div class="col-half">
-                <p class="subtitle">Core Value 2</p>
-                <p class="title-medium white">What is our Core val</p>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="title-big white">Transparency</p>
+                <p>Being fully transparent enables us to live by what we promise and forms the DNA of our technology
+                    solutions for collective thriving.</p>
             </div>
         </div>
         <div class="area flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Core Value 1</p>
-                <p class="title-medium white">What is our Core val</p>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="title-big white">Commitment</p>
+                <p>Our shared commitments fuel our promise of excellence through radical transparency, diversity and
+                    inclusion, responsibility, continual learning, and improvement.</p>
             </div>
 
             <div class="col-half">
-                <p class="subtitle">Core Value 2</p>
-                <p class="title-medium white">What is our Core val</p>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p class="title-big white">Reciprocity</p>
+                <p>Hypha is committed to honoring all who contribute to the value we co-create, receive, enjoy, and
+                    distribute — including Nature herself.</p>
             </div>
+        </div>
+
+        <div class="area flex gap-50">
+            <div class="col-half">
+                <p class="title-big white">Creativity</p>
+                <p>Creativity inspires us to expand and grow in consciousness by purposefully inviting diverse
+                    perspectives and new horizons for learning and innovation.</p>
+            </div>
+
+            <div class="col-half">
+                <p class="title-big white">Excellence</p>
+                <p>We are compelled to learn, act, and evolve by taking responsibility and accountability for our
+                    actions and our standards, promises, and commitments.</p>
+            </div>
+        </div>
+
+
+        <div class="area flex gap-50 align-bottom">
+            <div class="col-half">
+                <div id="step1" class="sub-section flex align-center">
+                    <div class="icon small">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/heart.svg" />
+                    </div>
+
+                    <p class="subtitle">Hypha Constitution</p>
+                </div>
+                <p class="title-medium">The only DAO with a constitution inspired by nature’s living systems</p>
+
+
+            </div>
+            <div class="col-half">
+                <p class="text-18">Hypha aims go beyond providing a DAO platform. We aspire to provide humanity with the
+                    coordination tools needed to achieve successful, large-scale impact.</p>
+                <div class="buttons">
+                    <a href="<?php echo home_url(); ?>/constitution/" class="button primary">Read More</a>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -125,47 +205,92 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/time.svg" loading="lazy">
                     </div>
 
-                    <h3 class="subtitle">Timeline</h3>
+                    <h3 class="subtitle">Timeline of Key Achievements</h3>
                 </div>
-                <p class="title-medium">Our Key Achievements</p>
+                <p class="title-medium">Our Journey Together</p>
             </div>
         </div>
         <div class="area">
             <div id="timeline-carousel" class="owl-carousel owl-theme">
+
                 <div class="timeline-item">
-                    <p class="text-20 bold white">June 2023</p>
-                    <p>We have the most advanced feature set in the burgeoning DAO industry —from fee-free on-chain
-                        payroll and governance to new primitives like quests, roles, badges, circles and more.</p>
+                    <p class="text-20 bold white">August 2023</p>
+                    <p>Hypha launches the Beta version of our DAO platform, signifying a massive signal for mainstream
+                        adoption ahead.</p>
                 </div>
 
                 <div class="timeline-item">
                     <p class="text-20 bold white">June 2023</p>
-                    <p>We have the most advanced feature set in the burgeoning DAO industry —from fee-free on-chain
-                        payroll and governance to new primitives like quests, roles, badges, circles and more.</p>
+                    <p>Hypha partners with <a href="https://www.digihub.li/" target="_blank">DigiHub.li</a> to bring
+                        innovative DAO tools to the European Digital Innovation Hub Network <a
+                            href="https://www.digihub.li/" target="_blank" rel="nofollow">DigiHub.li</a></p>
                 </div>
 
                 <div class="timeline-item">
-                    <p class="text-20 bold white">June 2023</p>
-                    <p>We have the most advanced feature set in the burgeoning DAO industry —from fee-free on-chain
-                        payroll and governance to new primitives like quests, roles, badges, circles and more.</p>
+                    <p class="text-20 bold white">May 2023</p>
+                    <p>Hypha partners with <a href="https://localscale.org/" target="_blank"
+                            rel="nofollow">LocalScale</a> to improve
+                        bioregional organization by allowing bioregions to self-organize as DAOs and create and manage
+                        local currencies through Hypha DAO accounts.</p>
                 </div>
 
                 <div class="timeline-item">
-                    <p class="text-20 bold white">June 2023</p>
-                    <p>We have the most advanced feature set in the burgeoning DAO industry —from fee-free on-chain
-                        payroll and governance to new primitives like quests, roles, badges, circles and more.</p>
+                    <p class="text-20 bold white">April 2023</p>
+                    <p>Hypha opens registrations for our DAO Beta Launch, empowering teams to tackle complex challenges
+                        and create solutions together at scale.</p>
                 </div>
 
                 <div class="timeline-item">
-                    <p class="text-20 bold white">June 2023</p>
-                    <p>We have the most advanced feature set in the burgeoning DAO industry —from fee-free on-chain
-                        payroll and governance to new primitives like quests, roles, badges, circles and more.</p>
+                    <p class="text-20 bold white">September 2022</p>
+                    <p>Hypha DAO receives a <a
+                            href="https://hypha.earth/hypha-daos-organization-in-a-box-solution-receives-850k-usd-grant-from-eos-network-foundation/"
+                            target="_blank" rel="nofollow">$850k USD grant</a> from <a
+                            href="https://eosnetwork.com/about-us/" target="_blank" rel="nofollow">EOS Network
+                            Foundation.</a> This grant fueled a powerful
+                        roadmap of new advanced features and brought DAO tools to the EOS Community.</p>
                 </div>
 
                 <div class="timeline-item">
-                    <p class="text-20 bold white">June 2023</p>
-                    <p>We have the most advanced feature set in the burgeoning DAO industry —from fee-free on-chain
-                        payroll and governance to new primitives like quests, roles, badges, circles and more.</p>
+                    <p class="text-20 bold white">August 2022</p>
+                    <p>Hypha DAO was selected by the <a href="https://respond-accelerator.com/" target="_blank"
+                            rel="nofollow">RESPOND
+                            Accelerator</a>, backed by the <a href="https://bmw-foundation.org/en/" target="_blank"
+                            rel="nofollow">BMW
+                            Foundation</a>, to participate
+                        in its 2022 Accelerator program.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <p class="text-20 bold white">Feburary 2022</p>
+                    <p>Hypha was introduced to the world with the launch of our first website. </p>
+                </div>
+
+                <div class="timeline-item">
+                    <p class="text-20 bold white">March 2020</p>
+                    <p>Hypha releases its Alpha version DAO platform for the team to organize itself transparently and
+                        collectively while driving engagement from its members and contributors with multi-layered
+                        rewards and incentives.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <p class="text-20 bold white">June 2020</p>
+                    <p>SEEDS tokens come into existence to co-create new regenerative economies that incentivize
+                        collaboration for collective well-being. </p>
+                </div>
+
+                <div class="timeline-item">
+                    <p class="text-20 bold white">2019</p>
+                    <p>Hypha was born. After operating as a DAO while building SEEDS and our network, we realized that
+                        our greatest value contribution to humanity is to build and deploy DAOs as a service. As such,
+                        empowering humanity with the coordination and alignment tools for our collective thriving.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <p class="text-20 bold white">2018</p>
+                    <p>Hypha’s first project was <a href="https://joinseeds.earth/" target="_blank"
+                            rel="nofollow">SEEDS</a>, an initiative to co-create new token-based economic systems for
+                        regenerating our planet by empowering the myriads of movements, initiatives, and organizations
+                        worldwide with the tools for doing so.</p>
                 </div>
 
             </div>
@@ -181,7 +306,7 @@
 
                     <h3 class="subtitle">Hypha Team</h3>
                 </div>
-                <p class="title-medium">The Best Lorem Ispum Creators!</p>
+                <p class="title-medium">Meet the humans behind Hypha</p>
             </div>
         </div>
         <div class="area">
@@ -240,14 +365,13 @@
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
                     </div>
-                    <p class="subtitle">The Mycelial</p>
+                    <p class="subtitle">Inspired by Nature</p>
                 </div>
-                <h1 class="title-big">Why “Hypha” ?</h1>
-                <p class="text-20 ">HYPHA refers to the original Earth internet. It’s the branching
-                    filaments that make up the network of the mycelium (fungal) organism, which unites healthy
-                    ecosystems helping plants and animals share information and nutrition. We strive to mirror
-                    natural systems for how we design DAO tools to coordinate and support thriving organisational
-                    ecosystems.</p>
+                <h1 class="title-big">Why the<br />Name Hypha?</h1>
+                <p class="text-18">The word “Hypha” refers to the original Earth internet. The branching filaments that
+                    comprise the network of the mycelium (fungal) organisms, which unite healthy ecosystems by helping
+                    plants and animals share information and nutrition. We mimic natural systems across our DAO tools to
+                    coordinate and support thriving organizational ecosystems.</p>
             </div>
 
             <div class="col-half">
@@ -260,7 +384,7 @@
 
 
     <section class="work-with-us">
-        <div class="area flex gap-50 align-center">
+        <div class="area flex gap-50 align-bottom">
             <div class="col-half">
                 <div id="step1" class="sub-section flex align-center">
                     <div class="icon small">
@@ -269,16 +393,55 @@
 
                     <p class="subtitle">Get In touch</p>
                 </div>
-                <p class="title-big">Work With Us</p>
+                <p class="title-big">Work With Hypha</p>
 
-                <p class="text-28 light-blu">Are you thrilled to participate to the Lorem ipsum dolor sit amet,
-                    consect adipiscing elit? Drop us a message</p>
+
             </div>
             <div class="col-half">
-                <?php 
-                    include ('incl/generic-form.html') ;
-                ?>
+                <p class="text-18">Would you like to join a revolutionary team of people shaping innovative solutions
+                    for a
+                    better world? Together, we’ll unleash our collective potential for a brighter future.</p>
             </div>
+
+        </div>
+        <div class="area flex wrap gap-20">
+            <div class="col-x">
+                <a class="nostyle" href="<?php echo home_url(); ?>/get-started/create-hypha-account/">
+                    <div class="generic-card glow-back has-link">
+                        <div class="wrappo">
+
+                            <div class="icon in-card">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
+                            </div>
+                            <h3 class="title-medium">Create your <br />Hypha Account
+                            </h3>
+                            <div class="fake-button space">
+                                <p>LET's DAO it!</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="col-x">
+                <a class="nostyle" href="<?php echo home_url(); ?>/get-started/join-a-dao/">
+                    <div class="generic-card glow-back has-link">
+                        <div class="wrappo">
+                            <div class="icon in-card">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/circles.svg" />
+                            </div>
+                            <h3 class="title-medium">Join a DAO<br /> as Member</h3>
+                            <div class="fake-button space">
+                                <p>Find your DAO</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
         </div>
     </section>
 

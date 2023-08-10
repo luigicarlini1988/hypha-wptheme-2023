@@ -188,6 +188,15 @@ main {
     text-transform: capitalize;
 }
 
+.text-62 {
+    font-size:62px;
+    line-height: 1.1em;
+    color:var(--white);
+    margin:0;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
 .title-medium {
     font-family: var(--titles);
     font-size:44px;
@@ -2119,9 +2128,46 @@ table td {
     padding-bottom:120px;
 }
 
+.timeline-item a {
+    color:var(--light-blu);
+}
+
+.work-with-us .text-18 {
+    margin-bottom:0;
+}
+
+.work-with-us .col-x {
+    width:calc(50% - 10px);
+  } 
+
+  .work-with-us .area:last-child {
+    padding-top:80px;
+  }
+
+  .generic-card.glow-back.network .wrappo {
+    text-align:center;
+}
+
+.generic-card.glow-back.network .wrappo .icon {
+    margin:auto;
+}
+
+.generic-card.glow-back.network .wrappo p.text-62 {
+    margin-top:30px;
+}
+
+.generic-card.glow-back.network .wrappo p {
+    margin-bottom:0;
+}
+
+.about-network .area:last-child {
+    margin-top:80px;
+}
+
 /* random additional */
 
 p.no-margin-bottom {
     margin-bottom:0;
 }
+
 

@@ -818,7 +818,8 @@
         display:none;
     }
 
-    .get-started-hero.intro.use-cases .col-x {
+    .get-started-hero.intro.use-cases .col-x,
+    .work-with-us .col-x {
         width:100%;
     }
 
@@ -1099,7 +1100,8 @@
         opacity:0;
     }
 
-    .get-started-hero.intro .col-x {
+    .get-started-hero.intro .col-x,
+    .work-with-us .col-x {
         width:100%;
       } 
 
