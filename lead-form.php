@@ -15,7 +15,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg" />
             </div>
             <div class="col-half">
-               
+
                 <div class="sub-section flex align-center">
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?><?php the_field('icon_path')?>" />
@@ -25,7 +25,7 @@
                         <a href="<?php echo home_url(); ?>/hyphalab/">hyphalab</a> > Become an Hypha's:
                     </div>
                 </div>
-                
+
 
                 <h1 class="title-big">
                     <?php the_title();  ?>
@@ -34,16 +34,16 @@
                     <?php the_field('header_subtitle_blu'); ?>
                 </p>
                 <?php if( get_field('header_subtitle_white') ): ?>
-                    <p class="white">
-                        <?php the_field('header_subtitle_white'); ?>
-                    </p>
+                <p class="white">
+                    <?php the_field('header_subtitle_white'); ?>
+                </p>
                 <?php endif; ?>
             </div>
 
             <div class="col-half">
-            <?php 
-                include ('incl/mautic-form.html') ;
-                ?>
+                <?php 
+                    include ('incl/mautic-form-dynamic.html') ;
+                    ?>
             </div>
         </div>
     </section>
