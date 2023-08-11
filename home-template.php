@@ -59,18 +59,17 @@
     <section id="opening" class="opening">
         <div class="area">
 
-            <div class="col-7">
+            <div class="col-8">
                 <div class="sub-section flex align-center">
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/diamond.svg" />
                     </div>
-                    <p class="subtitle">Meeting your needs</p>
+                    <p class="subtitle">Unlimited Pathways for Success</p>
                 </div>
-                <h3 class="title-big">A solution to <br /> many challenges</h3>
+                <h3 class="title-big">Discover a World of <br />Opportunities with Hypha</h3>
 
-                <p class="text-20 light-blu">Hypha’s ‘Organization & Community in a box’ solution <span
-                        class="light-blu">enables a better way to work for any team, community or
-                        organization, who want to:</span>
+                <p class="text-20 light-blu">Experience the transformative capabilities of using Hypha's toolkit to
+                    achieve remarkable outcomes such as:</span>
                 </p>
             </div>
         </div>
@@ -79,63 +78,63 @@
                 <div class="icon big">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                 </div>
-                <p class="text-24 bold white">Launch Ventures</p>
-                <p>Launch your new venture fast, bringing on engaged contributors and members, and limiting the
-                    usual heavy admin.</p>
+                <p class="text-24 bold white">Successful project launches</p>
+                <p>Effortlessly launch new projects and onboard members with a few clicks, freeing you from heavy admin
+                    tasks.</p>
             </div>
 
             <div class="col-3">
                 <div class="icon big">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/plant.svg" />
                 </div>
-                <p class="text-24 bold white">Accelerate growth <br />& impact</p>
-                <p>Enable rapid scaling through the autonomous launch of multiple sub-organizations and the easy
-                    deployment of funds.</p>
+                <p class="text-24 bold white">Achieve scalable growth and impact</p>
+                <p>Rapidly scale your project thanks to quick and easy ways to onboard team members and deploy funds.
+                </p>
             </div>
 
             <div class="col-3">
                 <div class="icon big">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/empower.svg" />
                 </div>
-                <p class="text-24 bold white">Attract & empower talents</p>
-                <p>Provide multi-layered incentives and rewards for work contributed. Engage your teams through
-                    inclusive decision-making.</p>
+                <p class="text-24 bold white">Transformed team engagement</p>
+                <p>Take advantage of Hypha's innovative reward features to recognize all contributions made to your
+                    project's success.</p>
             </div>
 
             <div class="col-3">
                 <div class="icon big">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/engage.svg" />
                 </div>
-                <p class="text-24 bold white">Engage Communities</p>
-                <p>Provide a transparent and participative environment where your community can help vote on key
-                    decisions</p>
+                <p class="text-24 bold white">Build thriving communities</p>
+                <p>Leverage your community's collective intelligence and grow engagement by involving them in
+                    decision-making processes.</p>
             </div>
 
             <div class="col-3">
                 <div class="icon big">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/decision.svg" />
                 </div>
-                <p class="text-24 bold white">Collectively Make Decisions</p>
-                <p>Make the most of collective intelligence and take decisions together in a transparent and
-                    reliable process.</p>
+                <p class="text-24 bold white">Team decisions<br /> made easy</p>
+                <p>Make decisions fairly and transparently, leveraging the power of your team's collective intelligence.
+                </p>
             </div>
 
             <div class="col-3">
                 <div class="icon big">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/cash.svg" />
                 </div>
-                <p class="text-24 bold white">Deploy & Track <br />Working Capital</p>
-                <p>Use tokens to rapidly and cost-effectively deploy and trace funds across your organization around
-                    the world.</p>
+                <p class="text-24 bold white">Manage resources effectively</p>
+                <p>Reward your team instantly and manage resources effortlessly with the transparency of blockchain
+                    technology.</p>
             </div>
 
             <div class="col-3">
                 <div class="icon big">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/network.svg" />
                 </div>
-                <p class="text-24 bold white">Build Coalitions</p>
-                <p>Join or build a new network of like-minded organizations to help achieve your goals faster and
-                    with more impact.</p>
+                <p class="text-24 bold white">Belong to a network of like-minded innovators</p>
+                <p>Join or build a new network of passionate people and organizations to support you in achieving your
+                    goals faster and with more impact.</p>
             </div>
 
             <div class="col-3">
@@ -157,7 +156,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" />
                     </div>
 
-                    <h2 class="subtitle">Experience the future of work, today.</h2>
+                    <h2 class="subtitle">Experience the Future of Work, Today.</h2>
                 </div>
                 <h3 class="title-56">DAOs: the best tools to reach your team's full potential</h3>
             </div>
@@ -188,14 +187,14 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/templates.svg" />
                             </div>
 
-                            <h2 class="subtitle">Organisational Features</h2>
+                            <h2 class="subtitle">Organizational Features</h2>
                         </div>
-                        <p class="title-big">Shape Your<br /> Organisation</p>
+                        <p class="title-big">Shape Your<br /> Organization</p>
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
-                        <p class="text-20">From a little start-up to a multi-layered organisation, we provide all
-                            the features you need to define and easily set up your organization</p>
+                        <p class="text-20">Transform your vision into a reality using Hypha's organizational features.
+                            Easily define and launch your DAO, putting you in control of shaping your success story.</p>
                         <div class="buttons flex gap-20">
                             <a id="featureDisplay1" href="<?php echo home_url(); ?>/features/shape-your-organisation/"
                                 class="button primary">Learn More</a>
@@ -218,8 +217,8 @@
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
-                        <p class="text-20">a DAO is all about members, agreements and co-creation. We developed a
-                            variety of feature that will allow high members engagement and participation</p>
+                        <p class="text-20">Seamlessly onboard, incentivize, and engage your team to achieve shared goals
+                            with Hypha’s Member Features.</p>
 
                         <div class="buttons flex gap-20">
                             <a id="featureDisplay2" href="<?php echo home_url(); ?>/features/ignite-team-engagement/"
@@ -242,8 +241,8 @@
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
-                        <p class="text-20">All the features you might need to manage your DAO finance and distribute
-                            value to your team, members, and community in a transparent and reliable way</p>
+                        <p class="text-20">Manage your finances confidently and transparently with Hypha’s Financial
+                            Features. Experience revolutionary ways to recognize and reward members ’efforts.</p>
                         <div class="buttons flex gap-20">
                             <a id="featureDisplay3" href="<?php echo home_url(); ?>/features/recognise-and-reward/"
                                 class="button primary">Learn More</a>
@@ -483,7 +482,7 @@
 
                     <h3 class="subtitle">Testimonials</h3>
                 </div>
-                <p class="title-medium">Happy Hypha Customers</p>
+                <p class="title-medium">Success Stories from Hypha Customers</p>
             </div>
         </div>
         <div class="area">
@@ -553,13 +552,13 @@
 
                     <h2 class="subtitle">Use Cases</h2>
                 </div>
-                <p class="title-medium">A flexible DAO builder for any organisation</p>
+                <p class="title-medium">Start your transformation, today</p>
             </div>
 
             <div class="col-half">
                 <p class="text-20">
-                    Any group of humans who want to acknowledge contributions to a common cause and / or govern a
-                    shared pool of resources can benefit from our tools.
+                    Unleash your success: Discover our customizable use cases and transform your project with Hypha's
+                    Toolkit!
                 </p>
 
             </div>
@@ -635,11 +634,11 @@
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/wallet.svg" />
                     </div>
-                    <p class="subtitle">Additional Tools</p>
+                    <p class="subtitle">Download our new App:</p>
                 </div>
                 <h2 class="title-big">Hypha Wallet</h2>
-                <p class="text-20 light-blu">Everything you need from signing the transaction in your DAO, to
-                    onboarding new members, manage tokens, and much more
+                <p class="text-20 light-blu">The key to your new digital organization. With this app you can manage your
+                    DAO, sign transactions, onboarding new members, and much more</p>
                 </p>
                 <div class="wallet-resp">
                     <img class="wr-1" src="<?php echo get_template_directory_uri(); ?>/img/wallet-2.jpg" />
@@ -673,12 +672,12 @@
         </div>
     </section>
 
-    <section id="strenght">
+    <!--<section id="strenght">
         <div class="area with-titles flex align-bottom gap-20">
             <div class="col-half">
                 <div class="sub-section flex align-center">
                     <div class="icon small">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/diamond.svg" />
+                        
                     </div>
 
                     <p class="subtitle">Strength Point</p>
@@ -701,7 +700,7 @@
         <div class="area flex gap-20 wrap">
             <div class="col-3">
                 <div class="icon big">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/transaction.svg" />
+                    
                 </div>
                 <p class="text-24 bold white">Fee free, onchain transactions</p>
                 <p>Unlike other DAO’s, Hypha does not charge every time your organisation uses the blockchain to
@@ -710,7 +709,7 @@
 
             <div class="col-3">
                 <div class="icon big">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/templates.svg" />
+                    
                 </div>
                 <p class="text-24 bold white">Templates to kick start your project</p>
                 <p>Unlike other DAO’s, Hypha does not charge every time your organisation uses the blockchain to
@@ -719,7 +718,7 @@
 
             <div class="col-3">
                 <div class="icon big">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/community.svg" />
+                    
                 </div>
                 <p class="text-24 bold white">A community space to grow your project</p>
                 <p>Unlike other DAO’s, Hypha does not charge every time your organisation uses the blockchain to
@@ -728,7 +727,7 @@
 
             <div class="col-3">
                 <div class="icon big">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
+                    
                 </div>
                 <p class="text-24 bold white">Human centric design in mind</p>
                 <p>Unlike other DAO’s, Hypha does not charge every time your organisation uses the blockchain to
@@ -736,13 +735,9 @@
             </div>
         </div>
 
-    </section>
+    </section>-->
 
-    <section id="second-cta">
-        <div class="area">
-            <?php include('incl/maincta.php') ?>
-        </div>
-    </section>
+
 
     <section id="education">
         <div class="area with-titles flex align-bottom gap-20">
@@ -752,10 +747,10 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/education.svg" />
                     </div>
 
-                    <h2 class="subtitle">Education Portal</h2>
+                    <h2 class="subtitle">Hypha Education Hub</h2>
                 </div>
-                <p class="title-medium">Learn about blockchain and our tools on the <a
-                        href="<?php echo home_url(); ?>/education/">Education Portal</a>
+                <p class="title-medium">Learn more about DAOs by visiting <a
+                        href="<?php echo home_url(); ?>/education/">Hypha Education Hub</a>
 
                 </p>
             </div>
@@ -835,8 +830,8 @@
 
                     <h2 class="subtitle">Hypha News</h2>
                 </div>
-                <p class="title-medium">Stay up to date with lorem ipsum <a href="<?php echo home_url(); ?>/news/">Hypha
-                        News</a></p>
+                <p class="title-medium">Explore Hypha’s latest News<br /> by visiting our <a
+                        href="<?php echo home_url(); ?>/news/">Blog</a></p>
             </div>
         </div>
 

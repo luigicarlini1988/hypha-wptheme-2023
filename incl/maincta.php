@@ -9,21 +9,20 @@
             </div>
             <div class="col-half">
                 <ul>
-                    <li><strong>Lifetime Free plan available </strong></li>
-                    <li>Templates to easily kick start your DAO</li>
-                    <li>Fully customisable governance and tools</li>
-                    <li>Seamless onboarding in only 4 steps</li>
-                    <li>Easily upgrade your DAO as your team grows</li>
+                    <li><strong>Free plan available to get started</strong></li>
+                    <!--<li>Templates to easily kick start your DAO</li>-->
+                    <li>Fully-customizable features</li>
+                    <li>Seamless onboarding</li>
+                    <li>Easy DAO upgrades as you grow</li>
                 </ul>
             </div>
         </div>
         <div class="cta-bottom flex gap-20 align-center">
             <div class="col-half">
                 <p class="text-20 light-blu">
-                    Either you want to <span class="white">create a DAO</span> or <span class="white">join a DAO</span>
-                    in our Ecosystem, you can easily do so
-                    in
-                    seconds
+                    Take the first steps to <span class="white">Create a DAO</span> or <span class="white">join a
+                        DAO</span>
+                    within Hypha Network.
                 </p>
             </div>
             <div class="col-half">

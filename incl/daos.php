@@ -9,14 +9,13 @@
 
                 <h2 class="subtitle">Hypha Network</h2>
             </div>
-            <p class="title-medium">More then 90 DAOs and 1000 members already deployed on hypha network
-            </p>
+            <p class="title-medium">95+ organizations and 900+ members already deployed on the Hypha Network</p>
         </div>
 
         <div class="col-5">
             <p class="text-20 light-blu">
-                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua.
+                Dive into Hypha’s vibrant ecosystem of digital organizations (DAOs) and discover unlimited collaboration
+                opportunities. Join forces with like-minded innovators!
             </p>
 
         </div>

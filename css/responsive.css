@@ -1152,6 +1152,10 @@
         gap:26px;
         margin-top: 30px;
     }
+
+    #news br {
+        display:none;
+    }
 }
 
 
