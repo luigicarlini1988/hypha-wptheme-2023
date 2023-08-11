@@ -34,7 +34,7 @@
                     <?php the_field('header_subtitle_blu'); ?>
                 </p>
                 <?php if( get_field('header_subtitle_white') ): ?>
-                <p class="white">
+                <p>
                     <?php the_field('header_subtitle_white'); ?>
                 </p>
                 <?php endif; ?>
