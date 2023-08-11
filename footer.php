@@ -74,48 +74,69 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/message.svg" loading="lazy" />
             </div>
             <div class="col-4">
-                <p class="text-22 white">Zubscribe to our Newsletter</p>
+                <p class="text-22 white">Subscribe to our Newsletter</p>
                 <p class="no-margin-bottom">Get exclusive access to Hypha’s latest news and announcements as a Hypha
                     Insider.
                     Subscribe now and
                     stay ahead of the curve.</p>
             </div>
             <div class="col-8">
-                <form autocomplete="false" role="form" method="post" action="https://mautic.hypha.earth/form/submit?formId=9" id="mauticform_newslettersignup2023" data-mautic-form="newslettersignup2023" enctype="multipart/form-data">
+                <form autocomplete="false" role="form" method="post"
+                    action="https://mautic.hypha.earth/form/submit?formId=9" id="mauticform_newslettersignup2023"
+                    data-mautic-form="newslettersignup2023" enctype="multipart/form-data">
                     <div class="mauticform-error" id="mauticform_newslettersignup2023_error"></div>
                     <div class="mauticform-message" id="mauticform_newslettersignup2023_message"></div>
                     <div class="mauticform-innerform">
 
-                                <div id="mauticform_newslettersignup2023_email" data-validate="email" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
-                                    <label id="mauticform_label_newslettersignup2023_email" for="mauticform_input_newslettersignup2023_email" class="mauticform-label">Email</label>
-                                    <input id="mauticform_input_newslettersignup2023_email" name="mauticform[email]" value="" class="mauticform-input" type="email">
-                                    <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                                </div>
-
-                                <div id="mauticform_newslettersignup2023_first_name" data-validate="first_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
-                                    <label id="mauticform_label_newslettersignup2023_first_name" for="mauticform_input_newslettersignup2023_first_name" class="mauticform-label">First name</label>
-                                    <input id="mauticform_input_newslettersignup2023_first_name" name="mauticform[first_name]" value="" class="mauticform-input" type="text">
-                                    <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                                </div>
-
-                                <div id="mauticform_newslettersignup2023_last_name" data-validate="last_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-3 mauticform-required">
-                                    <label id="mauticform_label_newslettersignup2023_last_name" for="mauticform_input_newslettersignup2023_last_name" class="mauticform-label">Last Name</label>
-                                    <input id="mauticform_input_newslettersignup2023_last_name" name="mauticform[last_name]" value="" class="mauticform-input" type="text">
-                                    <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                                </div>
-                                <div class="mauticform-row">
-                                    <button type="submit" name="mauticform[submit]" id="mauticform_input_newslettersignup2023_submit" value="" class="mauticform-button btn btn-default">Submit</button>
-                                </div>
-
-                                <input type="hidden" name="mauticform[formId]" id="mauticform_newslettersignup2023_id" value="9">
-                                <input type="hidden" name="mauticform[return]" id="mauticform_newslettersignup2023_return" value="">
-                                <input type="hidden" name="mauticform[formName]" id="mauticform_newslettersignup2023_name" value="newslettersignup2023">
+                        <div id="mauticform_newslettersignup2023_email" data-validate="email"
+                            data-validation-type="email"
+                            class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
+                            <label id="mauticform_label_newslettersignup2023_email"
+                                for="mauticform_input_newslettersignup2023_email" class="mauticform-label">Email</label>
+                            <input id="mauticform_input_newslettersignup2023_email" name="mauticform[email]" value=""
+                                class="mauticform-input" type="email">
+                            <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                         </div>
+
+                        <div id="mauticform_newslettersignup2023_first_name" data-validate="first_name"
+                            data-validation-type="text"
+                            class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
+                            <label id="mauticform_label_newslettersignup2023_first_name"
+                                for="mauticform_input_newslettersignup2023_first_name" class="mauticform-label">First
+                                name</label>
+                            <input id="mauticform_input_newslettersignup2023_first_name" name="mauticform[first_name]"
+                                value="" class="mauticform-input" type="text">
+                            <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                        </div>
+
+                        <div id="mauticform_newslettersignup2023_last_name" data-validate="last_name"
+                            data-validation-type="text"
+                            class="mauticform-row mauticform-text mauticform-field-3 mauticform-required">
+                            <label id="mauticform_label_newslettersignup2023_last_name"
+                                for="mauticform_input_newslettersignup2023_last_name" class="mauticform-label">Last
+                                Name</label>
+                            <input id="mauticform_input_newslettersignup2023_last_name" name="mauticform[last_name]"
+                                value="" class="mauticform-input" type="text">
+                            <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                        </div>
+                        <div class="mauticform-row">
+                            <button type="submit" name="mauticform[submit]"
+                                id="mauticform_input_newslettersignup2023_submit" value=""
+                                class="mauticform-button btn btn-default">Submit</button>
+                        </div>
+
+                        <input type="hidden" name="mauticform[formId]" id="mauticform_newslettersignup2023_id"
+                            value="9">
+                        <input type="hidden" name="mauticform[return]" id="mauticform_newslettersignup2023_return"
+                            value="">
+                        <input type="hidden" name="mauticform[formName]" id="mauticform_newslettersignup2023_name"
+                            value="newslettersignup2023">
+                    </div>
                 </form>
                 <span class="text-14"><i>By subscribing to our newsletter you accept our <a
                             href="<?php echo home_url(); ?>/privacy-policy">privacy policy</a></i></span>
             </div>
-        
+
         </div>
 
         <div class="footer-social flex gap-20">
@@ -192,7 +213,7 @@
 <!-- about-us carousel / HOME -->
 <?php if( is_page_template('about-us.php') ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/timeline-carousel.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/testimonialscarousel.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/teamcarousel.js"></script>
 <?php endif;?>
 
 

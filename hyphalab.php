@@ -134,7 +134,7 @@
                 <div class="generic-card">
                     <div class="wrappo">
                         <div class="fake-label">Details</div>
-                        <p>his badge grants you the ability to utilize your consulting skills on DAO Consulting
+                        <p>This badge grants you the ability to utilize your consulting skills on DAO Consulting
                             projects overseen by Hypha DAO. You will receive compensation based on the Hypha
                             Consultant rate card as a combination of fiat and Hypha tokens, and you will become part
                             of the Hypha delivery team for strategic projects involving Hypha’s DAO and Ecosystem.
