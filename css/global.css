@@ -887,10 +887,12 @@ header#header nav .sub-menu li.current-menu-item a {
     border-radius:20px;
     transition-duration:.3s;
     text-align: center;
+    cursor:grab;
 
 }
 
-a .dao-card .wrap {
+a .dao-card .wrap,
+.dao-card .wrap {
     color:var(--white);
 }
 
@@ -928,6 +930,9 @@ a .dao-card .wrap {
 
 .daologos {
     width:74px!important;
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 
