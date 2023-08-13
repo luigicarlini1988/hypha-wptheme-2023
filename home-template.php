@@ -29,14 +29,10 @@
             <div class="resp-logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg" />
             </div>
-            <div class="col-8 flex align-center">
+            <div class="col-full flex align-center">
                 <div class="text-opening">
-                    <p class="title-big">Achieve more, <span class="text-gradient">together</span></p>
-                    <p class="white text-20">Create human-centered organizations leveraging collective and
-                        transparent
-                        tools
-                        for
-                        greater engagement and outcomes for all</p>
+                    <p class="title-giga">Achieve more, together</p>
+                    <p class="light-blu text-28">Participate in a global impact collaboration network</p>
                     <div class="buttons gap-20 wrap">
                         <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
                         <a href="#opening" class="button secondary">Learn More</a>
@@ -44,7 +40,7 @@
                 </div>
             </div>
 
-            <div id="open-intro-vid" class="bottom-head-video">
+            <!--<div id="open-intro-vid" class="bottom-head-video">
                 <div class="vider">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/video-snap.jpg" />
                     <div class="play-icon">
@@ -52,7 +48,7 @@
                     </div>
                 </div>
                 <div class="video-texter">Play "intro to Hypha"</div>
-            </div>
+            </div>-->
         </div>
     </section>
 
@@ -141,9 +137,8 @@
                 <div class="icon big">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/measure.svg" />
                 </div>
-                <p class="text-24 bold white">Measure Impact</p>
-                <p>Through the open and transparent use of token-based measures, gain a reliable means of tracing
-                    impact.</p>
+                <p class="text-24 bold white">Measure impact over time and across teams</p>
+                <p>Gain a reliable means of tracing impact with the benefits blockchain technology.</p>
             </div>
         </div>
     </section>

@@ -19,7 +19,8 @@
 }
 
 .home-header .area,
-.home-header .area .col-8 {
+.home-header .area .col-8,
+.home-header .area .col-full {
     min-height:100svh;
 }
 
@@ -100,8 +101,8 @@
   }
 
   .pin2 {
-    top:280px;
-    right:300px;
+    top:220px;
+    right:260px;
     animation-delay: .2s;
   }
 
@@ -134,6 +135,20 @@
     top:700px;
     right:610px;
     animation-delay: 1.2s;
+  }
+
+  .text-opening {
+    position: relative;
+    z-index:4;
+    padding-top:90px;
+  }
+
+  .text-opening .title-giga {
+    margin-bottom:16px;
+  }
+
+  .text-opening .buttons {
+    margin-top:70px;
   }
 
   /* video intro to hypha */
@@ -908,3 +923,4 @@
   background:var(--light-blu);
   margin-left:2px;
 }
+
