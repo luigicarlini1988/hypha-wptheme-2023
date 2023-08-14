@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: get-started-developer
+ * Template Name: Get Started Developers
  *
  */
 

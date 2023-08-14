@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: use-cases
+ * Template Name: Use Cases
  *
  */
 

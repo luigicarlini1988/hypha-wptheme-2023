@@ -220,6 +220,7 @@
 <!-- Global Animations Js / News / pricing plans / education / archives / Group (CPT Category) / About us / Use Cases aggregative -->
 <?php if( is_page_template('hypha-news.php')  
 || is_page_template('generic-page.php')
+|| is_page_template('redirect-post-beta.php')
 || is_page_template('lead-form.php') 
 || is_page_template('newsletter-sub.php') 
 || is_page_template('get-started.php')  

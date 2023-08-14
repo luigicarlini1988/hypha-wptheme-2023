@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: hyphalab
+ * Template Name: Hyphalab
  *
  */
 

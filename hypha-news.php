@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: hypha-news
+ * Template Name: Hypha News
  *
  */
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: hypha-education
+ * Template Name: Hypha Education
  *
  */
 

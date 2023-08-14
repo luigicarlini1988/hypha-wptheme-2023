@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: get-started-join
+ * Template Name: Get Started Join
  *
  */
 

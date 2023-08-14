@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: pricing-developer
+ * Template Name: Pricing Developer
  *
  */
 

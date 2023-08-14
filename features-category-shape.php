@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: features-category-shape
+ * Template Name: Features Category Shape
  *
  */
 
@@ -11,7 +11,7 @@
     <section class="features-hero single-feature">
         <div class="area flex gap-20 align-bottom">
             <div class="icon faeture-icon-big">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" />
             </div>
             <div class=" resp-logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg" />
@@ -22,7 +22,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" />
                     </div>
                     <div class="breadcrumbs">
-                        <a href="<?php echo home_url(); ?>/features/">Features</a> 
+                        <a href="<?php echo home_url(); ?>/features/">Features</a>
                         <a href="<?php echo home_url(); ?>/features/<?php
                             $terms = get_the_terms( $post->ID , 'group' );
                             

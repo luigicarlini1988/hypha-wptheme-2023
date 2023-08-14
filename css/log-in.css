@@ -226,3 +226,25 @@ body.login input[type=checkbox]:checked:before {
 body.login .privacy-policy-page-link {
   display:none;
 }
+
+
+.login h1.admin-email__heading {
+  color:var(--white);
+}
+
+body.login .admin-email-confirm-form a {
+  color:var(--light-blu);
+}
+
+body.login .wp-core-ui .button-primary {
+  color:var(--gradient);
+  border:none;
+}
+
+.wp-core-ui .button {
+    color: var(--white);
+    border-color: #2271b1;
+    background: var(--lb-transp);
+    vertical-align: top;
+    border: none;
+}

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: get-started-create
+ * Template Name: Get Started Create
  *
  */
 

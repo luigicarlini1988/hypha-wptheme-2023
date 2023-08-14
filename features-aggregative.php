@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: features-aggregative
+ * Template Name: Features Aggregative
  *
  */
 

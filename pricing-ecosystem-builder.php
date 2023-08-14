@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: pricing-ecosystem-builder
+ * Template Name: Pricing Ecosystem Builder
  *
  */
 

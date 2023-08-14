@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: pricing-dao-builder
+ * Template Name: Pricing DAO builder
  *
  */
 
