@@ -74,7 +74,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/news.svg" />
                     </div>
 
-                    <p class="subtitle">Get Staretd Today</p>
+                    <p class="subtitle">Get Started Today</p>
                 </div>
                 <p class="title-big">Get Started</p>
                 <p class="text-24 light-blu">Get in touch with us to share your project vision and activate the

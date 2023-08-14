@@ -384,7 +384,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/news.svg" />
                     </div>
 
-                    <p class="subtitle">Get Staretd Today</p>
+                    <p class="subtitle">Get Started Today</p>
                 </div>
                 <p class="title-big">Start For Free</p>
                 <p class="text-24 light-blu">The plans payment & activation<br /> happens directly inside your DAO!
