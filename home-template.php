@@ -138,7 +138,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/measure.svg" />
                 </div>
                 <p class="text-24 bold white">Measure impact over time and across teams</p>
-                <p>Gain a reliable means of tracing impact with the benefits blockchain technology.</p>
+                <p>Gain a reliable means of tracing impact with the benefits of blockchain technology.</p>
             </div>
         </div>
     </section>
@@ -191,7 +191,7 @@
                         <p class="text-20">Transform your vision into a reality using Hypha's organizational features.
                             Easily define and launch your DAO, putting you in control of shaping your success story.</p>
                         <div class="buttons flex gap-20">
-                            <a id="featureDisplay1" href="<?php echo home_url(); ?>/features/shape-your-organisation/"
+                            <a id="featureDisplay1" href="<?php echo home_url(); ?>/features/shape-your-organization/"
                                 class="button primary">Learn More</a>
                             <a href="<?php echo home_url(); ?>/features/" class="button secondary">All Features</a>
                         </div>
@@ -232,14 +232,14 @@
 
                             <h2 class="subtitle">Financial Features</h2>
                         </div>
-                        <p class="title-big">Recognise <br /> and Reward</p>
+                        <p class="title-big">Recognize <br /> and Reward</p>
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
                         <p class="text-20">Manage your finances confidently and transparently with Hypha’s Financial
-                            Features. Experience revolutionary ways to recognize and reward members ’efforts.</p>
+                            Features. Experience revolutionary ways to recognize and reward members efforts.</p>
                         <div class="buttons flex gap-20">
-                            <a id="featureDisplay3" href="<?php echo home_url(); ?>/features/recognise-and-reward/"
+                            <a id="featureDisplay3" href="<?php echo home_url(); ?>/features/recognize-and-reward/"
                                 class="button primary">Learn More</a>
                             <a href="<?php echo home_url(); ?>/features/" class="button secondary">All Features</a>
                         </div>
@@ -539,7 +539,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/img/backgrounds/audience.jpg" />
         </div>
         <div class="area with-titles gap-20 flex align-bottom">
-            <div class="col-half">
+            <div class="col-5">
                 <div class="sub-section flex align-center">
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/circles.svg" />
@@ -550,10 +550,10 @@
                 <p class="title-medium">Start your transformation, today</p>
             </div>
 
-            <div class="col-half">
+            <div class="col-7">
                 <p class="text-20">
-                    Unleash your success: Discover our customizable use cases and transform your project with Hypha's
-                    Toolkit!
+                    Unleash your success: Discover some of Hypha's customizable use cases and learn how to transform
+                    your project with Hypha's Organizational Toolkit! More use cases to come - stay tuned!'
                 </p>
 
             </div>

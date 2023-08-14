@@ -143,7 +143,7 @@
                     array(
                        'taxonomy' => 'group',
                        'field' => 'slug',
-                       'terms' => 'shape-your-organisation'
+                       'terms' => 'shape-your-organization'
                    ),
                 ),
                 'post_status' => 'publish',

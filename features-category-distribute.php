@@ -145,7 +145,7 @@
                     array(
                        'taxonomy' => 'group',
                        'field' => 'slug',
-                       'terms' => 'recognise-and-reward'
+                       'terms' => 'recognize-and-reward'
                    ),
                 ),
                 'post_status' => 'publish',
