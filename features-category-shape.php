@@ -117,6 +117,21 @@
                 </div>
                 <?php endif; ?>
 
+                <?php if( get_field('gallery_image_4') ): ?>
+                <div class="feature-carusel-item">
+
+                    <div class="carousel-image">
+                        <img src="<?php the_field('gallery_image_4') ?>" />
+                    </div>
+                    <div class="carousel-text">
+                        <p class="white text-18 bold"><?php the_field('gallery_title_4') ?></p>
+                        <p class="text-16"><?php the_field('gallery_content_4') ?></p>
+
+                    </div>
+
+                </div>
+                <?php endif; ?>
+
             </div>
     </section>
 
