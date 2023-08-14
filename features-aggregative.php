@@ -21,8 +21,7 @@
                     </div>
                     <h1 class="subtitle">Features</h1>
                 </div>
-                <p class="title-big">The best tools to <br />
-                    build your DAO</p>
+                <p class="title-big">The Best Tools to Reach Your Team’s Potential</p>
                 <img class="resp-image"
                     src="<?php echo get_template_directory_uri(); ?>/img/features/DAO-outline.png" />
 
@@ -63,10 +62,11 @@
                 <div class="feature-carusel-item">
 
                     <div class="carousel-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/features/dao-mock.png" />
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/img/features/carousels/main-dashboard.png" />
                     </div>
                     <div class="carousel-text">
-                        <p class="white text-18 bold">Main Dashboard</p>
+                        <p class="white text-18 bold">Home Dashboard</p>
                         <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -78,10 +78,11 @@
                 <div class="feature-carusel-item">
 
                     <div class="carousel-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/features/dao-mock.png" />
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/img/features/carousels/main-proposals.png" />
                     </div>
                     <div class="carousel-text">
-                        <p class="white text-18 bold">Main Dashboard</p>
+                        <p class="white text-18 bold">Proposals Dashboard</p>
                         <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -93,10 +94,43 @@
                 <div class="feature-carusel-item">
 
                     <div class="carousel-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/features/dao-mock.png" />
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/img/features/carousels/main-members.png" />
                     </div>
                     <div class="carousel-text">
-                        <p class="white text-18 bold">Main Dashboard</p>
+                        <p class="white text-18 bold">Members Dashboard</p>
+                        <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    </div>
+
+                </div>
+
+                <div class="feature-carusel-item">
+
+                    <div class="carousel-image">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/img/features/carousels/main-organisation.png" />
+                    </div>
+                    <div class="carousel-text">
+                        <p class="white text-18 bold">Organization Dashboard</p>
+                        <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    </div>
+
+                </div>
+
+                <div class="feature-carusel-item">
+
+                    <div class="carousel-image">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/img/features/carousels/main-explore.png" />
+                    </div>
+                    <div class="carousel-text">
+                        <p class="white text-18 bold">Explore Dashboard</p>
                         <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
