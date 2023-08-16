@@ -1749,6 +1749,49 @@ textarea {
     font-size: 14px;
 }
 
+input[type='checkbox'] {
+
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--lb-transp-3);
+    border-radius:2px;
+    display:grid;
+    place-content: center;
+}
+
+input[type='checkbox']:before {
+    width: 18px;
+    height: 18px;
+    transform: scale(0);
+    content:"";
+    background:var(--light-blu);
+    transition: 120ms transform ease-in-out;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+
+  .mauticform-checkboxgrp-row.flex {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+.mauticform-checkboxgrp-row.flex input[type='checkbox'] {
+    width: 32px!important;
+    height: 32px!important;
+    margin-right: 10px;
+    margin-left: 0;
+    padding: 0;
+    aspect-ratio: 1/1;
+}
+
+.mauticform-errormsg {
+    font-style: italic;
+    font-size: 12px;
+    color: var(--white);
+}
+
 
 
 .footer-bottom {
