@@ -148,10 +148,11 @@
                                             required.</span>
                                     </div>
 
-                                    <div class="wrap-area half">
-                                        <span class="text-12">By sending us a message you agree to our <a href="#"
-                                                class="light-blu">Privacy
-                                                Policy</a></span>
+                                    <div id="mauticform_hyphalabdevelopers_privacy_consent" data-validate="privacy_consent" data-validation-type="checkboxgrp" class="wrap-area half">
+                                        <div class="mauticform-checkboxgrp-row flex"> <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_consent][]" id="mauticform_checkboxgrp_checkbox_privacy_consent_Agree0" type="checkbox" value="Agree">
+                                            <span class="text-12">By submitting this form you agree to our <a href="<?php echo home_url(); ?>/privacy-policy/" target="_blank" class="light-blu">Privacy Policy</a></span>
+                                        </div>
+                                        <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
                                     <div id="mauticform_hyphalabdevelopers_submit" class="wrap-area half">
