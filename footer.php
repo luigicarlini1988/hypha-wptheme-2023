@@ -87,38 +87,50 @@
                     <div class="mauticform-error" id="mauticform_newslettersignup2023_error"></div>
                     <div class="mauticform-message" id="mauticform_newslettersignup2023_message"></div>
                     <div class="mauticform-innerform">
+                        <div class="pre-button">
+                            <div class="pre-checkbox">
+                                <div id="mauticform_newslettersignup2023_email" data-validate="email"
+                                    data-validation-type="email"
+                                    class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
+                                    <label id="mauticform_label_newslettersignup2023_email"
+                                        for="mauticform_input_newslettersignup2023_email" class="mauticform-label">Email</label>
+                                    <input id="mauticform_input_newslettersignup2023_email" name="mauticform[email]" value=""
+                                        class="mauticform-input" type="email">
+                                    <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                                </div>
 
-                        <div id="mauticform_newslettersignup2023_email" data-validate="email"
-                            data-validation-type="email"
-                            class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
-                            <label id="mauticform_label_newslettersignup2023_email"
-                                for="mauticform_input_newslettersignup2023_email" class="mauticform-label">Email</label>
-                            <input id="mauticform_input_newslettersignup2023_email" name="mauticform[email]" value=""
-                                class="mauticform-input" type="email">
-                            <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                                <div id="mauticform_newslettersignup2023_first_name" data-validate="first_name"
+                                    data-validation-type="text"
+                                    class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
+                                    <label id="mauticform_label_newslettersignup2023_first_name"
+                                        for="mauticform_input_newslettersignup2023_first_name" class="mauticform-label">First
+                                        name</label>
+                                    <input id="mauticform_input_newslettersignup2023_first_name" name="mauticform[first_name]"
+                                        value="" class="mauticform-input" type="text">
+                                    <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                                </div>
+
+                                <div id="mauticform_newslettersignup2023_last_name" data-validate="last_name"
+                                    data-validation-type="text"
+                                    class="mauticform-row mauticform-text mauticform-field-3 mauticform-required">
+                                    <label id="mauticform_label_newslettersignup2023_last_name"
+                                        for="mauticform_input_newslettersignup2023_last_name" class="mauticform-label">Last
+                                        Name</label>
+                                    <input id="mauticform_input_newslettersignup2023_last_name" name="mauticform[last_name]"
+                                        value="" class="mauticform-input" type="text">
+                                    <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                                </div>
+                            </div>
+
+                            <div id="mauticform_newslettersignup2023_privacy_consent" data-validate="privacy_consent" data-validation-type="checkboxgrp" class="wrap-area full checkbo">
+
+                                <div class="mauticform-checkboxgrp-row flex"> <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_consent][]" id="mauticform_checkboxgrp_checkbox_privacy_consent_Agree0" type="checkbox" value="Agree">
+                                    <span class="text-12">By submitting this form you agree to our <a href="<?php echo home_url(); ?>/privacy-policy/" target="_blank" class="light-blu">Privacy Policy</a></span>
+                                </div>
+                                <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                            </div>
                         </div>
 
-                        <div id="mauticform_newslettersignup2023_first_name" data-validate="first_name"
-                            data-validation-type="text"
-                            class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
-                            <label id="mauticform_label_newslettersignup2023_first_name"
-                                for="mauticform_input_newslettersignup2023_first_name" class="mauticform-label">First
-                                name</label>
-                            <input id="mauticform_input_newslettersignup2023_first_name" name="mauticform[first_name]"
-                                value="" class="mauticform-input" type="text">
-                            <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                        </div>
-
-                        <div id="mauticform_newslettersignup2023_last_name" data-validate="last_name"
-                            data-validation-type="text"
-                            class="mauticform-row mauticform-text mauticform-field-3 mauticform-required">
-                            <label id="mauticform_label_newslettersignup2023_last_name"
-                                for="mauticform_input_newslettersignup2023_last_name" class="mauticform-label">Last
-                                Name</label>
-                            <input id="mauticform_input_newslettersignup2023_last_name" name="mauticform[last_name]"
-                                value="" class="mauticform-input" type="text">
-                            <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                        </div>
                         <div class="mauticform-row">
                             <button type="submit" name="mauticform[submit]"
                                 id="mauticform_input_newslettersignup2023_submit" value=""
@@ -133,8 +145,7 @@
                             value="newslettersignup2023">
                     </div>
                 </form>
-                <span class="text-14"><i>By subscribing to our newsletter you accept our <a
-                            href="<?php echo home_url(); ?>/privacy-policy">privacy policy</a></i></span>
+
             </div>
 
         </div>

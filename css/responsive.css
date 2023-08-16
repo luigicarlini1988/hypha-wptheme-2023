@@ -1163,6 +1163,16 @@
         margin-top: 30px;
     }
 
+    footer form .pre-button {
+        width:100%;
+    }
+
+    footer form .pre-checkbox {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
     #news br {
         display:none;
     }

@@ -1652,6 +1652,24 @@ footer form .mauticform-message {
     transform: translateY(14px);
 }
 
+footer form .pre-button{
+    min-width: 75%;
+}
+
+footer form .pre-checkbox {
+    display: flex;
+    gap: 20px;
+}
+
+footer form .wrap-area.full.checkbo {
+    margin-top:10px;
+}
+
+footer form .wrap-area.full.checkbo input[type='checkbox'] {
+    width:26px!important;
+    height:26px!important;
+}
+
 
 /* general forms */
 
