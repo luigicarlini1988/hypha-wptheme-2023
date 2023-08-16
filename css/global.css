@@ -1568,11 +1568,14 @@ footer .footer-nav-2 ul li ul li a {
     gap:20px;
 }
 
-.footer-nav-2 ul li ul {
+.footer-nav-2 ul li div {
     width:calc(33.33% - 15px);
+}
+
+.footer-nav-2 ul li ul {
     display: flex;
     flex-wrap: wrap;
-    
+    width:100%;
 }
 
 

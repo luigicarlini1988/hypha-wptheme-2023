@@ -18,46 +18,11 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">Features</a>
+                    <li><a href="<?php echo home_url(); ?>/features/">Features</a>
 
-                        <ul>
-                            <li><a href="#">Shape Your DAO</a></li>
-                            <li><a href="#">Templates</a></li>
-                            <li><a href="#">Circles</a></li>
-                            <li><a href="#">Policies</a></li>
-                            <li><a href="#">Branding</a></li>
-                            <li><a href="#">Roles</a></li>
-                            <li><a href="#">Salaries</a></li>
-                            <li><a href="#">DAO Launcher</a></li>
-                            <li><a href="#">Voting</a></li>
-                            <li><a href="#">Ecosystem Launcher</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a href="#">Shape Your DAO</a></li>
-                            <li><a href="#">Templates</a></li>
-                            <li><a href="#">Circles</a></li>
-                            <li><a href="#">Policies</a></li>
-                            <li><a href="#">Branding</a></li>
-                            <li><a href="#">Roles</a></li>
-                            <li><a href="#">Salaries</a></li>
-                            <li><a href="#">DAO Launcher</a></li>
-                            <li><a href="#">Voting</a></li>
-                            <li><a href="#">Ecosystem Launcher</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a href="#">Shape Your DAO</a></li>
-                            <li><a href="#">Templates</a></li>
-                            <li><a href="#">Circles</a></li>
-                            <li><a href="#">Policies</a></li>
-                            <li><a href="#">Branding</a></li>
-                            <li><a href="#">Roles</a></li>
-                            <li><a href="#">Salaries</a></li>
-                            <li><a href="#">DAO Launcher</a></li>
-                            <li><a href="#">Voting</a></li>
-                            <li><a href="#">Ecosystem Launcher</a></li>
-                        </ul>
+                        <?php wp_nav_menu( array( 'theme_location' => 'shapedao-features-menu' ) ); ?>
+                        <?php wp_nav_menu( array( 'theme_location' => 'members-features-menu' ) ); ?>
+                        <?php wp_nav_menu( array( 'theme_location' => 'reward-features-menu' ) ); ?>
 
                     </li>
                 </ul>

@@ -25,6 +25,10 @@ register_nav_menus(
 	array(
 		'primary'	=>	__( 'Primary Menu', 'naked' ),
 		'menu-footer'	=>	__( 'Footer Menu', 'naked' ),
+		'shapedao-features-menu'	=>	__( 'Shape DAO Features', 'naked' ),
+		'members-features-menu'	=>	__( 'Members Features', 'naked' ),
+		'reward-features-menu'	=>	__( 'Reward Features', 'naked' ),
+		
 		'menu-news'	=>	__( 'News Menu', 'naked' ),
 		'menu-education'	=>	__( 'Education Menu', 'naked' ),
 

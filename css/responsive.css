@@ -1180,6 +1180,10 @@
     .home-header .area .col-full .title-giga {
         font-size:52px;
     }
+
+    .footer-nav-2 ul li div {
+        width: 100%;
+    }
 }
 
 
