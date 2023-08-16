@@ -5,10 +5,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("header").classList.remove('up');
+            document.getElementById("main-ctas").classList.remove('show');
         } if (prevScrollpos < currentScrollPos) {
             document.getElementById("header").classList.add('up');
+            document.getElementById("main-ctas").classList.add('show');
         } if (window.scrollY == 0) {
             document.getElementById("header").classList.remove('up');
+            document.getElementById("main-ctas").classList.remove('show');
         }
         prevScrollpos = currentScrollPos;
     }

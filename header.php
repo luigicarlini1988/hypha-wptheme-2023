@@ -93,30 +93,29 @@
 
 
     <!-- mautic Lead Gen --->
-    
-    <script type="text/javascript">
-    
-            if (typeof MauticSDKLoaded == 'undefined') {
-                var MauticSDKLoaded = true;
-                var head            = document.getElementsByTagName('head')[0];
-                var script          = document.createElement('script');
-                script.type         = 'text/javascript';
-                script.src          = 'https://mautic.hypha.earth/media/js/mautic-form.js?vd5dec697';
-                script.onload       = function() {
-                    MauticSDK.onLoad();
-                };
-                head.appendChild(script);
-                var MauticDomain = 'https://mautic.hypha.earth';
-                var MauticLang   = {
-                    'submittingMessage': "Please wait..."
-                }
-            }else if (typeof MauticSDK != 'undefined') {
-                MauticSDK.onLoad();
-            }
-    </script>
-    
 
-    
+    <script type="text/javascript">
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head = document.getElementsByTagName('head')[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://mautic.hypha.earth/media/js/mautic-form.js?vd5dec697';
+        script.onload = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://mautic.hypha.earth';
+        var MauticLang = {
+            'submittingMessage': "Please wait..."
+        }
+    } else if (typeof MauticSDK != 'undefined') {
+        MauticSDK.onLoad();
+    }
+    </script>
+
+
+
 
 
 </head>
@@ -145,9 +144,6 @@
                 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
             </nav>
         </div>
-        <div class="cta-top-section">
-            <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
-        </div>
 
         <?php if( is_page_template('hypha-news.php') || is_category()  || is_home() || is_single() && (!is_singular( 'educational' )) && (!is_singular( 'feature')) && (!is_singular( 'usecase' ))) :?>
         <div class="news-menu">
@@ -170,3 +166,10 @@
         <?php endif;?>
 
     </header>
+
+    <div id="main-ctas">
+        <div class="flex gap-20 justify-right">
+            <a href="<?php echo home_url(); ?>/newsletter-signup/" class="button secondary">Newsletter</a>
+            <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
+        </div>
+    </div>

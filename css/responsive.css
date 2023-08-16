@@ -851,6 +851,10 @@
     .home-header .area .col-full .title-giga {
         font-size:62px;
     }
+
+    #main-ctas {
+        display:none;
+    }
 }
 
 
