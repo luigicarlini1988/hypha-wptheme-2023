@@ -859,6 +859,15 @@
     .title-giga {
         font-size: 72px;
     }
+
+
+    .new-payoffs {
+        display:none;
+    }
+
+    .resp-payoff {
+        display:block;
+    }
 }
 
 
@@ -1256,6 +1265,10 @@
     .text-opening {
         padding-top:140px;
         padding-bottom:0;
+    }
+
+    .text-opening .buttons {
+        margin-top: 50px;
     }
 
     .home-header .title-big {

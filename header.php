@@ -133,7 +133,7 @@
 
 
 
-    <header id="header" class="flex wrap  align-center">
+    <header id="header" class="flex wrap  align-center only-home-out">
         <div class="area main-nav flex align-center">
             <div class="header-logo">
                 <a href="<?php echo home_url(); ?>">
@@ -169,7 +169,6 @@
 
     <div id="main-ctas">
         <div class="flex gap-20 justify-right">
-            <a href="<?php echo home_url(); ?>/newsletter-signup/" class="button secondary">Newsletter</a>
             <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
         </div>
     </div>

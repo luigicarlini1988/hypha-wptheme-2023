@@ -924,3 +924,97 @@
   margin-left:2px;
 }
 
+
+/* animazioni home */
+
+.new-payoffs {
+  position:relative;
+  height:40px;
+}
+
+.payoffs,
+.payoffs-2,
+.payoffs-3,
+.payoffs-4,
+.payoffs-5,
+.payoffs-6 {
+  opacity:0;
+  position:absolute;
+  top:0;
+  transition-duration: .6s;
+}
+
+
+.achieve {
+  opacity:0;
+  transition-duration: .2s;
+}
+
+.achieve.in, 
+.payoffs.in,
+.payoffs-2.in,
+.payoffs-3.in,
+.payoffs-4.in,
+.payoffs-5.in,
+.payoffs-6.in  {
+  opacity:1;
+
+}
+
+.home-back.filter {
+ 
+  opacity:0;
+  
+}
+
+.home-back {
+  
+  opacity:1;
+  transition-duration: 1s;
+}
+
+
+body.home header.only-home-out {
+  opacity:0;
+}
+
+body.home header {
+  opacity:1;
+}
+
+.text-opening {
+  max-width: 100%;
+}
+
+.text-opening .button {
+  opacity:0;
+}
+
+.text-opening .button.enter {
+  opacity:1;
+}
+
+.text-opening .buttons {
+  transform:scale(.95);
+  transition-duration: .8s;
+  width:max-content;
+  opacity:0;
+  max-width:100%;
+}
+
+.text-opening .buttons.enter {
+  transform:scale(1);
+  opacity:1;
+}
+
+
+.resp-payoff {
+  display:none;
+}
+
+.payoff-resp {
+  opacity:0;
+}
+.payoff-resp.in {
+  opacity:1;
+}

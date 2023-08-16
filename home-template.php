@@ -8,7 +8,7 @@
  ?>
 <main class="dark-theme">
     <section class="home-header">
-        <div class="home-back">
+        <div class="home-back filter">
             <div class="pin-area">
                 <div class="pin pin1"></div>
                 <div class="pin pin2"></div>
@@ -31,8 +31,19 @@
             </div>
             <div class="col-full flex align-center">
                 <div class="text-opening">
-                    <p class="title-giga">Achieve more, together</p>
-                    <p class="light-blu text-28">Participate in a global impact collaboration network</p>
+                    <p class="achieve title-giga">Achieve More, Together</p>
+                    <div class="new-payoffs">
+                        <p class="payoffs light-blu text-28">Harness the power of team-driven decisions</p>
+                        <p class="payoffs-2 light-blu text-28">Incentivize team and community engagement</p>
+                        <p class="payoffs-3 light-blu text-28">Accelerate project launches and scale with ease</p>
+                        <p class="payoffs-4 light-blu text-28">Launch a network of organizations for impact at scale</p>
+                        <p class="payoffs-5 light-blu text-28">Participate in a global impact collaboration network</p>
+                        <p class="payoffs-6 light-blu text-28">Harness the power of team-driven decisions</p>
+                    </div>
+                    <div class="resp-payoff">
+                        <p class="payoff-resp light-blu text-28">Harness the power of team-driven decisions</p>
+                    </div>
+
                     <div class="buttons gap-20 wrap">
                         <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
                         <a href="#opening" class="button secondary">Learn More</a>
@@ -62,9 +73,9 @@
                     </div>
                     <p class="subtitle">Unlimited Pathways for Success</p>
                 </div>
-                <h3 class="title-big">Discover a World of <br />Opportunities with Hypha</h3>
+                <h3 class="anima title-big">Discover a World of <br />Opportunities with Hypha</h3>
 
-                <p class="text-20 light-blu">Experience the transformative capabilities of using Hypha's toolkit to
+                <p class="anima text-20 light-blu">Experience the transformative capabilities of using Hypha's toolkit to
                     achieve remarkable outcomes such as:</span>
                 </p>
             </div>
@@ -153,7 +164,7 @@
 
                     <h2 class="subtitle">Experience the Future of Work, Today.</h2>
                 </div>
-                <h3 class="title-56">DAOs: the best tools to reach your team's full potential</h3>
+                <h3 class="title-56 anima">DAOs: the best tools to reach your team's full potential</h3>
             </div>
 
             <div class="col-half">
@@ -184,7 +195,7 @@
 
                             <h2 class="subtitle">Organizational Features</h2>
                         </div>
-                        <p class="title-big">Shape Your<br /> Organization</p>
+                        <p class="title-big anima">Shape Your<br />Organization</p>
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
@@ -208,7 +219,7 @@
 
                             <h2 class="subtitle">Members Features</h2>
                         </div>
-                        <p class="title-big">Ignite Team Engagement</p>
+                        <p class="title-big anima">Ignite Team Engagement</p>
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
@@ -232,7 +243,7 @@
 
                             <h2 class="subtitle">Financial Features</h2>
                         </div>
-                        <p class="title-big">Recognize <br /> and Reward</p>
+                        <p class="title-big anima">Recognize <br />and Reward</p>
                         <div class="resp-features-home">
                             <img class="f1" src="<?php echo get_template_directory_uri(); ?>/img/shapeyourdao.png" />
                         </div>
