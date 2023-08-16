@@ -254,66 +254,84 @@
 
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
-                                <span>Launcher</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/dao-launcher/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                                    <span>Launcher</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div id="templatesicon" class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/templates.svg" />
-                                <span>Templates</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/templates/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/templates.svg" />
+                                    <span>Templates</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/policies.svg" />
-                                <span>Policies</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/policies/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/policies.svg" />
+                                    <span>Policies</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/settings.svg" />
-                                <span>Voting</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/voting/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/settings.svg" />
+                                    <span>Voting</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div id="circlesicon" class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/circles.svg" />
-                                <span>Circles</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/circles/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/circles.svg" />
+                                    <span>Circles</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
-                                <span>Roles</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/roles/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
+                                    <span>Roles</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/ecosystem.svg" />
-                                <span>Ecosystem</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/ecosystem/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/ecosystem.svg" />
+                                    <span>Ecosystem</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/salaries.svg" />
-                                <span>Salaries</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/reward-tiers/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/salaries.svg" />
+                                    <span>RewardTiers</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/branding.svg" />
-                                <span>Branding</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/branding/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/branding.svg" />
+                                    <span>Branding</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div id="f-lines-1">
@@ -329,70 +347,86 @@
 
                     <div id="featureset2" class="flex gap-20 wrap">
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/assignments.svg" />
-                                <span>Assignments</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/assignments/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/assignments.svg" />
+                                    <span>Assignments</span>
+                                </div>
+                            </a>
                         </div>
 
 
 
                         <div id="profileicon" class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
-                                <span>Profiles</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/profile/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
+                                    <span>Profiles</span>
+                                </div>
+                            </a>
                         </div>
 
 
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/wallet.svg" />
-                                <span>Wallet</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/wallet/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/wallet.svg" />
+                                    <span>Wallet</span>
+                                </div>
+                            </a>
                         </div>
 
 
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/quests.svg" />
-                                <span>Quests</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/quests/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/quests.svg" />
+                                    <span>Quests</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/badges.svg" />
-                                <span>Badges</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/badges/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/badges.svg" />
+                                    <span>Badges</span>
+                                </div>
+                            </a>
                         </div>
 
 
 
                         <div id="communityicon" class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/community.svg" />
-                                <span>Community</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/community/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/community.svg" />
+                                    <span>Community</span>
+                                </div>
+                            </a>
                         </div>
 
 
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/election.svg" />
-                                <span>Elections</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/elections/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/election.svg" />
+                                    <span>Elections</span>
+                                </div>
+                            </a>
                         </div>
 
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/polls.svg" />
-                                <span>Polls</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/polls/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/polls.svg" />
+                                    <span>Polls</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div id="f-lines-3">
@@ -406,46 +440,60 @@
                     </div> <!-- end second iconset-->
 
                     <div id="featureset3" class="flex gap-20 wrap">
+
                         <div id="treasuryicon" class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/treasury.svg" />
-                                <span>Treasury</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/treasury/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/treasury.svg" />
+                                    <span>Treasury</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div id="payoutsicon" class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/payouts.svg" />
-                                <span>Payouts</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/payouts/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/payouts.svg" />
+                                    <span>Payouts</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/multisig.svg" />
-                                <span>Multi-sig</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/multi-sig/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/multisig.svg" />
+                                    <span>Multi-sig</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/utility-token.svg" />
-                                <span>Utility Token</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/utility-token/">
+                                <div class="flex wrap justify-center">
+                                    <img
+                                        src="<?php echo get_template_directory_uri(); ?>/img/icons/utility-token.svg" />
+                                    <span>Utility Token</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/voice-token.svg" />
-                                <span>Voice Token</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/voice-token/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/voice-token.svg" />
+                                    <span>Voice Token</span>
+                                </div>
+                            </a>
                         </div>
 
                         <div class="icon medium clickable">
-                            <div class="flex wrap justify-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/cash.svg" />
-                                <span>Cash Token</span>
-                            </div>
+                            <a href="<?php echo home_url(); ?>/features-details/cash-token/">
+                                <div class="flex wrap justify-center">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/cash.svg" />
+                                    <span>Cash Token</span>
+                                </div>
+                            </a>
                         </div>
 
 

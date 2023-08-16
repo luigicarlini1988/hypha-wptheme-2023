@@ -512,12 +512,24 @@ form button:hover {
     padding:12px 4px;
     transition-duration: .3s;
     margin-bottom:16px;
+    position:relative;
 }
 
 .fake-features-button p {
     margin:0;
     transition-duration: .3s;
     font-size:14px;
+}
+
+.fake-features-button.cs:after {
+    position:absolute;
+    content:"";
+    background-image:url('../img/icons/time.svg');
+    right:6px;
+    top:6px;
+    width:12px;
+    height:12px;
+    background-size:100%;
 }
 
 .fake-features-button img {

@@ -741,6 +741,9 @@
         width:calc(33.33% - 15px);
     }
 
+
+    
+
     .feat-top {
         display:none;
     }
@@ -1535,6 +1538,8 @@
         width:calc(50% - 10px);
     }
 
+   
+
     .faeture-icon-big {
         position: absolute;
         right: auto;
@@ -1555,4 +1560,8 @@
         font-size:13px;
         font-weight:600;
     }
+
+    .feature-list .col-3 {
+        width:calc(100%);
+    } 
 }

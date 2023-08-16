@@ -40,12 +40,14 @@
                     </div>
                 </div>
                 <h1 class="title-big"><?php the_title();  ?></h1>
-
+                <?php if( get_field('feature_short_description') ): ?>
                 <p class="text-28 light-blu"><?php the_field('feature_short_description') ?></p>
-
+                <?php endif;?>
             </div>
             <div class="col-half">
+                <?php if( get_field('feature_additional_description') ): ?>
                 <p class="text-18"><?php the_field('feature_additional_description') ?></p>
+                <?php endif;?>
             </div>
         </div>
     </section>
@@ -105,9 +107,10 @@
     </section>
     <?php endif; ?>
 
-    <?php if( get_field('additional_detail_title') ): ?>
+
     <section class="feature-details">
-        <div class="area flex gap-50 align-center area-spacer">
+        <?php if( get_field('additional_detail_1_image') ): ?>
+        <div id="anchor1" class="area flex gap-50 align-center area-spacer">
             <div class="col-half">
                 <p class="subtitle"><?php the_field('additional_detail_pretitle') ?></p>
                 <h3 class="title-medium"><?php the_field('additional_detail_title') ?></h3>
@@ -117,10 +120,11 @@
                 <img class="feature-detail-image" src="<?php the_field('additional_detail_1_image') ?>" />
             </div>
         </div>
+        <?php endif; ?>
 
-        <?php if( get_field('additional_detail_title_2') ): ?>
 
-        <div class="area flex gap-50 align-center area-spacer">
+        <?php if( get_field('additional_detail_2_image') ): ?>
+        <div id="anchor2" class="area flex gap-50 align-center area-spacer">
             <div class="col-half">
                 <p class="subtitle"><?php the_field('additional_detail_pretitle_2') ?></p>
                 <h3 class="title-medium"><?php the_field('additional_detail_title_2') ?></h3>
@@ -130,12 +134,12 @@
                 <img class="feature-detail-image" src="<?php the_field('additional_detail_2_image') ?>" />
             </div>
         </div>
-
         <?php endif; ?>
 
-        <?php if( get_field('additional_detail_title_3') ): ?>
 
-        <div class="area flex gap-50 align-center area-spacer">
+
+        <?php if( get_field('additional_detail_3_image') ): ?>
+        <div id="anchor3" class="area flex gap-50 align-center area-spacer">
             <div class="col-half">
                 <p class="subtitle"><?php the_field('additional_detail_pretitle_3') ?></p>
                 <h3 class="title-medium"><?php the_field('additional_detail_title_3') ?></h3>
@@ -146,8 +150,9 @@
             </div>
         </div>
         <?php endif; ?>
+
     </section>
-    <?php endif; ?>
+
 
 
 
