@@ -855,6 +855,10 @@
     #main-ctas {
         display:none;
     }
+
+    .title-giga {
+        font-size: 72px;
+    }
 }
 
 

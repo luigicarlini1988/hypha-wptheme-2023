@@ -667,7 +667,7 @@ body.logged-in header {
 }
 
 body.logged-in header.up {
-    top:-48px;
+    top:-125px;
 }
 
 header {
@@ -687,7 +687,7 @@ header .main-nav {
 }
 
 header.up {
-    top:-80px;
+    top:-125px;
 }
 
 
