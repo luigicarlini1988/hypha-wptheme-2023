@@ -75,8 +75,7 @@
                 </div>
                 <h3 class="anima title-big">Discover a World of <br />Opportunities with Hypha</h3>
 
-                <p class="anima text-20 light-blu">Experience the transformative capabilities of using Hypha's toolkit to
-                    achieve remarkable outcomes such as:</span>
+                <p class="anima text-20 light-blu">Experience the transformative capabilities of using Hypha's toolkit to achieve remarkable outcomes such as:</span>
                 </p>
             </div>
         </div>

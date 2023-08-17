@@ -85,7 +85,7 @@
 
 @keyframes pulse {
     from {
-      opacity:50%;
+      opacity:20%;
       transform: scale(.6);
     }
   
@@ -109,32 +109,32 @@
   .pin3 {
     top:140px;
     right:520px;
-    animation-delay: .4s;
+    animation-delay: .6s;
   }
 
 
   .pin4 {
     top:480px;
     right:240px;
-    animation-delay: .6s;
+    animation-delay: 1s;
   }
 
   .pin5 {
     top:580px;
     right:440px;
-    animation-delay: .8s;
+    animation-delay: 1.4s;
   }
 
   .pin6 {
     top:680px;
     right:200px;
-    animation-delay: 1s;
+    animation-delay: 1.8s;
   }
 
   .pin7 {
     top:700px;
     right:610px;
-    animation-delay: 1.2s;
+    animation-delay: 2.2s;
   }
 
   .text-opening {
