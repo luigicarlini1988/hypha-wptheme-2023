@@ -868,6 +868,10 @@
     .resp-payoff {
         display:block;
     }
+
+    #payoff-controller {
+        display:none;
+    }
 }
 
 

@@ -29,6 +29,13 @@
             <div class="resp-logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg" />
             </div>
+            <div id="payoff-controller">
+                <div id="pc-1"><span></span></div>
+                <div id="pc-2"><span></span></div>
+                <div id="pc-3"><span></span></div>
+                <div id="pc-4"><span></span></div>
+                <div id="pc-5"><span></span></div>
+            </div>
             <div class="col-full flex align-center">
                 <div class="text-opening">
                     <p class="achieve title-giga">Achieve More, Together</p>
