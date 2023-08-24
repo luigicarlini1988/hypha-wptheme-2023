@@ -50,8 +50,7 @@
             </div>
 
             <div class="col-half">
-                <p class="text-20">Easily stay on top of everything happening in your organization via overviews
-                    covering active proposals, member profiles, voting settings, and more.</p>
+                <p class="text-20">Easily stay on top of everything happening in your DAO via overviews covering active proposals, member profiles, voting settings, and more. </p>
 
             </div>
         </div>
@@ -66,9 +65,7 @@
                     </div>
                     <div class="carousel-text">
                         <p class="white text-18 bold">Home Dashboard</p>
-                        <p class="text-16">Welcome home! The Main Dashboard provides a bird's eye overview of your
-                            project, sharing insights on new members, active proposals, agreed assignments, and
-                            more.</p>
+                        <p class="text-16">Welcome home! The Main Dashboard provides you with a birds-eye overview of your project, sharing insights on the number of members, active proposals, agreed policies, and more.</p>
                     </div>
 
                 </div>
@@ -81,10 +78,7 @@
                     </div>
                     <div class="carousel-text">
                         <p class="white text-18 bold">Proposals Dashboard</p>
-                        <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <p class="text-16">Easily navigate your team’s proposals using this dashboard: your starting point for creating, assessing, and voting on all proposals, from work assignments to reporting expenses and more.</p>
                     </div>
 
                 </div>
@@ -97,10 +91,7 @@
                     </div>
                     <div class="carousel-text">
                         <p class="white text-18 bold">Members Dashboard</p>
-                        <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <p class="text-16">Say hello to your fellow team members! Get to know the existing members of your project or organization, and invite new members directly from this dashboard.</p>
                     </div>
 
                 </div>
@@ -113,10 +104,7 @@
                     </div>
                     <div class="carousel-text">
                         <p class="white text-18 bold">Organization Dashboard</p>
-                        <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <p class="text-16">Easily locate all your DAO structural pieces of architecture: badges, circles, policies, payouts and more.</p>
                     </div>
 
                 </div>
@@ -129,10 +117,20 @@
                     </div>
                     <div class="carousel-text">
                         <p class="white text-18 bold">Explore Dashboard</p>
-                        <p class="text-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <p class="text-16">Get to know other like-minded innovators in the Hypha Network with the Explore Dashboard. Network and form collaboration opportunities you won’t find anywhere else!</p>
+                    </div>
+
+                </div>
+
+                <div class="feature-carusel-item">
+
+                    <div class="carousel-image">
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/img/features/carousels/main-settings.png" />
+                    </div>
+                    <div class="carousel-text">
+                        <p class="white text-18 bold">Settings Dashboard</p>
+                        <p class="text-16">With this dashboard, admins can dive deep into their DAO settings. This is the starting place to make key structural decisions, from deciding on DAO tokens, setting up circles (AKA teams), roles, customizing the voting configuration, and more.</p>
                     </div>
 
                 </div>
@@ -154,16 +152,13 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/features.svg" loading="lazy">
                     </div>
 
-                    <h2 class="subtitle">Explore Features by Category</h2>
+                    <h2 class="subtitle">Explore Features One by One</h2>
                 </div>
-                <p class="title-40">Features your competitors will wish they discovered first</p>
+                <p class="title-40">Discover the ultimate DAO solution for your goals</p>
             </div>
 
             <div class="col-half">
-                <p class="text-20 light-blu">
-                    Position your project for success with our customisable, human-centric features. Unlock the benefits
-                    of Hypha’s tools before your competitors!
-                </p>
+                <p class="text-20 light-blu">Launch your DAO with confidence! Discover Hypha’s complete set of features designed to support your success below.</p>
 
             </div>
         </div>
@@ -346,10 +341,7 @@
         </div>
         <div class="area">
             <div class="col-full flex align-center justify-right">
-
-                <img width="18px" style="margin-right:5px"
-                    src="<?php echo get_template_directory_uri(); ?>/img/icons/time.svg" /> = Feature Coming Soon
-
+                <img width="18px" style="margin-right:5px" src="<?php echo get_template_directory_uri(); ?>/img/icons/time.svg" /> = Feature Under Developmnet
             </div>
         </div>
     </section>
