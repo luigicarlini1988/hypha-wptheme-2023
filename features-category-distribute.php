@@ -147,7 +147,7 @@
 
                     <h2 class="subtitle">Explore Features</h2>
                 </div>
-                <p class="text-28 white">Check yout all the features in "<i><?php the_title(); ?></i>"</p>
+                <p class="text-28 white">Check here all the features in "<i><?php the_title(); ?></i>"</p>
             </div>
 
 
