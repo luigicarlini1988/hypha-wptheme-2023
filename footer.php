@@ -257,7 +257,10 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/features-carousel.js"></script>
 <?php endif;?>
 
-<!-- library for text animatins -->
+
+
+<!-- HOME header text animations -->
+<?php if( is_page_template('home-template.php') ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/animatext.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
@@ -267,8 +270,6 @@ $(document).ready(function() {
     });
 });
 </script>
-<!-- HOME header text animations -->
-<?php if( is_page_template('home-template.php') ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/home-text-animations.js"></script>
 <?php endif;?>
 

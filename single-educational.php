@@ -42,12 +42,14 @@
             <div class="col-4">
                 <div class="social-share flex gap-10 align-center justify-right">
                     <p class="white">Share on socials ></p>
+                    <!-- <a href="#" class="share"><img
+                            src="<?php //echo get_template_directory_uri(); ?>/img/icons/twitter.svg" /></a>
                     <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" /></a>
+                            src="<?php //echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
                     <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
-                    <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" /></a>
+                            src="<?php //echo get_template_directory_uri(); ?>/img/icons/facebook.svg" /></a>
+                -->
+                    <?php echo do_shortcode('[Sassy_Social_Share]') ?>
                 </div>
                 <div class="author-top-card">
                     <div class="flex align-center">
@@ -70,12 +72,14 @@
             <div class="col-4">
                 <div class="social-share flex gap-10 align-center justify-right">
                     <p class="white">Share on socials ></p>
+                    <!-- <a href="#" class="share"><img
+                            src="<?php //echo get_template_directory_uri(); ?>/img/icons/twitter.svg" /></a>
                     <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" /></a>
+                            src="<?php //echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
                     <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
-                    <a href="#" class="share"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook.svg" /></a>
+                            src="<?php //echo get_template_directory_uri(); ?>/img/icons/facebook.svg" /></a>
+                -->
+                    <?php echo do_shortcode('[Sassy_Social_Share]') ?>
                 </div>
             </div>
             <?php } ?>
