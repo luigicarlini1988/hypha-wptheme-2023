@@ -194,6 +194,7 @@
             </div>
         </div>
 
+        <?php if( get_field('feature2_name') ): ?>
         <div class="area flex gap-50 align-center area-spacer">
             <div class="col-half">
                 <h2 class="subtitle"><?php the_field('feature2_name') ?></h2>
@@ -205,7 +206,9 @@
                 <img class="feature-detail-image" src="<?php the_field('feature2_image') ?>" />
             </div>
         </div>
+        <?php endif; ?>
 
+        <?php if( get_field('feature3_name') ): ?>
         <div class="area flex gap-50 align-center area-spacer">
             <div class="col-half">
                 <h2 class="subtitle"><?php the_field('feature3_name') ?></h2>
@@ -217,6 +220,7 @@
                 <img class="feature-detail-image" src="<?php the_field('feature3_image') ?>" />
             </div>
         </div>
+        <?php endif; ?>
 
         <?php if( get_field('feature4_name') ): ?>
         <div class="area flex gap-50 align-center area-spacer">
