@@ -252,10 +252,10 @@
                         <p>Voice Token</p>
                     </div>
                 </a>
-                <a href="<?php echo home_url(); ?>/features-details/cash-token/">
+                <a href="<?php echo home_url(); ?>/features-details/payout-token/">
                     <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/cash.svg" />
-                        <p>Cash Token</p>
+                        <p>Payout Token</p>
                     </div>
                 </a>
             </div>
@@ -308,7 +308,7 @@
                     </div>
                 </a>
                 <a href="<?php echo home_url(); ?>/features-details/payouts/">
-                    <div class="fake-features-button cs flex align-center">
+                    <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/payouts.svg" />
                         <p>Payouts</p>
                     </div>

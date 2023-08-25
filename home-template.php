@@ -182,7 +182,7 @@
 
                 <div class="buttons">
 
-                    <a href="#opening" class="button secondary">DAOs vs traditional orgs</a>
+                    <a href="<?php echo home_url(); ?>/educational/10-ways-daos-differ-from-traditional-organizations/" class="button secondary" target="_blank">DAOs vs traditional orgs</a>
                     <a href="<?php echo home_url(); ?>/what-is-a-dao/" target="_blank" class="button primary">What is a
                         DAO</a>
                 </div>
@@ -505,10 +505,10 @@
                         </div>
 
                         <div class="icon medium clickable">
-                            <a href="<?php echo home_url(); ?>/features-details/cash-token/">
+                            <a href="<?php echo home_url(); ?>/features-details/payout-token/">
                                 <div class="flex wrap justify-center">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/cash.svg" />
-                                    <span>Cash Token</span>
+                                    <span>Payout Token</span>
                                 </div>
                             </a>
                         </div>
