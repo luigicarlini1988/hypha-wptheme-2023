@@ -2285,3 +2285,18 @@ span.paragraph2 span {
   transition-duration: .6s;
   position: relative;
 }
+
+/* cookie banner */
+
+.cky-consent-container{
+    opacity:0;
+    transition-duration: .3s;
+
+}
+.cky-consent-bar {
+    box-shadow: 0px 0px 20px var(--lb-transp-hover);
+}
+
+.cky-consent-container.in {
+    opacity:1;
+}

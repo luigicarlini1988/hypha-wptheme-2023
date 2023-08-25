@@ -273,6 +273,16 @@ $(document).ready(function() {
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/home-text-animations.js"></script>
 <?php endif;?>
 
+<!-- animate cookie banner -->
+<script type="text/javascript">
+$(document).ready(function() {
+    setTimeout(() => {
+        $(".cky-consent-container").addClass("in")
+    }, 3000);
+
+});
+</script>
+
 <?php wp_footer();
 // This fxn allows plugins to insert themselves/scripts/css/files (right here) into the footer of your website.
 // Removing this fxn call will disable all kinds of plugins.
