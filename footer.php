@@ -275,7 +275,7 @@ $(document).ready(function() {
 
 <!-- animate cookie banner -->
 <script type="text/javascript">
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     setTimeout(() => {
         $(".cky-consent-container").addClass("in")
     }, 3000);
