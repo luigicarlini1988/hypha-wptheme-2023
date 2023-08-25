@@ -1293,7 +1293,7 @@
     }
 
     .sub-section {
-        transform: translateX(-12px);
+        transform: translateX(0px);
     }
 
     .icon.small {

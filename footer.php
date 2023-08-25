@@ -126,22 +126,22 @@
 
             <div class="col-8 has-social flex gap-20">
                 <div class="col-full">
-                    <a class="fot-soc white text-22" href="#">Twitter <img
+                    <a class="fot-soc white text-22" href="https://twitter.com/HyphaDAO" target="_blank">Twitter <img
                             src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter.svg" /></a>
                     <p>twitter.com/hyphaDAO</p>
                 </div>
                 <div class="col-full">
-                    <a class="fot-soc white text-22" href="#">Linkedin <img
+                    <a class="fot-soc white text-22" href="https://www.linkedin.com/company/hypha-dao/" target="_blank">Linkedin <img
                             src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
                     <p>twitter.com/hyphaDAO</p>
                 </div>
                 <div class="col-full">
-                    <a class="fot-soc white text-22" href="#">Discord <img
+                    <a class="fot-soc white text-22" href="https://discord.com/invite/NsPQAjH9Jw" target="_blank">Discord <img
                             src="<?php echo get_template_directory_uri(); ?>/img/icons/discord.svg" /> </a>
                     <p>twitter.com/hyphaDAO</p>
                 </div>
                 <div class="col-full">
-                    <a class="fot-soc white text-22" href="#">Medium <img
+                    <a class="fot-soc white text-22" href="https://medium.com/hyphadao" target="_blank">Medium <img
                             src="<?php echo get_template_directory_uri(); ?>/img/icons/medium.svg" /></a>
                     <p>twitter.com/hyphaDAO</p>
                 </div>
