@@ -235,3 +235,28 @@
 .generic-card.feat h3 {
     padding-right:40px;
 }
+
+
+/* uniform Cards height */
+
+
+.feature-cpt-list .generic-card,
+.explore-web3 .generic-card,
+.related-features .generic-card {
+    height:100%;
+}
+
+.feature-cpt-list .generic-card .wrappo,
+.explore-web3 .generic-card .wrappo,
+.related-features .generic-card .wrappo {
+    padding-bottom:105px;
+}
+
+.feature-cpt-list .fake-button,
+.explore-web3 .fake-button,
+.related-features .fake-button {
+    position:absolute;
+    bottom:30px;
+    width:calc(100% - 60px);
+    left:30px;
+}

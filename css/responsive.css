@@ -342,6 +342,10 @@
         flex-wrap: wrap;
     }
 
+    .sub-section.flex {
+        flex-wrap: nowrap;
+    }
+
     .col-8,
     .col-7,
     .col-5,
@@ -871,6 +875,26 @@
 
     #payoff-controller {
         display:none;
+    }
+
+    .pdf-hero-top .col-8 {
+        width:calc(100%);
+    }
+    
+    .pdf-hero-top .col-4 {
+        width:calc(100%);
+    }
+
+    .pdf-hero-top .area {
+        padding-top:140px;
+    }
+
+    #summary .area {
+        max-width:100%;
+    }
+
+    .pdf-hero-top .buttons {
+        padding-bottom:50px;
     }
 }
 
@@ -1603,4 +1627,16 @@
     .feature-list .col-3 {
         width:calc(100%);
     } 
+
+    .title-78 {
+        font-size:52px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--light-blu);
+        margin: 0px 0px!important;
+        line-height: 1.2em;
+    }
 }
