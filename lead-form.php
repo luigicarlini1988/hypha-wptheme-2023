@@ -22,7 +22,7 @@
                     </div>
 
                     <div class="breadcrumbs">
-                        <a href="<?php echo home_url(); ?>/hyphalab/">hyphalab</a> > Become an Hypha's:
+                        <a href="<?php echo home_url(); ?>/hypha-labs/">Hypha Labs</a> > Become an Hypha's:
                     </div>
                 </div>
 
