@@ -64,18 +64,13 @@
                         <div class="get-image-resp flex align-center justify-center">
 
                             <div class="full-screen-dao">
-                                <img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-1.png" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-1.png" />
                             </div>
 
                         </div>
-                        <p>Get ready to discover unlimited possibilities within the Hypha Network. A Hypha Account is
-                            required for this step. Don’t have one yet? <a class="simple-link"
-                                href="<?php echo home_url(); ?>/get-started/create-hypha-account/">Click here to create
-                                yours now.</a></p>
+                        <p>Get ready to discover unlimited possibilities within the Hypha Network. A Hypha Account is required for this step. Don’t have one yet? <a class="simple-link" href="<?php echo home_url(); ?>/get-started/create-hypha-account/">Click here to create yours now.</a></p>
                         <div class="buttons flex gap-20">
-                            <a href="https://dao.hypha.earth/hypha/login" target="_blank"
-                                class="button primary">Login</a>
+                            <a href="https://dao.hypha.earth/hypha/login" target="_blank" class="button primary">Login</a>
                             <a href="#inside-anchor-2" class="button secondary">Next Step</a>
                         </div>
                     </div>
@@ -211,14 +206,12 @@
                         <p class="title-medium">Your application is under review! Check back for updates.</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
-                                <img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-5.png" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/get-started/join-dao/join-5.png" />
                             </div>
                         </div>
                         <p>Your work is done for now! Sit back and relax until your application has been approved.</p>
 
-                        <a href="https://dao.hypha.earth/hypha/explore" target="_blank" class="button primary">Explore
-                            Hypha Network</a>
+                        <a href="https://dao.hypha.earth/hypha/explore" target="_blank" class="button primary">Explore Hypha Network</a>
 
                     </div>
                     <div class="col-half flex  justify-center">

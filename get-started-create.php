@@ -69,14 +69,9 @@
                             </div>
 
                         </div>
-                        <p>Get excited to join a thriving community of 100+ DAOs! <br />Note: A
-                            Hypha
-                            Account is required for
-                            this step. Don't have one yet? <br /> <a class="simple-link"
-                                href="<?php echo home_url(); ?>/get-started/create-hypha-account/">Click here to create
-                                yours now.</a></p>
+                        <p>Get excited to join a thriving community of 100+ DAOs! <br />Note: A Hypha Account is required for this step. Don't have one yet? <br /> <a class="simple-link" href="<?php echo home_url(); ?>/get-started/create-hypha-account/">Click here to create yours now.</a></p>
                         <div class="buttons flex gap-20">
-                            <a href="#" class="button primary">DAO Launcher</a>
+                            <a href="https://dao.hypha.earth/create-your-dao" target="_blank" class="button primary" class="button primary">DAO Launcher</a>
                             <a href="#inside-anchor-2" class="button secondary">Next Step</a>
                         </div>
                     </div>
@@ -150,7 +145,7 @@
                             start, or unleash your creativity and design your perfect DAO from scratch.</p>
                         <div class="buttons flex gap-20">
                             <a href="#inside-anchor-4" class="button secondary">Next Step</a>
-                            <a href="#" class="button secondary">About Templates</a>
+                            <a href="<?php echo home_url(); ?>/features-details/templates/" target="_blank" class="button secondary">About Templates</a>
                         </div>
                     </div>
                     <div class="col-half flex  justify-center">
@@ -186,7 +181,7 @@
                         </p>
 
                         <div class="buttons flex gap-20">
-                            <a href="#" class="button primary">Create DAO</a>
+                            <a href="https://dao.hypha.earth/create-your-dao" target="_blank" class="button primary">Create DAO</a>
                             <a href="#pricing" class="button secondary">Pricing plans</a>
                         </div>
 

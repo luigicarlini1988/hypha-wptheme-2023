@@ -407,7 +407,7 @@
                             <a href="<?php echo home_url(); ?>/get-started/create-your-dao/"
                                 class="button secondary">Get
                                 Started Guide</a>
-                            <a href="#" class="button primary">Create DAO</a>
+                            <a class="button primary" href="https://dao.hypha.earth/create-your-dao" target="_blank">Create DAO</a>
                         </div>
                     </div>
                 </div>
@@ -415,9 +415,9 @@
         </div>
     </section>
 
-    <section class="upsell">
-        <?php include('incl/pricing-upsell.html') ?>
-    </section>
+    <!-- <section class="upsell">
+        <?php // include('incl/pricing-upsell.html') ?>
+    </section> -->
 
 
 

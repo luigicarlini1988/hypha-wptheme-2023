@@ -188,8 +188,7 @@
                             the Developer Plan. In the meantime, you can sart by creating a normal DAO on the free
                             plan</p>
                         <div class="buttons flex gap-20 wrap">
-                            <a href="<?php echo home_url(); ?>/get-started/create-your-dao/"
-                                class="button primary">Create Your DAO</a>
+                            <a href="<?php echo home_url(); ?>/get-started/create-your-dao/" class="button primary">Create Your DAO</a>
                             <a href="#pricing" class="button secondary">Pricing Plans</a>
                         </div>
 

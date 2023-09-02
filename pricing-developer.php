@@ -181,12 +181,12 @@
         </div>
     </section>
 
-    <section class="upsell">
+    <!-- <section class="upsell">
         <?php 
-                include ('incl/pricing-upsell.html') ;
+               // include ('incl/pricing-upsell.html') ;
             ?>
 
-    </section>
+    </section> -->
 
 
 

@@ -39,9 +39,7 @@
 
                 <div class="buttons gap-50 flex">
                     <a href="#begin" class="button primary">Let's begin</a>
-                    <a href="#" class="video-button"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg" />Watch the
-                        tutorial</a>
+                    <a href="<?php echo home_url(); ?>/educational/how-to-create-an-account/" target="_blank" class="video-button"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg" />Watch the tutorial</a>
                 </div>
             </div>
         </div>
@@ -73,7 +71,7 @@
                             Account. From there, easily navigate the step-by-step onboarding process. For additional
                             assistance, refer back to this page.</p>
                         <div class="buttons flex gap-20">
-                            <a href="#inside-anchor-2" class="button primary">Sign-up</a>
+                            <a href="https://dao.hypha.earth/hypha/login" target="_blank" class="button primary">Sign-up</a>
                             <a href="#inside-anchor-2" class="button secondary">Next Step</a>
                         </div>
                     </div>
@@ -109,7 +107,7 @@
                             download the Hypha Wallet App on your smartphone.</p>
                         <div class="buttons flex gap-20">
                             <a href="#inside-anchor-3" class="button secondary">Next Step</a>
-                            <a href="#inside-anchor-3" class="button secondary">What is a Wallet?</a>
+                            <!--<a href="#inside-anchor-3" class="button secondary">What is a Wallet?</a>-->
                         </div>
                     </div>
                     <div class="col-half flex  justify-center">
@@ -308,7 +306,7 @@
                             and familiarize yourself with the platform and its benefits.</p>
                         <div class="buttons flex gap-20">
                             <a href="#pricing" class="button secondary">What next?</a>
-                            <a href="#" class="button primary">Create Account</a>
+                            <a href="https://dao.hypha.earth/hypha/login" target="_blank" class="button primary">Create Account</a>
                         </div>
                     </div>
                     <div class="col-half flex  justify-center">
