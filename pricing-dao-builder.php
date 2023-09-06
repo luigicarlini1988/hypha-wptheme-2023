@@ -407,7 +407,7 @@
                             <a href="<?php echo home_url(); ?>/get-started/create-your-dao/"
                                 class="button secondary">Get
                                 Started Guide</a>
-                            <a class="button primary" href="https://dao.hypha.earth/create-your-dao" target="_blank">Create DAO</a>
+                            <a class="button primary" href="https://dao.hypha.earth/hypha/create-your-dao" target="_blank">Create DAO</a>
                         </div>
                     </div>
                 </div>

@@ -71,7 +71,7 @@
                         </div>
                         <p>Get excited to join a thriving community of 100+ DAOs! <br />Note: A Hypha Account is required for this step. Don't have one yet? <br /> <a class="simple-link" href="<?php echo home_url(); ?>/get-started/create-hypha-account/">Click here to create yours now.</a></p>
                         <div class="buttons flex gap-20">
-                            <a href="https://dao.hypha.earth/create-your-dao" target="_blank" class="button primary" class="button primary">DAO Launcher</a>
+                            <a href="https://dao.hypha.earth/hypha/create-your-dao" target="_blank" class="button primary" class="button primary">DAO Launcher</a>
                             <a href="#inside-anchor-2" class="button secondary">Next Step</a>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                         </p>
 
                         <div class="buttons flex gap-20">
-                            <a href="https://dao.hypha.earth/create-your-dao" target="_blank" class="button primary">Create DAO</a>
+                            <a href="https://dao.hypha.earth/hypha/create-your-dao" target="_blank" class="button primary">Create DAO</a>
                             <a href="#pricing" class="button secondary">Pricing plans</a>
                         </div>
 
