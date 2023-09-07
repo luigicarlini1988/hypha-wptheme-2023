@@ -404,10 +404,9 @@
                         <p>Check out our Get started guide to discover everything you need to know to get your DAO
                             up and running. If you are ready, click the blu button instead!</p>
                         <div class="buttons flex wrap gap-20">
-                            <a href="<?php echo home_url(); ?>/get-started/create-your-dao/"
-                                class="button secondary">Get
-                                Started Guide</a>
-                            <a class="button primary" href="https://dao.hypha.earth/hypha/create-your-dao" target="_blank">Create DAO</a>
+                            <a href="<?php echo home_url(); ?>/get-started/"
+                                class="button secondary">Signup for your DAO</a>
+                            <!--<a class="button primary" href="https://dao.hypha.earth/hypha/create-your-dao" target="_blank">Create DAO</a>-->
                         </div>
                     </div>
                 </div>

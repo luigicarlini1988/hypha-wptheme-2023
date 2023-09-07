@@ -35,7 +35,8 @@
                 </div>
                 <h1 class="title-giga"><?php the_title();  ?></h1>
                 <div class="text-20 light-blu">
-                    <?php the_content();  ?>
+                    <p>Ready to unlock a world of new possibilities? Whether you're eager to Create a DAO, Join a DAO, or Develop with Hypha, start with creating your Hypha Account. Follow our step-by-step guide below to get started.</p>
+                    <?php // the_content();  ?>
 
                 </div>
 
