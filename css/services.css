@@ -325,3 +325,7 @@
   .area.tailored {
     margin: 80px auto;
   }
+
+  .services-list .top-pricing-card p {
+    padding:8px 0px;
+  }

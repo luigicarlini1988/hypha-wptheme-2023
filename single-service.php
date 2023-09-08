@@ -15,7 +15,9 @@
                         <p class="text-20 bord white bold">Activation Method</p>
                         <div class="flex gap-10 align-center space-between">
                             <div class="purch-detail text-14 white"><?php the_field('price_description') ?></div>
+                            <?php if( get_field('price') ): ?>
                             <div class="cost white text-42"><span class="text-20">$</span><?php the_field('price') ?></div>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
@@ -202,7 +204,7 @@
     <?php if( get_field('faq_1') ): ?>
     <section id="faq">
         <div class="area main-offer">
-            <h2 class="text-20 tit bold light-blu">More Information about the Activation process</h2>
+            <h2 class="text-20 tit bold light-blu">More informations about the activation process:</h2>
 
             <div class="offer-point">
                 <?php the_field('faq_1') ?>

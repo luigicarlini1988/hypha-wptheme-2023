@@ -49,52 +49,39 @@
                 </div>
             </div>
 
+            <?php $services = get_field('group_services');
+            if( $services ): ?>
+
+            <?php foreach( $services as $post ): 
+                setup_postdata($post); ?>
             <div class="col-half">
-                <a class="nostyle" href="<?php echo home_url(); ?>/pricing-plans/dao-builder/">
+                <a class="nostyle" href="<?php the_permalink(); ?>">
                     <div class="generic-card pricing glow-back has-link">
                         <div class="wrappo">
                             <div class="top-pricing-card flex align-center space-between">
-                                <p class="text-16 light-blu bold">From:</p>
+                                <p class="text-16 light-blu bold"><?php the_field('price_description') ?></p>
+                                <?php if( get_field('price') ): ?>
                                 <div class="actual-price">
                                     <div class="wrap">
-                                        <span class="currency">$</span>0
+                                        <span class="currency">$</span><?php the_field('price') ?>
                                     </div>
                                 </div>
+                                <?php endif; ?>
                             </div>
-                            <h3 class="title-medium">DAO Builder</h3>
-                            <p>Set your DAO up for success by using Hypha's tools!. Check out the 4 different pricing options to
-                                learn more</p>
+                            <h3 class="title-big"><?php the_title(); ?></h3>
+                            <p class="text-20 light-blu"><?php the_field('short_description') ?></p>
+
                             <div class="fake-button space">
-                                <p>Discover</p>
+                                <p>Discover More</p>
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <div class="col-half">
-                <a class="nostyle" href="<?php echo home_url(); ?>/pricing-plans/dao-builder/">
-                    <div class="generic-card pricing glow-back has-link">
-                        <div class="wrappo">
-                            <div class="top-pricing-card flex align-center space-between">
-                                <p class="text-16 light-blu bold">From:</p>
-                                <div class="actual-price">
-                                    <div class="wrap">
-                                        <span class="currency">$</span>0
-                                    </div>
-                                </div>
-                            </div>
-                            <h3 class="title-medium">DAO Builder</h3>
-                            <p>Set your DAO up for success by using Hypha's tools!. Check out the 4 different pricing options to
-                                learn more</p>
-                            <div class="fake-button space">
-                                <p>Discover</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
+            <?php endforeach; ?>
+            <?php wp_reset_postdata(); ?>
+            <?php endif; ?>
 
         </div>
 
@@ -109,51 +96,39 @@
                 </div>
             </div>
 
+            <?php $services = get_field('tailored_services');
+            if( $services ): ?>
+
+            <?php foreach( $services as $post ): 
+                setup_postdata($post); ?>
             <div class="col-half">
-                <a class="nostyle" href="<?php echo home_url(); ?>/pricing-plans/dao-builder/">
+                <a class="nostyle" href="<?php the_permalink(); ?>">
                     <div class="generic-card pricing glow-back has-link">
                         <div class="wrappo">
                             <div class="top-pricing-card flex align-center space-between">
-                                <p class="text-16 light-blu bold">From:</p>
+                                <p class="text-16 light-blu bold"><?php the_field('price_description') ?></p>
+                                <?php if( get_field('price') ): ?>
                                 <div class="actual-price">
                                     <div class="wrap">
-                                        <span class="currency">$</span>0
+                                        <span class="currency">$</span><?php the_field('price') ?>
                                     </div>
                                 </div>
+                                <?php endif; ?>
                             </div>
-                            <h3 class="title-medium">DAO Builder</h3>
-                            <p>Set your DAO up for success by using Hypha's tools!. Check out the 4 different pricing options to
-                                learn more</p>
+                            <h3 class="title-big"><?php the_title(); ?></h3>
+                            <p class="text-20 light-blu"><?php the_field('short_description') ?></p>
+
                             <div class="fake-button space">
-                                <p>Discover</p>
+                                <p>Discover More</p>
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <div class="col-half">
-                <a class="nostyle" href="<?php echo home_url(); ?>/pricing-plans/dao-builder/">
-                    <div class="generic-card pricing glow-back has-link">
-                        <div class="wrappo">
-                            <div class="top-pricing-card flex align-center space-between">
-                                <p class="text-16 light-blu bold">From:</p>
-                                <div class="actual-price">
-                                    <div class="wrap">
-                                        <span class="currency">$</span>0
-                                    </div>
-                                </div>
-                            </div>
-                            <h3 class="title-medium">DAO Builder</h3>
-                            <p>Set your DAO up for success by using Hypha's tools!. Check out the 4 different pricing options to
-                                learn more</p>
-                            <div class="fake-button space">
-                                <p>Discover</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            <?php endforeach; ?>
+            <?php wp_reset_postdata(); ?>
+            <?php endif; ?>
 
 
         </div>
