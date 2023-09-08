@@ -317,3 +317,11 @@
   .services-aggregative .col-8 {
     padding-top:120px;
   }
+
+  .gap-20 .col-half {
+    width:calc(50% - 10px);
+  }
+
+  .area.tailored {
+    margin: 80px auto;
+  }

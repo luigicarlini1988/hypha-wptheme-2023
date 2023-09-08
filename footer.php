@@ -219,7 +219,8 @@
 || is_page_template('use-cases.php')
 || is_page_template('hyphalab.php')
 || is_page_template('pdf-page-template.php')
-|| is_singular( 'service')  ) :?>
+|| is_singular( 'service') 
+|| is_page_template('services-aggregative.php')  ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/global-animations.js"></script>
 <?php endif;?>
 
