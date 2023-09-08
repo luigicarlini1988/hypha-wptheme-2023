@@ -28,7 +28,7 @@
 
 
     <!-- carousel CSS / HOME / Features / about-us / use case CPT -->
-    <?php if( is_page_template('home-template.php') || is_page_template('about-us.php') || is_singular( 'feature') || is_page_template('features-category-shape.php') || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php') || is_singular( 'usecase' )  ) :?>
+    <?php if( is_page_template('home-template.php') || is_page_template('about-us.php') || is_singular( 'feature') || is_page_template('features-category-shape.php') || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php') || is_singular( 'usecase' ) || is_singular( 'service')  ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.theme.default.min.css" />
     <?php endif;?>
@@ -83,6 +83,11 @@
     <!-- Features CSS -->
     <?php if( is_singular( 'feature') || is_page_template('features-category-shape.php') ||  is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php')  ) :?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/features.css">
+    <?php endif;?>
+
+    <!-- Services CSS -->
+    <?php if(is_singular( 'service') ):?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/services.css">
     <?php endif;?>
 
 
@@ -145,7 +150,7 @@
             </nav>
         </div>
 
-        <?php if( is_page_template('hypha-news.php') || is_category()  || is_home() || is_single() && (!is_singular( 'educational' )) && (!is_singular( 'feature')) && (!is_singular( 'usecase' ))) :?>
+        <?php if( is_page_template('hypha-news.php') || is_category()  || is_home() || is_single() && (!is_singular( 'educational' )) && (!is_singular( 'feature')) && (!is_singular( 'usecase' )) && (!is_singular( 'service'))) :?>
         <div class="news-menu">
             <div class="area flex align-center">
                 <nav>

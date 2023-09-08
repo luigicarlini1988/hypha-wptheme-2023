@@ -169,7 +169,7 @@
 
 
 <!-- carousel JS / HOME / Feature CPT - Group - About Us -->
-<?php if( is_page_template('home-template.php') || is_singular( 'feature') || is_page_template('features-category-shape.php')  || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php') || is_page_template('about-us.php') || is_singular( 'usecase' )  ) :?>
+<?php if( is_page_template('home-template.php') || is_singular( 'feature') || is_page_template('features-category-shape.php')  || is_page_template('features-category-engage.php') || is_page_template('features-category-distribute.php') || is_page_template('features-aggregative.php') || is_page_template('about-us.php') || is_singular( 'usecase' ) || is_singular( 'service')  ) :?>
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3-10-1-min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.js"></script>
@@ -181,8 +181,8 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/daoscarousel.js"></script>
 <?php endif;?>
 
-<!-- Testimonaial carousel / HOME / use case CPT -->
-<?php if( is_page_template('home-template.php') || is_singular( 'usecase' ) ) :?>
+<!-- Testimonaial carousel / HOME / use case CPT / services -->
+<?php if( is_page_template('home-template.php') || is_singular( 'usecase' ) || is_singular( 'service') ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/testimonialscarousel.js"></script>
 <?php endif;?>
 
@@ -218,7 +218,8 @@
 || is_page_template('about-us.php') 
 || is_page_template('use-cases.php')
 || is_page_template('hyphalab.php')
-|| is_page_template('pdf-page-template.php')  ) :?>
+|| is_page_template('pdf-page-template.php')
+|| is_singular( 'service')  ) :?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/global-animations.js"></script>
 <?php endif;?>
 
@@ -258,6 +259,10 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/features-carousel.js"></script>
 <?php endif;?>
 
+<!-- services -->
+<?php if(is_singular( 'service') ):?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/services.js"></script>
+<?php endif;?>
 
 
 <!-- HOME header text animations -->

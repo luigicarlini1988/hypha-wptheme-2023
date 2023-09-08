@@ -9,6 +9,7 @@
     --grey: #7485AA;    
     --white: #F4F8FB;
     --gradient: linear-gradient(35Deg, #61A9FC, #315BCE);
+    --gradient-reverse: linear-gradient(35Deg, #315BCE , #61A9FC);
     --titles: 'Playfair Display', serif;
     --text: 'Work Sans', sans-serif;
     --kern: -.4px;
