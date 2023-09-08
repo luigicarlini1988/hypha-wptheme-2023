@@ -86,7 +86,7 @@
     <?php endif;?>
 
     <!-- Services CSS -->
-    <?php if(is_singular( 'service') ):?>
+    <?php if(is_singular( 'service') || is_page_template('services-aggregative.php') ):?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/services.css">
     <?php endif;?>
 
