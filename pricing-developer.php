@@ -80,8 +80,8 @@
                 <p class="text-24 light-blu">Get in touch with us to share your project vision and activate the
                     Developer plan
                 </p>
-                <p>In order to maintain an healthy ecosystem of developers we decided to go for a IRL chat with you
-                    or your DEV group, prior to the “unlock” of the Developer DAO. so that we can align and offer
+                <p>In order to maintain a healthy ecosystem of developers we decided to go for a IRL chat with you
+                    or your DEV group, prior to the unlocking of the Developer DAO. so that we can align and offer
                     all the support required.</p>
 
             </div>

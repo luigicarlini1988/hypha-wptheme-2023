@@ -93,8 +93,7 @@
                                 </div>
                             </div>
                             <h3 class="title-medium">Developers</h3>
-                            <p>Build your own DAO and enable your organization to grow using Hypha’s tools. You have
-                                4 pricing options.</p>
+                            <p>Activate your DAO for your DEV group using a simple and affordable staking model we’ve built for you and your members.</p>
                             <div class="fake-button space">
                                 <p>Discover</p>
                             </div>

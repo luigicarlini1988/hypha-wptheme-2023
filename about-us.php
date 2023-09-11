@@ -214,7 +214,7 @@
             <div id="timeline-carousel" class="owl-carousel owl-theme">
 
                 <div class="timeline-item">
-                    <p class="text-20 bold white">August 2023</p>
+                    <p class="text-20 bold white">September 2023</p>
                     <p>Hypha launches the Beta version of our DAO platform, signifying a massive signal for mainstream
                         adoption ahead.</p>
                 </div>
