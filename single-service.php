@@ -73,11 +73,18 @@
 
                 <?php if( get_field('side_image_title') ): ?>
                 <h2 class="text-20 bold sub-side-tit light-blu"><?php the_field('side_image_title') ?></h2>
+                <?php endif; ?>
+
+                <?php if( get_field('side_image') ): ?>
                 <img class="details-image" src="<?php the_field('side_image') ?>" />
+                <?php endif; ?>
+
+                <?php if( get_field('side_button_text') ): ?>
                 <div id="pop-trigger" class="button primary">
                     <?php the_field('side_button_text') ?>
                 </div>
                 <?php endif; ?>
+
             </div>
 
             <div class="col-8 main-offer">

@@ -150,7 +150,7 @@
 
         <div class="footer-bottom">
             <div class="flex gap-20">
-                <p>HyphaDAO®, Address 123, City Hereaswell. Social Capital $ 1,230,000.00</p>
+                <p>Hypha Genossenschaft, Birkenweg 6, 9490, Vaduz Liechtenstein.</p>
                 <a href="#">Sitemap XML</a>
             </div>
 
