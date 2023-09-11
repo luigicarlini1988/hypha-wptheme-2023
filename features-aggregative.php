@@ -166,7 +166,7 @@
         <div class="area feature-list flex gap-20">
 
             <div class="col-2">
-                <p class="light-blu text-14 bold">Team Management</p>
+                <p class="light-blu text-14 bold">Organization</p>
                 <a href="<?php echo home_url(); ?>/features-details/circles/">
                     <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/circles.svg" />
@@ -187,7 +187,7 @@
                 </a>
             </div>
             <div class="col-2">
-                <p class="light-blu text-14 bold">HR Management</p>
+                <p class="light-blu text-14 bold">People</p>
                 <a href="<?php echo home_url(); ?>/features-details/roles/">
                     <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
@@ -221,7 +221,7 @@
                 </a>
             </div>
             <div class="col-2">
-                <p class="light-blu text-14 bold">Financial Management</p>
+                <p class="light-blu text-14 bold">Finance</p>
                 <a href="<?php echo home_url(); ?>/features-details/treasury/">
                     <div class="fake-features-button cs flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/treasury.svg" />
@@ -260,7 +260,7 @@
                 </a>
             </div>
             <div class="col-2">
-                <p class="light-blu text-14 bold">Administration Tools</p>
+                <p class="light-blu text-14 bold">Administration</p>
                 <a href="<?php echo home_url(); ?>/features-details/templates/">
                     <div class="fake-features-button cs flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/templates.svg" />
@@ -294,7 +294,7 @@
             </div>
 
             <div class="col-2">
-                <p class="light-blu text-14 bold">Community Features</p>
+                <p class="light-blu text-14 bold">Community</p>
                 <a href="<?php echo home_url(); ?>/features-details/community/">
                     <div class="fake-features-button cs flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/community.svg" />
@@ -323,7 +323,7 @@
             </div>
 
             <div class="col-2">
-                <p class="light-blu text-14 bold">Ecosystem Features</p>
+                <p class="light-blu text-14 bold">Ecosystem</p>
                 <a href="<?php echo home_url(); ?>/features-details/ecosystem/">
                     <div class="fake-features-button cs flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/ecosystem.svg" />

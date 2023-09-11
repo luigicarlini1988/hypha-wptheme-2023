@@ -187,7 +187,7 @@
 
             </div>
             <div class="col-half">
-                <p class="text-18">Hypha aims go beyond providing a DAO platform. We aspire to provide humanity with the
+                <p class="text-18">Hypha aims to go beyond providing a DAO platform. We aspire to provide humanity with the
                     coordination tools needed to achieve successful, large-scale impact.</p>
                 <div class="buttons">
                     <a href="<?php echo home_url(); ?>/constitution/" class="button primary">Read More</a>
