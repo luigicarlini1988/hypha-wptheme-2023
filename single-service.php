@@ -30,7 +30,7 @@
                 <p class="text-28 light-blu"><?php the_field('short_description') ?></p>
                 <p><?php the_field('longer_description') ?></p>
                 <div class="buttons flex gap-20">
-                    <a href="#lets-do-it" class="button primary">Let's Do it</a>
+                    <a href="#lets-do-it" class="button primary">Let's DAO it!</a>
                     <a href="#details" class="button secondary">Discover More</a>
                 </div>
             </div>

@@ -272,7 +272,7 @@
   .logic {
     padding:20px 20px 8px 20px;
     border-radius:16px;
-    background:var(--card-dark-blu);
+    border:1px solid var(--lb-transp-hover);
     margin-bottom:20px;
   }
 
