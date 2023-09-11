@@ -96,7 +96,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 2 > <span class="white">Find your way to the Explore Page</span>
+                            <p class="subtitle">Step 2 > <span class="white">Found your way to the Explore Page</span>
                             </p>
                         </div>
                         <p class="title-medium">Easily navigate to the Explore Icon</p>

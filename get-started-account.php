@@ -305,7 +305,7 @@
                         <p>Welcome to Hypha DAO, we’re glad you made it! Take some time to get to know the other members
                             and familiarize yourself with the platform and its benefits.</p>
                         <div class="buttons flex gap-20">
-                            <a href="#pricing" class="button secondary">What next?</a>
+                            <a href="#pricing" class="button secondary">What's next?</a>
                             <a href="https://dao.hypha.earth/hypha/login" target="_blank" class="button primary">Create Account</a>
                         </div>
                     </div>

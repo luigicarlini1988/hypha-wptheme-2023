@@ -150,7 +150,7 @@
                                     src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
                                 <span id="final_total_stake" class="title-56 white"></span>
                             </div>
-                            <p class="text-14 light-blu">Min. Hypha Token Staked in DAO treasury*</p>
+                            <p class="text-14 light-blu">Min. Hypha Token Staked in DAO treasury<sup>1</sup></p>
                         </div>
 
                         <div class="fee-divider flex align-center justify-center">
@@ -166,16 +166,16 @@
                                     <span class="text-14 white">/year</span>
                                 </div>
                             </div>
-                            <p class="text-14 light-blu">DAO Participation Fee*</p>
+                            <p class="text-14 light-blu">DAO Participation Fee<sup>2</sup></p>
                         </div>
 
                         <div class="fee-divider flex align-center justify-center">
                         </div>
 
                         <div class="disclaimer">
-                            <span>*(1)Hypha Tokens needs to be staked in each DAO treasury in order to activate each
+                            <span>*(1) Hypha Tokens needs to be staked in each DAO treasury in order to activate each
                                 DAO.</span>
-                            <span>*(2)This annual DAO participation fee supports ongoing maintenance and operating
+                            <span>*(2) This annual DAO participation fee supports ongoing maintenance and operating
                                 costs.</span>
                         </div>
                     </div>

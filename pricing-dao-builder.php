@@ -66,7 +66,7 @@
                         <ul>
                             <li class="has-child">Essentials
                                 <ul>
-                                    <li>Token</li>
+                                    <li>Tokens</li>
                                     <li>Profile and Wallet</li>
                                     <li>Admin Roles/Badges</li>
                                     <li>Logo Personalisation</li>
@@ -83,8 +83,8 @@
 
                             <li class="has-child">Compensations
                                 <ul>
-                                    <li>Salary Bands</li>
-                                    <li>Roles Archetypes</li>
+                                    <li>Reward Tiers</li>
+                                    <li>Roles</li>
                                     <li>Role Assignments</li>
                                 </ul>
                             </li>
@@ -97,16 +97,16 @@
                             </li>
                             <li class="has-child">Treasury
                                 <ul>
-                                    <li>Treasury Management</li>
-                                    <li>Token Sale</li>
+                                    <li class="coming-soon">Treasury Dashboard</li>
+                                    <li>Token Purchase</li>
                                     <li>Payouts</li>
                                 </ul>
                             </li>
                             <li class="has-child">Circles
                                 <ul>
                                     <li>Circle Dashboard</li>
-                                    <li>Circle Budgets</li>
-                                    <li>Circle Proposals</li>
+                                    <li class="coming-soon">Circle Budgets</li>
+                                    <li>Circles Management</li>
                                 </ul>
                             </li>
 
@@ -143,7 +143,7 @@
                         <ul>
                             <li class="has-child">Essentials
                                 <ul>
-                                    <li>Token</li>
+                                    <li>Tokens</li>
                                     <li>Profile and Wallet</li>
                                     <li>Admin Roles/Badges</li>
                                     <li>Logo Personalisation</li>
@@ -160,8 +160,8 @@
 
                             <li class="has-child">Compensations
                                 <ul>
-                                    <li>Salary Bands</li>
-                                    <li>Roles Archetypes</li>
+                                    <li>Reward Tiers</li>
+                                    <li>Roles</li>
                                     <li>Role Assignments</li>
                                 </ul>
                             </li>
@@ -174,19 +174,19 @@
                             </li>
                             <li class="has-child">Treasury
                                 <ul>
-                                    <li>Treasury Management</li>
-                                    <li>Token Sale</li>
+                                    <li class="coming-soon">Treasury Dashboard</li>
+                                    <li>Token Purchase</li>
                                     <li>Payouts</li>
                                 </ul>
                             </li>
                             <li class="has-child">Circles
                                 <ul>
                                     <li>Circle Dashboard</li>
-                                    <li>Circle Budgets</li>
-                                    <li>Circle Proposals</li>
+                                    <li class="coming-soon">Circle Budgets</li>
+                                    <li>Circles Management</li>
                                 </ul>
                             </li>
-                            <li class="has-child">Community Features
+                            <li class="has-child coming-soon">Community Features
                                 <ul>
                                     <li>Upvote Delegates</li>
                                     <li>Community Quests</li>
@@ -227,7 +227,7 @@
                         <ul>
                             <li class="has-child">Essentials
                                 <ul>
-                                    <li>Token</li>
+                                    <li>Tokens</li>
                                     <li>Profile and Wallet</li>
                                     <li>Admin Roles/Badges</li>
                                     <li>Logo Personalisation</li>
@@ -244,8 +244,8 @@
 
                             <li class="has-child">Compensations
                                 <ul>
-                                    <li>Salary Bands</li>
-                                    <li>Roles Archetypes</li>
+                                    <li>Reward Tiers</li>
+                                    <li>Roles</li>
                                     <li>Role Assignments</li>
                                 </ul>
                             </li>
@@ -258,19 +258,19 @@
                             </li>
                             <li class="has-child">Treasury
                                 <ul>
-                                    <li>Treasury Management</li>
-                                    <li>Token Sale</li>
+                                    <li class="coming-soon">Treasury Dashboard</li>
+                                    <li>Token Purchase</li>
                                     <li>Payouts</li>
                                 </ul>
                             </li>
                             <li class="has-child">Circles
                                 <ul>
                                     <li>Circle Dashboard</li>
-                                    <li>Circle Budgets</li>
-                                    <li>Circle Proposals</li>
+                                    <li class="coming-soon">Circle Budgets</li>
+                                    <li>Circles Management</li>
                                 </ul>
                             </li>
-                            <li class="has-child">Community Features
+                            <li class="has-child coming-soon">Community Features
                                 <ul>
                                     <li>Upvote Delegates</li>
                                     <li>Community Quests</li>
@@ -311,7 +311,7 @@
                         <ul>
                             <li class="has-child">Essentials
                                 <ul>
-                                    <li>Token</li>
+                                    <li>Tokens</li>
                                     <li>Profile and Wallet</li>
                                     <li>Admin Roles/Badges</li>
                                     <li>Logo Personalisation</li>
@@ -328,8 +328,8 @@
 
                             <li class="has-child">Compensations
                                 <ul>
-                                    <li>Salary Bands</li>
-                                    <li>Roles Archetypes</li>
+                                    <li>Reward Tiers</li>
+                                    <li>Roles</li>
                                     <li>Role Assignments</li>
                                 </ul>
                             </li>
@@ -342,19 +342,19 @@
                             </li>
                             <li class="has-child">Treasury
                                 <ul>
-                                    <li>Treasury Management</li>
-                                    <li>Token Sale</li>
+                                    <li class="coming-soon">Treasury Dashboard</li>
+                                    <li>Token Purchase</li>
                                     <li>Payouts</li>
                                 </ul>
                             </li>
                             <li class="has-child">Circles
                                 <ul>
                                     <li>Circle Dashboard</li>
-                                    <li>Circle Budgets</li>
-                                    <li>Circle Proposals</li>
+                                    <li class="coming-soon">Circle Budgets</li>
+                                    <li>Circles Management</li>
                                 </ul>
                             </li>
-                            <li class="has-child">Community Features
+                            <li class="has-child coming-soon">Community Features
                                 <ul>
                                     <li>Upvote Delegates</li>
                                     <li>Community Quests</li>

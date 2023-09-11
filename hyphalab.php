@@ -45,9 +45,9 @@
     <section id="hyphalab">
         <div class="area align-center flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Become an Hypha’s:</p>
+                <p class="subtitle">Become an Hypha:</p>
                 <h2 class="title-big white">Ambassador</h2>
-                <p class="text-20 light-blu"> Earn Hypha tokens by publicly representing Hypha or actively
+                <p class="text-20 light-blu"> Receive Hypha tokens by publicly representing Hypha or actively
                     contributing to raising awareness of the Hypha Network worldwide. </p>
                 <div class="buttons hide-resp">
                     <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/ambassador/">Let's Do it!</a>
@@ -67,7 +67,7 @@
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Ambassador Badge</p>
-                                <p class="text-12">Please note that the validity of the Affiliate badge can be
+                                <p class="text-12">Please note that the validity of the Ambassador badge can be
                                     renewed every 3 months through a vote in the Hypha DAO.</p>
                             </div>
                         </div>
@@ -82,9 +82,9 @@
 
         <div class="area align-center flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Become an Hypha’s:</p>
+                <p class="subtitle">Become an Hypha:</p>
                 <h2 class="title-big white">Affiliate</h2>
-                <p class="text-20 light-blu">Earn Hypha Tokens whenever the organizations you onboard as DAOs in the
+                <p class="text-20 light-blu">Receive Hypha Tokens whenever the organizations you onboard as DAOs in the
                     Hypha Network make payments for their recurring subscriptions.</p>
                 <div class="buttons hide-resp">
                     <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/affiliate/">Let's Do it!</a>
@@ -95,10 +95,9 @@
                 <div class="generic-card">
                     <div class="wrappo">
                         <div class="fake-label">Details</div>
-                        <p>This badge lets you earn Hypha tokens whenever you successfully refer organizations to
+                        <p>This badge lets you receive Hypha tokens whenever you successfully refer organizations to
                             join the Hypha Network as DAOs, and they subsequently pay for their recurring
-                            subscriptions. The earning potential lasts as long as your Affiliate badge remains
-                            valid.</p>
+                            subscriptions. This value flow potential lasts as long as your Affiliate badge remains valid.</p>
                         <div class="bottom-card flex gap-20 align-center">
                             <div class="icon big">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/badge-check.svg" />
@@ -120,9 +119,9 @@
 
         <div class="area align-center flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Become an Hypha’s:</p>
+                <p class="subtitle">Become an Hypha:</p>
                 <h2 class="title-big white">Consultant</h2>
-                <p class="text-20 light-blu">The Hypha Consultant badge is an exciting opportunity to earn both fiat
+                <p class="text-20 light-blu">The Hypha Consultant badge is an exciting opportunity to receive both USD equivalent
                     currency and Hypha tokens by providing consulting services on behalf of the Hypha DAO within the
                     Hypha Network. </p>
                 <div class="buttons hide-resp">
@@ -135,8 +134,8 @@
                     <div class="wrappo">
                         <div class="fake-label">Details</div>
                         <p>This badge grants you the ability to utilize your consulting skills on DAO Consulting
-                            projects overseen by Hypha DAO. You will receive compensation based on the Hypha
-                            Consultant rate card as a combination of fiat and Hypha tokens, and you will become part
+                            projects overseen by Hypha DAO. You will receive rewards based on the Hypha
+                            Consultant rate card as a combination of USD Equivalent and Hypha tokens, and you will become part
                             of the Hypha delivery team for strategic projects involving Hypha’s DAO and Ecosystem.
                         </p>
                         <div class="bottom-card flex gap-20 align-center">
@@ -145,7 +144,7 @@
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Consultant Badge</p>
-                                <p class="text-12">Please note that the validity of the Affiliate badge can be
+                                <p class="text-12">Please note that the validity of the Consultant badge can be
                                     renewed every 3 months through a vote in the Hypha DAO.</p>
                             </div>
                         </div>
@@ -160,7 +159,7 @@
 
         <div class="area align-center flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Become an Hypha’s:</p>
+                <p class="subtitle">Become an Hypha:</p>
                 <h2 class="title-big white">Service DAO</h2>
                 <p class="text-20 light-blu">The Service DAO badge presents an opportunity for your DAO to enhance
                     its visibility within the Hypha network, be recognized as one of Hypha DAO’s accredited partners
@@ -177,15 +176,14 @@
                         <p>Gain the opportunity to independently promote its services to the entire Hypha Network,
                             while benefiting from the endorsement of Hypha DAO. Your service DAO will have the total
                             freedom to develop its own DAOnomics and operate autonomously. When Hypha DAO provides a
-                            lead to your service DAO, a percentage in Hypha tokens will be reciprocally paid by your
-                            Service DAO back to Hypha DAO.</p>
+                            lead to your service DAO, a percentage in Hypha tokens will be reciprocally sent by your Service DAO back to Hypha DAO.</p>
                         <div class="bottom-card flex gap-20 align-center">
                             <div class="icon big">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Service DAO Badge</p>
-                                <p class="text-12">Please note that the validity of the Affiliate badge can be
+                                <p class="text-12">Please note that the validity of the Service DAO badge can be
                                     renewed every 3 months through a vote in the Hypha DAO.</p>
                             </div>
                         </div>
@@ -227,7 +225,7 @@
                             </div>
                             <div class="bottom-card-text">
                                 <p class="white bold text-14">Developer Badge</p>
-                                <p class="text-12">Please note that the validity of the Affiliate badge can be
+                                <p class="text-12">Please note that the validity of the Developer badge can be
                                     renewed every 3 months through a vote in the Hypha DAO.</p>
                             </div>
                         </div>
