@@ -180,7 +180,260 @@
                 </div>
             </div>
 
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/integrity/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
 
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/integrity.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Integrity.Earth
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/planetarycare/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/planetary.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Planetary Care
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/unitedplanet/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/united.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            United Planet
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/eden/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/eden.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            EDEN
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/gaia/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/gaia.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Gaia Union Hub
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/kinship-earth/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/kinship.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Kinship Earth
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/snowball-effect/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/snowball.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Snowball Effect
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/c2030-spain-dao/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/c2030.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            c2030 Spain
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/Glocal/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/glocal.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Glocal Initiative DHE
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/nestr/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/nestr.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Nestr
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/Gaianet/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/gaianet.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Gaianet
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/kuladao/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/kuladao.jpg" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            KulaDAO
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/pachamama-rising/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/pachamama.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Pachamama Rising
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/permatours/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/permatours.png" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Permatours
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dao-card">
+                <div class="wrap flex justify-center align-top">
+                    <a href="https://dao.hypha.earth/ensemble-enabler/login" target="_blank">
+                        <div class="top-right-link">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg" />
+                        </div>
+
+                        <img class="daologos" src="<?php echo get_template_directory_uri(); ?>/img/daos/ensemble.jpg" />
+                    </a>
+                    <div style="width:100%">
+                        <p class="text-18">
+                            Ensemble Enabler DAO
+                        </p>
+                    </div>
+                </div>
+            </div>
 
             <div class="dao-card">
                 <div class="wrap flex justify-center align-top">
