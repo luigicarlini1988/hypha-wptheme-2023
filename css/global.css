@@ -2396,3 +2396,97 @@ span.paragraph2 span {
 .pdf-hero-top .col-4 {
     width:calc(33% - 25px);
 }
+
+/* pop-up */
+
+
+#pop-up {
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(0,0,0,0.4);
+    backdrop-filter: blur(6px);
+    min-height:100svh;
+    z-index:10000;
+    padding:0;
+    pointer-events: none;
+    opacity:0;
+    transition-duration: .3s;
+  }
+
+  #pop-up.in {
+    opacity:1;
+    pointer-events: all;
+  }
+
+  #pop-up.in.hide,
+  #pop-up.hide {
+    opacity:0;
+    pointer-events: none;
+  }
+
+  #pop-up .area {
+    min-height:100svh;
+  }
+
+  .pop-inside {
+    height:auto;
+    max-width:700px;
+    width:100%;
+    background:var(--card-dark-blu);
+    border-radius:16px;
+    padding:40px 20px 40px 40px;
+    position:relative;
+    max-height:85svh;
+    overflow-y:auto;
+  }
+
+  
+
+  #pop-close {
+    cursor:pointer;
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:20px;
+    height:20px;
+    color:var(--white);
+    font-weight:600;
+  }
+
+  .form-wrap.pop-inside {
+    padding:0px;
+    position:relative;
+    overflow:visible;
+  }
+
+  .form-wrap.pop-inside .wrappo {
+    padding:40;
+    background:var(--card-dark-blu);
+  }
+
+  .form-wrap.pop-inside .subtitle {
+    margin-top:0;
+  }
+
+  .form-wrap.pop-inside .title-56 {
+    margin-bottom:40px;
+  }
+
+  .form-wrap.pop-inside {
+    max-height:max-content;
+
+  }
+  .form-wrap.pop-inside::before {
+    content:"";
+    width:calc(100% + 6px);
+    height:calc(100% + 6px);
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    background:var(--gradient);
+    border-radius:30px;
+    transition-duration:.3s;
+    opacity:1;
+    box-shadow: var(--glow-shadow);
+  }

@@ -183,40 +183,6 @@
     line-height:1.4em;
   }
 
-  #pop-up {
-    position:fixed;
-    top:0;
-    width:100%;
-    background:rgba(0,0,0,0.4);
-    backdrop-filter: blur(6px);
-    min-height:100svh;
-    z-index:10000;
-    padding:0;
-    pointer-events: none;
-    opacity:0;
-    transition-duration: .3s;
-  }
-
-  #pop-up.in {
-    opacity:1;
-    pointer-events: all;
-  }
-
-  #pop-up .area {
-    min-height:100svh;
-  }
-
-  .pop-inside {
-    height:auto;
-    max-width:700px;
-    width:100%;
-    background:var(--card-dark-blu);
-    border-radius:16px;
-    padding:40px 20px 40px 40px;
-    position:relative;
-    max-height:85svh;
-    overflow-y:auto;
-  }
 
   .pop-inside::-webkit-scrollbar {
     width: 30px;
@@ -241,16 +207,6 @@
     border-radius:12px;
   }
 
-  #pop-close {
-    cursor:pointer;
-    position:absolute;
-    top:20px;
-    right:20px;
-    width:20px;
-    height:20px;
-    color:var(--white);
-    font-weight:600;
-  }
 
   .pop-inside .text-20 {
     margin-top:0;

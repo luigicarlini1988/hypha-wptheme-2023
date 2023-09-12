@@ -28,6 +28,10 @@ section.pricing-hero-top {
     margin-top:-440px;
 }
 
+.builder-pricing .area:last-child {
+    padding-top:50px;
+}
+
 .builder-pricing .area.with-toggle {
     margin-bottom:10px;
 }
@@ -187,6 +191,30 @@ section.pricing-hero-top {
     color:var(--white);
     opacity:1;
     padding:10px 0px;
+    position:relative;
+}
+
+.feature-list ul li ul li.coming-soon:after {
+    position: absolute;
+    content: "";
+    background-image: url(../img/icons/time.svg);
+    right: 6px;
+    top: 12px;
+    width: 12px;
+    height: 12px;
+    background-size: 100%;
+}
+
+
+.feature-list ul li.has-child.coming-soon:after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/icons/time.svg);
+    right: 0px;
+    top: 18px;
+    width: 12px;
+    height: 12px;
+    background-size: 100%;
 }
 
 .feature-list ul li ul li:hover {

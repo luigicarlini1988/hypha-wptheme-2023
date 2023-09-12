@@ -188,9 +188,9 @@
                             </li>
                             <li class="has-child coming-soon">Community Features
                                 <ul>
-                                    <li>Upvote Delegates</li>
-                                    <li>Community Quests</li>
-                                    <li>Community Badges</li>
+                                    <li class="coming-soon">Upvote Delegates</li>
+                                    <li class="coming-soon">Community Quests</li>
+                                    <li class="coming-soon">Community Badges</li>
                                 </ul>
                             </li>
 
@@ -272,9 +272,9 @@
                             </li>
                             <li class="has-child coming-soon">Community Features
                                 <ul>
-                                    <li>Upvote Delegates</li>
-                                    <li>Community Quests</li>
-                                    <li>Community Badges</li>
+                                    <li class="coming-soon">Upvote Delegates</li>
+                                    <li class="coming-soon">Community Quests</li>
+                                    <li class="coming-soon">Community Badges</li>
                                 </ul>
                             </li>
 
@@ -356,9 +356,9 @@
                             </li>
                             <li class="has-child coming-soon">Community Features
                                 <ul>
-                                    <li>Upvote Delegates</li>
-                                    <li>Community Quests</li>
-                                    <li>Community Badges</li>
+                                    <li class="coming-soon">Upvote Delegates</li>
+                                    <li class="coming-soon">Community Quests</li>
+                                    <li class="coming-soon">Community Badges</li>
                                 </ul>
                             </li>
 
@@ -370,6 +370,12 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="area">
+            <div class="col-full flex align-center justify-right">
+                <img width="18px" style="margin-right:5px" src="http://localhost:8000/wp-content/themes/hypha2023/img/icons/time.svg"> = Feature Under Developmnet
             </div>
         </div>
 

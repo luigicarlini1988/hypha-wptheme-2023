@@ -1,3 +1,28 @@
+function setCookie(c_name, value, exdays) {
+    var c_value = escape(value);
+    if (exdays) {
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate() + exdays);
+        c_value += '; expires=' + exdate.toUTCString();
+    }
+    document.cookie = c_name + '=' + c_value;
+}
+
+function getCookie(c_name) {
+    var i, x, y, cookies = document.cookie.split(';');
+
+    for (i = 0; i < cookies.length; i++) {
+        x = cookies[i].substr(0, cookies[i].indexOf('='));
+        y = cookies[i].substr(cookies[i].indexOf('=') + 1);
+        x = x.replace(/^\s+|\s+$/g, '');
+
+        if (x === c_name) {
+            return unescape(y);
+        }
+    }
+}
+
+
 document.addEventListener("DOMContentLoaded", function (event) {
 
 
@@ -25,12 +50,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const headerNav = document.getElementById('header');
     const obscurer = document.getElementById('obs');
 
+    const popScat = document.getElementById('pop-scat')
+    const popUp = document.getElementById('pop-up')
+    const popClose = document.getElementById('pop-close')
+    const subscribeButton = document.getElementById('mauticform_input_newslettersignup2023_submit')
+
     window.onscroll = function () {
 
 
         const position1 = featureDisplay1.getBoundingClientRect();
         const position2 = featureDisplay2.getBoundingClientRect();
         const position3 = featureDisplay3.getBoundingClientRect();
+        const showPop = popScat.getBoundingClientRect();
+
 
         // menu appear and disappear
 
@@ -48,10 +80,42 @@ document.addEventListener("DOMContentLoaded", function (event) {
         prevScrollpos = currentScrollPos;
 
 
+        //pop up appear check cookie
+
+        if ((getCookie('displayedPopupNewsletter')) && (showPop.top >= 0 && showPop.bottom <= window.innerHeight)) {
+            return;
+        } else if (showPop.top >= 0 && showPop.bottom <= window.innerHeight) {
+            popUp.classList.add('in');
+        }
+
+
+        // pop close add cookie
+
+        popClose.onclick = function () {
+            popUp.classList.remove('in');
+            popUp.classList.add('hide');
+            setCookie('displayedPopupNewsletter', 'yes', 1);
+        }
+
+        // subscripe plus pop-up close plus add cookie
+
+        subscribeButton.onclick = function () {
+            setCookie('displayedPopupNewsletter', 'yes', 1);
+
+            setTimeout(function () {
+                popUp.classList.remove('in');
+                popUp.classList.add('hide');
+            }, 2000);
+
+        }
+
+
+
         //first set of icons
         if (position1.top >= 0 && position1.bottom <= window.innerHeight) {
             firstIcons.classList.add('enter');
             firstIcons.classList.add('state1');
+
 
 
         } else {

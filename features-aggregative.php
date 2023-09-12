@@ -167,27 +167,13 @@
 
             <div class="col-2">
                 <p class="light-blu text-14 bold">Organization</p>
+
                 <a href="<?php echo home_url(); ?>/features-details/circles/">
                     <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/circles.svg" />
                         <p>Circles</p>
                     </div>
                 </a>
-                <a href="<?php echo home_url(); ?>/features-details/policies/">
-                    <div class="fake-features-button flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/policies.svg" />
-                        <p>Policies</p>
-                    </div>
-                </a>
-                <a href="<?php echo home_url(); ?>/features-details/profile/">
-                    <div class="fake-features-button flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
-                        <p>Profiles</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-2">
-                <p class="light-blu text-14 bold">People</p>
                 <a href="<?php echo home_url(); ?>/features-details/roles/">
                     <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
@@ -200,6 +186,23 @@
                         <p>Reward Tiers</p>
                     </div>
                 </a>
+                <a href="<?php echo home_url(); ?>/features-details/policies/">
+                    <div class="fake-features-button flex align-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/policies.svg" />
+                        <p>Policies</p>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-2">
+                <p class="light-blu text-14 bold">People</p>
+                <a href="<?php echo home_url(); ?>/features-details/profile/">
+                    <div class="fake-features-button flex align-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/roles.svg" />
+                        <p>Profile</p>
+                    </div>
+                </a>
+
                 <a href="<?php echo home_url(); ?>/features-details/badges/">
                     <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/badges.svg" />
@@ -221,25 +224,7 @@
                 </a>
             </div>
             <div class="col-2">
-                <p class="light-blu text-14 bold">Finance</p>
-                <a href="<?php echo home_url(); ?>/features-details/treasury/">
-                    <div class="fake-features-button cs flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/treasury.svg" />
-                        <p>Treasury Dashboard</p>
-                    </div>
-                </a>
-                <a href="<?php echo home_url(); ?>/features-details/wallet/">
-                    <div class="fake-features-button flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/wallet.svg" />
-                        <p>Wallet</p>
-                    </div>
-                </a>
-                <a href="<?php echo home_url(); ?>/features-details/multi-sig/">
-                    <div class="fake-features-button flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/multisig.svg" />
-                        <p>Multi-sig</p>
-                    </div>
-                </a>
+                <p class="light-blu text-14 bold">Finance & Treasury</p>
                 <a href="<?php echo home_url(); ?>/features-details/utility-token/">
                     <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/utility-token.svg" />
@@ -258,15 +243,35 @@
                         <p>Payout Token</p>
                     </div>
                 </a>
+                <a href="<?php echo home_url(); ?>/features-details/payouts/">
+                    <div class="fake-features-button flex align-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/payouts.svg" />
+                        <p>Payouts</p>
+                    </div>
+                </a>
+                <a href="<?php echo home_url(); ?>/features-details/wallet/">
+                    <div class="fake-features-button flex align-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/wallet.svg" />
+                        <p>Wallet</p>
+                    </div>
+                </a>
+                <a href="<?php echo home_url(); ?>/features-details/multi-sig/">
+                    <div class="fake-features-button flex align-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/multisig.svg" />
+                        <p>Multi-sig</p>
+                    </div>
+                </a>
+
+                <a href="<?php echo home_url(); ?>/features-details/financial-dashboard/">
+                    <div class="fake-features-button cs flex align-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/treasury.svg" />
+                        <p>Financial Dashboard</p>
+                    </div>
+                </a>
             </div>
             <div class="col-2">
                 <p class="light-blu text-14 bold">Administration</p>
-                <a href="<?php echo home_url(); ?>/features-details/templates/">
-                    <div class="fake-features-button cs flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/templates.svg" />
-                        <p>Templates</p>
-                    </div>
-                </a>
+
                 <a href="<?php echo home_url(); ?>/features-details/voting/">
                     <div class="fake-features-button flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/settings.svg" />
@@ -291,6 +296,12 @@
                         <p>Treasurer Badge</p>
                     </div>
                 </a>
+                <a href="<?php echo home_url(); ?>/features-details/templates/">
+                    <div class="fake-features-button cs flex align-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/templates.svg" />
+                        <p>Templates</p>
+                    </div>
+                </a>
             </div>
 
             <div class="col-2">
@@ -307,12 +318,7 @@
                         <p>Polls</p>
                     </div>
                 </a>
-                <a href="<?php echo home_url(); ?>/features-details/payouts/">
-                    <div class="fake-features-button flex align-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/payouts.svg" />
-                        <p>Payouts</p>
-                    </div>
-                </a>
+
                 <a href="<?php echo home_url(); ?>/features-details/elections/">
                     <div class="fake-features-button cs flex align-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/icons/election.svg" />
