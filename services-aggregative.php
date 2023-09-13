@@ -9,6 +9,7 @@
 
 <main class="dark-theme">
     <section class="services-aggregative">
+        <div class="ribbon">Beta Launch Special Offer!</div>
         <div class="services-hero-back">
 
         </div>
@@ -18,6 +19,7 @@
             </div>
 
             <div class="col-8">
+
                 <div class="sub-section flex align-center">
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" loading="lazy" />
@@ -61,11 +63,22 @@
                             <div class="top-pricing-card flex align-center space-between">
                                 <p class="text-16 light-blu bold"><?php the_field('price_description') ?></p>
                                 <?php if( get_field('price') ): ?>
+                                <?php 
+                                $priceOffer = get_field('price_offer');
+                                if( $priceOffer && in_array('free', $priceOffer) ) {
+                                ?>
+                                <div class="actual-price cancelled">
+                                    <div class="wrap">
+                                        <span class="currency">$</span><?php the_field('price') ?>
+                                    </div>
+                                </div>
+                                <?php } else { ?>
                                 <div class="actual-price">
                                     <div class="wrap">
                                         <span class="currency">$</span><?php the_field('price') ?>
                                     </div>
                                 </div>
+                                <?php } ?>
                                 <?php endif; ?>
                             </div>
                             <h3 class="title-big"><?php the_title(); ?></h3>
@@ -108,13 +121,25 @@
                             <div class="top-pricing-card flex align-center space-between">
                                 <p class="text-16 light-blu bold"><?php the_field('price_description') ?></p>
                                 <?php if( get_field('price') ): ?>
+                                <?php 
+                                $priceOffer = get_field('price_offer');
+                                if( $priceOffer && in_array('free', $priceOffer) ) {
+                                ?>
+                                <div class="actual-price cancelled">
+                                    <div class="wrap">
+                                        <span class="currency">$</span><?php the_field('price') ?>
+                                    </div>
+                                </div>
+                                <?php } else { ?>
                                 <div class="actual-price">
                                     <div class="wrap">
                                         <span class="currency">$</span><?php the_field('price') ?>
                                     </div>
                                 </div>
+                                <?php } ?>
                                 <?php endif; ?>
                             </div>
+
                             <h3 class="title-big"><?php the_title(); ?></h3>
                             <p class="text-20 light-blu"><?php the_field('short_description') ?></p>
 

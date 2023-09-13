@@ -47,6 +47,41 @@
     font-weight:500;
 }
 
+.activation-method .cancelled {
+  position:relative;
+}
+
+.activation-method .cancelled::after {
+  content:"";
+  width:100%;
+  height:2px;
+  background:var(--dark-blu);
+  position:absolute;
+  transform: rotate(-30Deg);
+  left: 0;
+  top: 20px;
+  transform-origin: center;
+}
+
+.actual-price.cancelled .wrap::after{
+  content:"";
+  width:100%;
+  height:2px;
+  background:var(--white);
+  position:absolute;
+  transform: rotate(-25Deg);
+  left: 0px;
+  top: 17px;
+  transform-origin: center;
+  transform: rotate(-25deg);
+}
+
+.actual-price.cancelled {
+  color:rgba(255,255,255,0.4);
+}
+
+
+
 
 .side-offer :is(h1,h2,h3,h4,h5) {
     font-family: var(--text);
@@ -284,4 +319,20 @@
 
   .services-list .top-pricing-card p {
     padding:8px 0px;
+  }
+
+  .service-hero .breadcrumbs {
+    margin-bottom:15px;
+  }
+
+  .ribbon {
+    position: relative;
+    width: max-content;
+    padding: 15px 40px;
+    background: var(--gradient);
+    right: 0;
+    top: 80px;
+    color: var(--white);
+    font-weight: 600;
+    border-radius: 0px 0px 20px 0px;
   }

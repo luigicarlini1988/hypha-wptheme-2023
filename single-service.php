@@ -15,14 +15,27 @@
                         <p class="text-20 bord white bold">Activation Method</p>
                         <div class="flex gap-10 align-center space-between">
                             <div class="purch-detail text-14 white"><?php the_field('price_description') ?></div>
+
                             <?php if( get_field('price') ): ?>
+                            <?php 
+                            $priceOffer = get_field('price_offer');
+                                if( $priceOffer && in_array('free', $priceOffer) ) {
+                                ?>
+
+                            <div class="cost white text-42 cancelled"><span class="text-20">$</span><?php the_field('price') ?></div>
+                            <?php } else { ?>
                             <div class="cost white text-42"><span class="text-20">$</span><?php the_field('price') ?></div>
+                            <?php } ?>
                             <?php endif; ?>
+
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-8">
+                <div class="breadcrumbs">
+                    <a href="<?php echo home_url(); ?>/dao-services/">DAO services</a> > <?php the_title(); ?>
+                </div>
 
                 <h1 class="title-big"><?php the_title(); ?></h1>
                 <img class="service-resp-image" src="<?php the_field('service_image') ?>" />
@@ -136,6 +149,24 @@
 
     </section>
 
+    <section id="lets-do-it">
+        <div class="area flex align-center gap-50">
+            <div class="col-half">
+
+                <p class="title-big">Let's DAO it!</p>
+                <div class="text-24 light-blu"><?php the_field('lead_form_payoff'); ?></div>
+
+
+            </div>
+
+            <div class="col-half">
+                <?php 
+                    include ('incl/mautic-form-dynamic.html') ;
+                ?>
+            </div>
+        </div>
+    </section>
+
 
     <section id="testimonials">
         <div class="area  flex gap-20 align-bottom">
@@ -190,23 +221,7 @@
 
     </section>
 
-    <section id="lets-do-it">
-        <div class="area flex align-center gap-50">
-            <div class="col-half">
 
-                <p class="title-big">Let's do it!</p>
-                <div class="text-24 light-blu"><?php the_field('lead_form_payoff'); ?></div>
-
-
-            </div>
-
-            <div class="col-half">
-                <?php 
-                    include ('incl/mautic-form-dynamic.html') ;
-                ?>
-            </div>
-        </div>
-    </section>
 
     <?php if( get_field('faq_1') ): ?>
     <section id="faq">

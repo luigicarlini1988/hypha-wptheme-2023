@@ -23,15 +23,15 @@
                     </div>
 
                     <div class="breadcrumbs">
-                        <a href="<?php echo home_url(); ?>/hypha-labs/">Hypha Labs</a> > Become an Hypha's:
+                        <a href="<?php echo home_url(); ?>/hypha-labs/">Hypha Labs</a> > Become a Hypha:
                     </div>
                 </div>
                 <?php endif; ?>
 
                 <?php if (!is_page('get-started')):?>
-                    <h1 class="title-big">
-                       <?php the_title();  ?>
-                     </h1>
+                <h1 class="title-big">
+                    <?php the_title();  ?>
+                </h1>
                 <?php endif; ?>
 
                 <?php if (is_page('get-started')):?>
@@ -47,15 +47,15 @@
                 <?php endif; ?>
 
                 <?php if (is_page('get-started')):?>
-                    <h2 class="title-big">
-                        Signup for <br />your Hypha DAO
-                    </h2>
+                <h2 class="title-big">
+                    Signup for <br />your Hypha DAO
+                </h2>
                 <?php endif; ?>
-                
 
-                
 
-                
+
+
+
 
                 <?php ?>
 

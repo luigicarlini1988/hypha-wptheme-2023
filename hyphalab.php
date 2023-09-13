@@ -45,7 +45,7 @@
     <section id="hyphalab">
         <div class="area align-center flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Become an Hypha:</p>
+                <p class="subtitle">Become a Hypha:</p>
                 <h2 class="title-big white">Ambassador</h2>
                 <p class="text-20 light-blu"> Receive Hypha tokens by publicly representing Hypha or actively
                     contributing to raising awareness of the Hypha Network worldwide. </p>
@@ -82,7 +82,7 @@
 
         <div class="area align-center flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Become an Hypha:</p>
+                <p class="subtitle">Become a Hypha:</p>
                 <h2 class="title-big white">Affiliate</h2>
                 <p class="text-20 light-blu">Receive Hypha Tokens whenever the organizations you onboard as DAOs in the
                     Hypha Network make payments for their recurring subscriptions.</p>
@@ -119,7 +119,7 @@
 
         <div class="area align-center flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Become an Hypha:</p>
+                <p class="subtitle">Become a Hypha:</p>
                 <h2 class="title-big white">Consultant</h2>
                 <p class="text-20 light-blu">The Hypha Consultant badge is an exciting opportunity to receive both USD equivalent
                     currency and Hypha tokens by providing consulting services on behalf of the Hypha DAO within the
@@ -159,7 +159,7 @@
 
         <div class="area align-center flex gap-50">
             <div class="col-half">
-                <p class="subtitle">Become an Hypha:</p>
+                <p class="subtitle">Become a Hypha:</p>
                 <h2 class="title-big white">Service DAO</h2>
                 <p class="text-20 light-blu">The Service DAO badge presents an opportunity for your DAO to enhance
                     its visibility within the Hypha network, be recognized as one of Hypha DAO’s accredited partners

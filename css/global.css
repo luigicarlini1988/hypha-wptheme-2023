@@ -2038,6 +2038,10 @@ text-decoration: underline;
     padding-bottom:120px;
 }
 
+.page-template-generic-page .generic-content b {
+    color:var(--white);
+}
+
 .generic-content strong {
     color:var(--white);
 }
