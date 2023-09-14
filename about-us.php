@@ -383,12 +383,12 @@
     </section>
 
 
-    <section class="work-with-us">
+    <!--<section class="work-with-us">
         <div class="area flex gap-50 align-bottom">
             <div class="col-half">
                 <div id="step1" class="sub-section flex align-center">
                     <div class="icon small">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                        <img src="<?php// echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                     </div>
 
                     <p class="subtitle">Get In touch</p>
@@ -406,12 +406,12 @@
         </div>
         <div class="area flex wrap gap-20">
             <div class="col-x">
-                <a class="nostyle" href="<?php echo home_url(); ?>/get-started/create-hypha-account/">
+                <a class="nostyle" href="<?php// echo home_url(); ?>/get-started/create-hypha-account/">
                     <div class="generic-card glow-back has-link">
                         <div class="wrappo">
 
                             <div class="icon in-card">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
+                                <img src="<?php// echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
                             </div>
                             <h3 class="title-medium">Create your <br />Hypha Account
                             </h3>
@@ -443,7 +443,7 @@
 
 
         </div>
-    </section>
+    </section>-->
 
 
 </main>

@@ -52,7 +52,7 @@
                     </div>
 
                     <div class="buttons gap-20 wrap">
-                        <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
+                        <a href="<?php echo home_url(); ?>/beta-signup/" class="button primary">Get Started</a>
                         <a href="#opening" class="button secondary">Learn More</a>
                     </div>
                 </div>
@@ -672,7 +672,7 @@
                     <img class="wr-2" src="<?php echo get_template_directory_uri(); ?>/img/wallet-1.jpg" />
                 </div>
                 <div class="buttons wrap">
-                    <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
+                    <a href="<?php echo home_url(); ?>/beta-signup/" class="button primary">Get Started</a>
                     <a href="" id="pop-scat" class="button secondary">Learn More</a>
                 </div>
 

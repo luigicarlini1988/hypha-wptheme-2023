@@ -375,7 +375,7 @@
 
         <div class="area">
             <div class="col-full flex align-center justify-right">
-                <img width="18px" style="margin-right:5px" src="http://localhost:8000/wp-content/themes/hypha2023/img/icons/time.svg"> = Feature Under Developmnet
+                <img width="18px" style="margin-right:5px" src="<?php echo get_template_directory_uri(); ?>/img/icons/time.svg"> = Feature Under Developmnet
             </div>
         </div>
 
@@ -410,7 +410,7 @@
                         <p>Check out our Get started guide to discover everything you need to know to get your DAO
                             up and running. If you are ready, click the blu button instead!</p>
                         <div class="buttons flex wrap gap-20">
-                            <a href="<?php echo home_url(); ?>/get-started/"
+                            <a href="<?php echo home_url(); ?>/beta-signup/"
                                 class="button secondary">Signup for your DAO</a>
                             <!--<a class="button primary" href="https://dao.hypha.earth/hypha/create-your-dao" target="_blank">Create DAO</a>-->
                         </div>

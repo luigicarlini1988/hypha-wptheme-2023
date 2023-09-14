@@ -16,7 +16,7 @@
             </div>
             <div class="col-half">
 
-                <?php if (!is_page('get-started')):?>
+                <?php if (!is_page('get-started') && !is_page('beta-signup')):?>
                 <div class="sub-section flex align-center">
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?><?php the_field('icon_path')?>" />
@@ -28,25 +28,33 @@
                 </div>
                 <?php endif; ?>
 
-                <?php if (!is_page('get-started')):?>
+
+
+                <?php if (!is_page('get-started') && !is_page('beta-signup')):?>
                 <h1 class="title-big">
                     <?php the_title();  ?>
                 </h1>
                 <?php endif; ?>
 
-                <?php if (is_page('get-started')):?>
+                <?php if (!is_page('get-started') && !is_page('beta-signup')):?>
+                <h1 class="title-big">
+                    <?php the_title();  ?>
+                </h1>
+                <?php endif; ?>
+
+                <?php if (is_page('get-started') || is_page('beta-signup')):?>
                 <div class="sub-section flex align-center">
                     <div class="icon small">
                         <img src="<?php echo get_template_directory_uri(); ?><?php the_field('icon_path')?>" />
                     </div>
 
                     <div class="breadcrumbs">
-                        <h1 class="subtitle light-blu">Get Started</h1>
+                        <h1 class="subtitle light-blu">Beta Signup</h1>
                     </div>
                 </div>
                 <?php endif; ?>
 
-                <?php if (is_page('get-started')):?>
+                <?php if (is_page('get-started') || is_page('beta-signup')):?>
                 <h2 class="title-big">
                     Signup for <br />your Hypha DAO
                 </h2>

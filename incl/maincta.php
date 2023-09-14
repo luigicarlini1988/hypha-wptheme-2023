@@ -26,7 +26,7 @@
                 </p>
             </div>
             <div class="col-half">
-                <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started Today</a>
+                <a href="<?php echo home_url(); ?>/beta-signup/" class="button primary">Get Started Today</a>
             </div>
         </div>
     </div>
