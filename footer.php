@@ -151,7 +151,7 @@
         <div class="footer-bottom">
             <div class="flex gap-20">
                 <p>Hypha Genossenschaft, Birkenweg 6, 9490, Vaduz Liechtenstein.</p>
-                <a href="#">Sitemap XML</a>
+                <!--<a href="#">Sitemap XML</a>-->
             </div>
 
             <img class="foot-logo" src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-white.svg" />

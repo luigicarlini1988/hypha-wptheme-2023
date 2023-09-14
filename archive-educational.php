@@ -62,7 +62,9 @@
                             <h3 class="text-24"><?php the_title(); ?></h3>
                         </a>
                         <p>
-                            <?php echo wp_kses_post( wp_trim_words( $post->post_content, 26 ) ); ?>
+                            <?php $content = wp_kses_post( wp_trim_words( $post->post_content, 26 )) ; 
+                                    $regex = "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@";
+                                    echo preg_replace($regex, ' ', $content); ?>
                         </p>
 
                         <div class="author-meta gap-10 flex align-center">

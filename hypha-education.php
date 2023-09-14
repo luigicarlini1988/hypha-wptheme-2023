@@ -105,7 +105,11 @@
 
                             <h3 class="text-24"><?php the_title(); ?></h3>
                         </a>
-                        <p><?php echo wp_kses_post( wp_trim_words( $post->post_content, 26 ) ); ?></p>
+                        <p>
+                            <?php $content = wp_kses_post( wp_trim_words( $post->post_content, 26 )) ; 
+                                    $regex = "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@";
+                                    echo preg_replace($regex, ' ', $content); ?>
+                        </p>
                         <div class="author-meta gap-10 flex align-center">
                             <?php echo get_avatar( get_the_author_meta( 'ID' ), 96 ); ?>
                             <p class="text-14 bold white">
@@ -178,7 +182,9 @@
                         <a href="<?php the_permalink(); ?>">
                             <h3 class="text-24"><?php the_title(); ?></h3>
                             <p>
-                                <?php echo wp_kses_post( wp_trim_words( $post->post_content, 26 ) ); ?>
+                                <?php $content = wp_kses_post( wp_trim_words( $post->post_content, 26 )) ; 
+                                    $regex = "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@";
+                                    echo preg_replace($regex, ' ', $content); ?>
                             </p>
                         </a>
                         <div class="author-meta gap-10 flex align-center">
