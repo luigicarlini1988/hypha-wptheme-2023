@@ -174,6 +174,6 @@
 
     <div id="main-ctas">
         <div class="flex gap-20 justify-right">
-            <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
+            <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Signup for Beta</a>
         </div>
     </div>

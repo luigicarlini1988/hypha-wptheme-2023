@@ -5,7 +5,7 @@
         </div>
         <div class="cta-top flex gap-20">
             <div class="col-half">
-                <h2 class="text-giga">Get Started Today!</h2>
+                <h2 class="text-giga">Join the Waitlist!</h2>
             </div>
             <div class="col-half">
                 <ul>
@@ -20,13 +20,14 @@
         <div class="cta-bottom flex gap-20 align-center">
             <div class="col-half">
                 <p class="text-20 light-blu">
-                    Take the first steps to <span class="white">Create a DAO</span> or <span class="white">join a
+                    <!--Take the first steps to <span class="white">Create a DAO</span> or <span class="white">join a
                         DAO</span>
-                    within Hypha Network.
+                    within Hypha Network.-->
+                    Signup to the waitinglist to be the first to know when Beta is live. Follow us on social media for live updates.
                 </p>
             </div>
             <div class="col-half">
-                <a href="<?php echo home_url(); ?>/beta-signup/" class="button primary">Get Started Today</a>
+                <a href="<?php echo home_url(); ?>/beta-signup/" class="button primary">Claim your spot</a>
             </div>
         </div>
     </div>

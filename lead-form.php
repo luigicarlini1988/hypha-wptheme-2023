@@ -36,11 +36,7 @@
                 </h1>
                 <?php endif; ?>
 
-                <?php if (!is_page('get-started') && !is_page('beta-signup')):?>
-                <h1 class="title-big">
-                    <?php the_title();  ?>
-                </h1>
-                <?php endif; ?>
+
 
                 <?php if (is_page('get-started') || is_page('beta-signup')):?>
                 <div class="sub-section flex align-center">
