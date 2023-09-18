@@ -299,7 +299,7 @@
     .resp-logo {
         display:block;
         position:absolute;
-        top:40px;
+        top:26px;
         left:0px;
         width:140px;
     }
@@ -541,7 +541,7 @@
 
         
         .get-started-hero.intro .col-8,
-        .get-started-hero.about-us .col-7 {
+        .get-started-hero.about-us .col-9 {
             padding-bottom:0;
         }
 
@@ -933,7 +933,8 @@
 
     .ribbon {
     top:0;
-    padding:15px;
+    padding:22px 15px;
+    z-index:10;
     }
     
 }
@@ -1287,6 +1288,17 @@
     .pop-inside {
         padding:20px 0px 20px 20px;
     }
+
+    img.delete-app.alignnone {
+        max-width: calc(50% - 20px);
+        margin: 4px;
+        border-radius: 16px;
+    }
+
+    .has-social p {
+        font-size: 13px;
+        display: none;
+    }
 }
 
 
@@ -1297,7 +1309,7 @@
     .title-big,
     .title-56,
     .home-header .area .col-full .title-giga {
-        font-size: 50px;
+        font-size: 44px;
     }
 
     .title-medium {
@@ -1318,7 +1330,7 @@
 
 
     .title-giga {
-        font-size:52px;
+        font-size:44px;
     }
 
     

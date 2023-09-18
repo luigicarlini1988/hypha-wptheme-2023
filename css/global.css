@@ -2494,3 +2494,9 @@ span.paragraph2 span {
     opacity:1;
     box-shadow: var(--glow-shadow);
   }
+
+  img.delete-app.alignnone {
+    max-width: calc(50% - 108px);
+    margin: 50px;
+    border-radius: 26px;
+}
