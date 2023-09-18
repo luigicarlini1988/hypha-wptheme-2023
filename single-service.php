@@ -54,7 +54,7 @@
     <section id="details" class="service-detail">
         <div class="area flex gap-50 align-top">
             <div class="col-4 side-offer">
-                <h2 class="text-20 bold tit light-blu">Logistic</h2>
+                <h2 class="text-20 bold tit light-blu">Logistics</h2>
 
                 <div class="logic">
                     <?php the_field('logistic_1') ?>
