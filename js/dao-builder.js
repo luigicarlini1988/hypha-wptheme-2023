@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
         // Set timeframe
         timeFrameAreas.forEach((timeFrameArea) => {
-            timeFrameArea.innerHTML = 'Annually'
+            timeFrameArea.innerHTML = 'annually'
         });
 
 
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 thrivePriceArea.innerHTML = thrivePrice
 
                 timeFrameAreas.forEach((timeFrameArea) => {
-                    timeFrameArea.innerHTML = 'Monthly'
+                    timeFrameArea.innerHTML = 'monthly'
                 });
 
             } else {
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 thrivePriceArea.innerHTML = thrivePriceDisc
 
                 timeFrameAreas.forEach((timeFrameArea) => {
-                    timeFrameArea.innerHTML = 'Annually'
+                    timeFrameArea.innerHTML = 'annually'
                 });
             }
         }

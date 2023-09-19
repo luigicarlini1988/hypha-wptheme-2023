@@ -936,6 +936,11 @@
     padding:22px 15px;
     z-index:10;
     }
+
+    .has-social p {
+        font-size: 13px;
+        display: none;
+    }
     
 }
 
@@ -1295,10 +1300,7 @@
         border-radius: 16px;
     }
 
-    .has-social p {
-        font-size: 13px;
-        display: none;
-    }
+   
 }
 
 

@@ -129,7 +129,7 @@
                             <span id="starter-price" class="title-big white"></span>
                             <span class="text-14 white">/mo</span>
                         </div>
-                        <p class="text-14 light-blu">When payed <span class="timeframe"></span></p>
+                        <p class="text-14 light-blu">When paid <span class="timeframe"></span></p>
                     </div>
                     <div class="core-members flex align-center space-between">
                         <span class="white bold">Core members</span>
@@ -213,7 +213,7 @@
                             <span id="growth-price" class="title-big white"></span>
                             <span class="text-14 white">/mo</span>
                         </div>
-                        <p class="text-14 light-blu">When payed <span class="timeframe"></span></p>
+                        <p class="text-14 light-blu">When paid <span class="timeframe"></span></p>
                     </div>
                     <div class="core-members flex align-center space-between">
                         <span class="white bold">Core members</span>
@@ -297,7 +297,7 @@
                             <span id="thrive-price" class="title-big white"></span>
                             <span class="text-14 white">/mo</span>
                         </div>
-                        <p class="text-14 light-blu">When payed <span class="timeframe"></span></p>
+                        <p class="text-14 light-blu">When paid <span class="timeframe"></span></p>
                     </div>
                     <div class="core-members flex align-center space-between">
                         <span class="white bold">Core members</span>
