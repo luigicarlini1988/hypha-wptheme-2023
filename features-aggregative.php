@@ -154,11 +154,11 @@
 
                     <h2 class="subtitle">Explore Features One by One</h2>
                 </div>
-                <p class="title-40">Discover the ultimate DAO solution for your goals</p>
+                <p class="title-40">Discover the breadth of our features organized by functional category</p>
             </div>
 
             <div class="col-half">
-                <p class="text-20 light-blu">Launch your DAO with confidence! Discover Hypha’s complete set of features designed to support your success below.</p>
+                <p class="text-20 light-blu">Launch your project or organization with confidence! Hypha puts at your fingertips all the functional tools you need to support your success.</p>
 
             </div>
         </div>

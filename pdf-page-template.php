@@ -40,8 +40,9 @@
             </div>
             <div class="col-4">
                 <div class="wrappo">
-
-                    <img src="<?php the_field('cover_image') ?>" />
+                    <a href="<?php the_field('url_pdf') ?>" target="_blank">
+                        <img src="<?php the_field('cover_image') ?>" />
+                    </a>
                 </div>
             </div>
 
