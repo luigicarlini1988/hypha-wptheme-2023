@@ -53,6 +53,14 @@
                         <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                     </div>
 
+                    <?php if (is_page('get-started') || is_page('beta-signup')):?>
+                    <div id="mauticform_newwebsitebeta_what_is_5_times_4" data-validate="what_is_5_times_4" data-validation-type="captcha" class="wrap-area full">
+                        <label id="mauticform_label_newwebsitebeta_what_is_5_times_4" for="mauticform_input_newwebsitebeta_what_is_5_times_4" class="mauticform-label">what is 5 times 4?</label>
+                        <input id="mauticform_input_newwebsitebeta_what_is_5_times_4" name="mauticform[what_is_5_times_4]" value="" class="mauticform-input" type="text">
+                        <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+                    </div>
+                    <?php endif; ?>
+
 
 
                     <div id="mauticform_<?php the_field('form_string_name')?>_privacy_consent" data-validate="privacy_consent" data-validation-type="checkboxgrp" class="wrap-area half">

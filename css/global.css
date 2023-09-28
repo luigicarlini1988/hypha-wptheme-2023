@@ -488,6 +488,21 @@ form button:hover {
     background: var(--lb-transp);
 }
 
+.button.secondary.beta {
+    text-transform: none;
+    font-weight:400;
+    font-size:14px;
+    font-style: italic;
+    display:flex;
+    align-items: center;
+    gap:8px;
+    padding:14px 28px 14px 20px;
+}
+
+.button.secondary.beta img {
+    height:18px;
+}
+
 .secondary:hover {
     transform:scale(1.015);
     background: var(--lb-transp-hover);
