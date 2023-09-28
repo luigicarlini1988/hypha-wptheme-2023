@@ -406,7 +406,7 @@
                         <div class="icon in-card">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                         </div>
-                        <h3 class="title-medium">Create your DAO</h3>
+                        <h3 class="title-big">Create your DAO</h3>
                         <p>Check out our Get started guide to discover everything you need to know to get your DAO
                             up and running. If you are ready, click the blu button instead!</p>
                         <div class="buttons flex wrap gap-20">
@@ -420,9 +420,72 @@
         </div>
     </section>
 
-    <!-- <section class="upsell">
-        <?php // include('incl/pricing-upsell.html') ?>
-    </section> -->
+    <section class="upsell">
+        <div class="area flex gap-50 align-center">
+            <div class="col-half">
+                <div class="sub-section flex align-center">
+                    <div class="icon small">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/ecosystem.svg">
+                    </div>
+
+                    <h3 class="subtitle">DAO Services</h3>
+                </div>
+                <p class="title-big">Accelerate Your DAO With Our Premium Services</p>
+                <p>Our Premium Services are designed to accelerate your DAO to success. Using a combination of these services will ensure you get the best value out of your DAO implementation.</p>
+                <div class="buttons" style="display:block;margin-top:28px;">
+                    <a href="<?php echo home_url(); ?>/dao-services/" class="button primary">All Services</a>
+                </div>
+            </div>
+
+
+            <?php $services = get_field('select_service');
+            if( $services ): ?>
+            <?php foreach( $services as $post ): setup_postdata($post); ?>
+            <div class="col-half">
+                <a class="nostyle" href="<?php the_permalink(); ?>">
+                    <div class="generic-card pricing glow-back has-link">
+                        <div class="wrappo">
+                            <div class="top-pricing-card flex align-center space-between">
+                                <p class="text-16 light-blu bold"><?php the_field('price_description') ?></p>
+                                <?php if( get_field('price') ): ?>
+                                <?php 
+                                $priceOffer = get_field('price_offer');
+                                if( $priceOffer && in_array('free', $priceOffer) ) {
+                                ?>
+                                <div class="actual-price cancelled">
+                                    <div class="wrap">
+                                        <span class="currency">$</span><?php the_field('price') ?>
+                                    </div>
+                                </div>
+                                <?php } else { ?>
+                                <div class="actual-price">
+                                    <div class="wrap">
+                                        <span class="currency">$</span><?php the_field('price') ?>
+                                    </div>
+                                </div>
+                                <?php } ?>
+                                <?php endif; ?>
+                            </div>
+                            <h3 class="title-big"><?php the_title(); ?></h3>
+                            <p class="text-20 light-blu"><?php the_field('short_description') ?></p>
+
+                            <div class="fake-button space">
+                                <p>Discover More</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <?php endforeach; ?>
+            <?php wp_reset_postdata(); ?>
+            <?php endif; ?>
+
+
+
+
+        </div>
+    </section>
 
 
 
