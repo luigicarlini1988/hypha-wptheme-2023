@@ -22,7 +22,7 @@
         <div class="top-social">
             <a href="https://twitter.com/HyphaDAO" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/x-logo.svg" /></a>
             <a href="https://www.linkedin.com/company/hypha-dao/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
-            <a href="https://discord.com/invite/NsPQAjH9Jw" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/discord.svg" /></a>
+            <a href="https://discord.gg/JfM7Tv3MQk" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/discord.svg" /></a>
             <a href="https://medium.com/hyphadao" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/medium.svg" /></a>
         </div>
         <div class="area">

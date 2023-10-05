@@ -107,24 +107,16 @@
 
             <div class="col-8 has-social flex gap-20">
                 <div class="col-full">
-                    <a class="fot-soc white text-22" href="https://x.com/HyphaDAO" target="_blank">Twitter <img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/x-logo.svg" /></a>
-                    <p>twitter.com/hyphaDAO</p>
+                    <a class="fot-soc white text-22" href="https://x.com/HyphaDAO" target="_blank">Twitter <img src="<?php echo get_template_directory_uri(); ?>/img/icons/x-logo.svg" /></a>
                 </div>
                 <div class="col-full">
-                    <a class="fot-soc white text-22" href="https://www.linkedin.com/company/hypha-dao/" target="_blank">Linkedin <img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
-                    <p>linkedin.com/company/hypha-dao/</p>
+                    <a class="fot-soc white text-22" href="https://www.linkedin.com/company/hypha-dao/" target="_blank">Linkedin <img src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin.svg" /></a>
                 </div>
                 <div class="col-full">
-                    <a class="fot-soc white text-22" href="https://discord.com/invite/NsPQAjH9Jw" target="_blank">Discord <img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/discord.svg" /> </a>
-                    <p>discord.com/invite/NsPQAjH9Jw</p>
+                    <a class="fot-soc white text-22" href="https://discord.gg/JfM7Tv3MQk" target="_blank">Discord <img src="<?php echo get_template_directory_uri(); ?>/img/icons/discord.svg" /> </a>
                 </div>
                 <div class="col-full">
-                    <a class="fot-soc white text-22" href="https://medium.com/hyphadao" target="_blank">Medium <img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/medium.svg" /></a>
-                    <p>medium.com/hyphadao</p>
+                    <a class="fot-soc white text-22" href="https://medium.com/hyphadao" target="_blank">Medium <img src="<?php echo get_template_directory_uri(); ?>/img/icons/medium.svg" /></a>
                 </div>
             </div>
         </div>
