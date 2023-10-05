@@ -119,6 +119,34 @@
     }
     </script>
 
+    <!-- google reCaptcha V3c Ecosystem -->
+    <?php if( is_page_template('pricing-ecosystem-builder.php')  ) :?>
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script>
+    function onSubmit(token) {
+        document.getElementById("mauticform_ecosystembuilders").submit();
+        document.getElementById("mauticform_ecosystembuilders_submit").classList.add('gone');
+    }
+    </script>
+
+    <?php endif;?>
+
+
+    <!-- google reCaptcha V3c Beta List -->
+    <?php if (is_page_template('lead-form.php')):?>
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script>
+    function onSubmit(token) {
+        document.getElementById("mauticform_newwebsitebeta").submit();
+        document.getElementById("mauticform_newwebsitebeta_submit").classList.add('gone');
+    }
+    </script>
+
+    <?php endif;?>
 
 
 

@@ -2515,3 +2515,18 @@ span.paragraph2 span {
     margin: 50px;
     border-radius: 26px;
 }
+
+
+/* google Captcha things */
+
+#mauticform_newwebsitebeta_submit.gone button {
+    opacity: 0;
+}
+
+#mauticform_newwebsitebeta_submit.gone::after {
+    content: "Message sent!";
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: var(--light-blu);
+}

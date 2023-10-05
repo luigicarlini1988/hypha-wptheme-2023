@@ -201,79 +201,87 @@
                 <p class="text-24 light-blu">Get in touch with us to share your ecosystem vision and activate the
                     Ecosystem plan
                 </p>
+                <p>Our team is available to help fast-track your impact through the launch of your Anchor DAO & Ecosystem.</p>
 
             </div>
 
             <div class="col-half">
                 <div class="form-wrap glow-back">
                     <div class="wrappo">
-                        <form autocomplete="false" role="form" method="post"
-                            action="https://mautic.hypha.earth/form/submit?formId=16" id="mauticform_ecosystembuilders"
-                            data-mautic-form="ecosystembuilders" enctype="multipart/form-data">
+                        <form autocomplete="false" role="form" method="post" action="https://mautic.hypha.earth/form/submit?formId=16" id="mauticform_ecosystembuilders" data-mautic-form="ecosystembuilders" enctype="multipart/form-data" class="get-form-mautic-with-captcha">
                             <div class="mauticform-error" id="mauticform_ecosystembuilders_error"></div>
                             <div class="mauticform-message" id="mauticform_ecosystembuilders_message"></div>
                             <div class="mauticform-innerform">
 
                                 <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
 
-                                    <div id="mauticform_ecosystembuilders_email" data-validate="email" data-validation-type="email" class="wrap-area full">
+                                    <div id="mauticform_ecosystembuilders_email" data-validate="email" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-1 mauticform-required wrap-area full">
                                         <label id="mauticform_label_ecosystembuilders_email" for="mauticform_input_ecosystembuilders_email" class="mauticform-label">Email</label>
                                         <input id="mauticform_input_ecosystembuilders_email" name="mauticform[email]" value="" class="mauticform-input" type="email">
                                         <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
-                                    <div id="mauticform_ecosystembuilders_first_name" data-validate="first_name" data-validation-type="text" class="wrap-area half">
+                                    <div id="mauticform_ecosystembuilders_first_name" data-validate="first_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-2 mauticform-required wrap-area half">
                                         <label id="mauticform_label_ecosystembuilders_first_name" for="mauticform_input_ecosystembuilders_first_name" class="mauticform-label">First name</label>
                                         <input id="mauticform_input_ecosystembuilders_first_name" name="mauticform[first_name]" value="" class="mauticform-input" type="text">
                                         <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
-                                    <div id="mauticform_ecosystembuilders_website" class="wrap-area half">
+                                    <div id="mauticform_ecosystembuilders_website" class="mauticform-row mauticform-url mauticform-field-3 wrap-area half">
                                         <label id="mauticform_label_ecosystembuilders_website" for="mauticform_input_ecosystembuilders_website" class="mauticform-label">Website</label>
                                         <input id="mauticform_input_ecosystembuilders_website" name="mauticform[website]" value="" class="mauticform-input" type="url">
                                         <span class="mauticform-errormsg" style="display: none;"></span>
                                     </div>
 
-                                    <div id="mauticform_ecosystembuilders_number_of_team_members" class="wrap-area half">
+                                    <div id="mauticform_ecosystembuilders_number_of_team_members" class="mauticform-row mauticform-text mauticform-field-4 wrap-area half">
                                         <label id="mauticform_label_ecosystembuilders_number_of_team_members" for="mauticform_input_ecosystembuilders_number_of_team_members" class="mauticform-label">Number of Team Members</label>
                                         <input id="mauticform_input_ecosystembuilders_number_of_team_members" name="mauticform[number_of_team_members]" value="" class="mauticform-input" type="text">
                                         <span class="mauticform-errormsg" style="display: none;"></span>
                                     </div>
 
-                                    <div id="mauticform_ecosystembuilders_size_of_community" class="wrap-area half">
+                                    <div id="mauticform_ecosystembuilders_size_of_community" class="mauticform-row mauticform-text mauticform-field-5 wrap-area half">
                                         <label id="mauticform_label_ecosystembuilders_size_of_community" for="mauticform_input_ecosystembuilders_size_of_community" class="mauticform-label">Size of Community</label>
                                         <input id="mauticform_input_ecosystembuilders_size_of_community" name="mauticform[size_of_community]" value="" class="mauticform-input" type="text">
                                         <span class="mauticform-errormsg" style="display: none;"></span>
                                     </div>
 
-                                    <div id="mauticform_ecosystembuilders_your_full_message" data-validate="your_full_message" data-validation-type="textarea" class="wrap-area full">
+                                    <div id="mauticform_ecosystembuilders_your_full_message" data-validate="your_full_message" data-validation-type="textarea" class="mauticform-row mauticform-text mauticform-field-6 mauticform-required wrap-area full">
                                         <label id="mauticform_label_ecosystembuilders_your_full_message" for="mauticform_input_ecosystembuilders_your_full_message" class="mauticform-label">Organizational Purpose</label>
                                         <textarea id="mauticform_input_ecosystembuilders_your_full_message" name="mauticform[your_full_message]" class="mauticform-textarea"></textarea>
                                         <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
-                                    <div id="mauticform_ecosystembuilders_privacy_consent" data-validate="privacy_consent" data-validation-type="checkboxgrp" class="wrap-area half">
+                                    <div id="mauticform_ecosystembuilders_privacy_consent" data-validate="privacy_consent" data-validate="privacy_consent" data-validation-type="checkboxgrp" class="wrap-area half">
                                         <div class="mauticform-checkboxgrp-row flex"> <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_consent][]" id="mauticform_checkboxgrp_checkbox_privacy_consent_Agree0" type="checkbox" value="Agree">
                                             <span class="text-12">By submitting this form you agree to our <a href="<?php echo home_url(); ?>/privacy-policy/" target="_blank" class="light-blu">Privacy Policy</a></span>
                                         </div>
                                         <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
-                                    <div id="mauticform_ecosystembuilders_submit" class="wrap-area half">
-                                        <button type="submit" name="mauticform[submit]"
-                                            id="mauticform_input_ecosystembuilders_submit" value=""
-                                            class="mauticform-button btn btn-default">Submit</button>
+
+                                    <div id="mauticform_ecosystembuilders_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-9 wrap-area half">
+                                        <button
+
+                                            type="submit"
+                                            name="mauticform[submit]"
+                                            id="mauticform_input_ecosystembuilders_submit"
+                                            value=""
+                                            class="g-recaptcha mauticform-button btn btn-default"
+                                            data-sitekey="6LcBB2AoAAAAAEkdifirW3wA5KnIo-exdnT9vFO4"
+                                            data-callback='onSubmit'
+                                            data-action='submit'>Submit
+
+                                        </button>
+
 
                                     </div>
                                 </div>
-
-                                <input type="hidden" name="mauticform[formId]" id="mauticform_ecosystembuilders_id"
-                                    value="16">
-                                <input type="hidden" name="mauticform[return]" id="mauticform_ecosystembuilders_return"
-                                    value="">
-                                <input type="hidden" name="mauticform[formName]" id="mauticform_ecosystembuilders_name"
-                                    value="ecosystembuilders">
                             </div>
+
+                            <input type="hidden" name="mauticform[formId]" id="mauticform_ecosystembuilders_id" value="16">
+                            <input type="hidden" name="mauticform[return]" id="mauticform_ecosystembuilders_return" value="">
+                            <input type="hidden" name="mauticform[formName]" id="mauticform_ecosystembuilders_name" value="ecosystembuilders">
+
                         </form>
 
 
