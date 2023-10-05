@@ -1667,7 +1667,7 @@ footer .text-22 {
 /* footer form */
 
 footer form .mauticform-innerform {
-    display:flex;
+    display:flex!important;
     gap:20px;
     margin-top:40px;
 }
@@ -1738,6 +1738,8 @@ form  textarea:focus {
 
 footer form button {
     width:100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .form-wrap {

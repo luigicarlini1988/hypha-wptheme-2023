@@ -40,56 +40,40 @@
             </div>
             <div class="col-4">
                 <p class="text-22 white">Subscribe to our Newsletter</p>
-                <p class="no-margin-bottom">Get exclusive access to Hypha’s latest news and announcements as a Hypha
-                    Insider.
-                    Subscribe now and
-                    stay ahead of the curve.</p>
+                <p class="no-margin-bottom">Get exclusive access to Hypha’s latest news and announcements as a Hypha Insider. Subscribe now and stay ahead of the curve.</p>
             </div>
             <div class="col-8">
-                <form autocomplete="false" role="form" method="post"
-                    action="https://mautic.hypha.earth/form/submit?formId=9" id="mauticform_newslettersignup2023"
-                    data-mautic-form="newslettersignup2023" enctype="multipart/form-data">
+                <form autocomplete="false" role="form" method="post" action="https://mautic.hypha.earth/form/submit?formId=9" id="mauticform_newslettersignup2023" data-mautic-form="newslettersignup2023" enctype="multipart/form-data">
                     <div class="mauticform-error" id="mauticform_newslettersignup2023_error"></div>
                     <div class="mauticform-message" id="mauticform_newslettersignup2023_message"></div>
-                    <div class="mauticform-innerform">
+
+
+                    <div class="mauticform-innerform" data-mautic-form-page="1">
                         <div class="pre-button">
                             <div class="pre-checkbox">
-                                <div id="mauticform_newslettersignup2023_email" data-validate="email"
-                                    data-validation-type="email"
-                                    class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
-                                    <label id="mauticform_label_newslettersignup2023_email"
-                                        for="mauticform_input_newslettersignup2023_email" class="mauticform-label">Email</label>
-                                    <input id="mauticform_input_newslettersignup2023_email" name="mauticform[email]" value=""
-                                        class="mauticform-input" type="email">
+                                <div id="mauticform_newslettersignup2023_email" data-validate="email" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
+                                    <label id="mauticform_label_newslettersignup2023_email" for="mauticform_input_newslettersignup2023_email" class="mauticform-label">Email</label>
+                                    <input id="mauticform_input_newslettersignup2023_email" name="mauticform[email]" value="" class="mauticform-input" type="email">
                                     <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                 </div>
 
-                                <div id="mauticform_newslettersignup2023_first_name" data-validate="first_name"
-                                    data-validation-type="text"
-                                    class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
-                                    <label id="mauticform_label_newslettersignup2023_first_name"
-                                        for="mauticform_input_newslettersignup2023_first_name" class="mauticform-label">First
-                                        name</label>
-                                    <input id="mauticform_input_newslettersignup2023_first_name" name="mauticform[first_name]"
-                                        value="" class="mauticform-input" type="text">
+                                <div id="mauticform_newslettersignup2023_first_name" data-validate="first_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
+                                    <label id="mauticform_label_newslettersignup2023_first_name" for="mauticform_input_newslettersignup2023_first_name" class="mauticform-label">First name</label>
+                                    <input id="mauticform_input_newslettersignup2023_first_name" name="mauticform[first_name]" value="" class="mauticform-input" type="text">
                                     <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                 </div>
 
-                                <div id="mauticform_newslettersignup2023_last_name" data-validate="last_name"
-                                    data-validation-type="text"
-                                    class="mauticform-row mauticform-text mauticform-field-3 mauticform-required">
-                                    <label id="mauticform_label_newslettersignup2023_last_name"
-                                        for="mauticform_input_newslettersignup2023_last_name" class="mauticform-label">Last
-                                        Name</label>
-                                    <input id="mauticform_input_newslettersignup2023_last_name" name="mauticform[last_name]"
-                                        value="" class="mauticform-input" type="text">
+                                <div id="mauticform_newslettersignup2023_what_is_5_times_4" data-validate="what_is_5_times_4" data-validation-type="captcha" class="mauticform-row mauticform-text mauticform-field-3 mauticform-required">
+                                    <label id="mauticform_label_newslettersignup2023_what_is_5_times_4" for="mauticform_input_newslettersignup2023_what_is_5_times_4" class="mauticform-label">what is 5 times 4?</label>
+                                    <input id="mauticform_input_newslettersignup2023_what_is_5_times_4" name="mauticform[what_is_5_times_4]" value="" class="mauticform-input" type="text">
                                     <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                 </div>
                             </div>
 
-                            <div id="mauticform_newslettersignup2023_privacy_consent" data-validate="privacy_consent" data-validation-type="checkboxgrp" class="wrap-area full checkbo">
 
-                                <div class="mauticform-checkboxgrp-row flex"> <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_consent][]" id="mauticform_checkboxgrp_checkbox_privacy_consent_Agree0" type="checkbox" value="Agree">
+                            <div id="mauticform_newslettersignup2023_privacy_consent" data-validate="privacy_consent" data-validation-type="checkboxgrp" class="wrap-area full checkbo">
+                                <div class="mauticform-checkboxgrp-row flex">
+                                    <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_consent][]" id="mauticform_checkboxgrp_checkbox_privacy_consent_Agree0" type="checkbox" value="Agree">
                                     <span class="text-12">By submitting this form you agree to our <a href="<?php echo home_url(); ?>/privacy-policy/" target="_blank" class="light-blu">Privacy Policy</a></span>
                                 </div>
                                 <span class="mauticform-errormsg" style="display: none;">This is required.</span>
@@ -97,22 +81,19 @@
                         </div>
 
                         <div class="mauticform-row">
-                            <button type="submit" name="mauticform[submit]"
-                                id="mauticform_input_newslettersignup2023_submit" value=""
-                                class="mauticform-button btn btn-default">Submit</button>
+                            <div id="mauticform_newslettersignup2023_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-5">
+                                <button type="submit" name="mauticform[submit]" id="mauticform_input_newslettersignup2023_submit" value="" class="mauticform-button btn btn-default">Submit</button>
+                            </div>
                         </div>
-
-                        <input type="hidden" name="mauticform[formId]" id="mauticform_newslettersignup2023_id"
-                            value="9">
-                        <input type="hidden" name="mauticform[return]" id="mauticform_newslettersignup2023_return"
-                            value="">
-                        <input type="hidden" name="mauticform[formName]" id="mauticform_newslettersignup2023_name"
-                            value="newslettersignup2023">
                     </div>
+
+
+                    <input type="hidden" name="mauticform[formId]" id="mauticform_newslettersignup2023_id" value="9">
+                    <input type="hidden" name="mauticform[return]" id="mauticform_newslettersignup2023_return" value="">
+                    <input type="hidden" name="mauticform[formName]" id="mauticform_newslettersignup2023_name" value="newslettersignup2023">
+
                 </form>
-
             </div>
-
         </div>
 
         <div class="footer-social flex gap-20">
