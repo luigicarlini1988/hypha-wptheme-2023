@@ -26,7 +26,7 @@
                         <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                     </div>
 
-                    <?php if (is_page('beta-signup')):?>
+                    <?php if (is_page('beta-signup') || is_page('get-started')):?>
 
                     <div id="mauticform_newwebsitebeta_dao_name" data-validate="dao_name" data-validation-type="text" class="wrap-area full">
                         <label id="mauticform_label_newwebsitebeta_dao_name" for="mauticform_input_newwebsitebeta_dao_name" class="mauticform-label">DAO name</label>
@@ -37,18 +37,18 @@
                     <?php endif; ?>
 
                     <div id="mauticform_<?php the_field('form_string_name')?>_your_full_message" data-validate="your_full_message" data-validation-type="textarea" class="wrap-area full">
-                        <?php if (!is_page('beta-signup')):?>
+                        <?php if (!is_page('beta-signup') && !is_page('get-started')):?>
                         <label id="mauticform_label_<?php the_field('form_string_name')?>_your_full_message" for="mauticform_input_<?php the_field('form_string_name')?>_your_full_message" class="mauticform-label">Your Full Message</label>
                         <?php endif; ?>
 
-                        <?php if (is_page('beta-signup')):?>
+                        <?php if (is_page('beta-signup') || is_page('get-started') ):?>
                         <label id="mauticform_label_<?php the_field('form_string_name')?>_your_full_message" for="mauticform_input_<?php the_field('form_string_name')?>_your_full_message" class="mauticform-label">DAO purpose</label>
                         <?php endif; ?>
                         <textarea id="mauticform_input_<?php the_field('form_string_name')?>_your_full_message" name="mauticform[your_full_message]" rows="4" class="mauticform-textarea"></textarea>
                         <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                     </div>
 
-                    <?php if (is_page('beta-signup')):?>
+                    <?php if (is_page('beta-signup') || is_page('get-started')):?>
 
                     <div id="mauticform_newwebsitebeta_what_is_5_times_4" data-validate="what_is_5_times_4" data-validation-type="captcha" class="mauticform-row mauticform-text mauticform-field-5 mauticform-required wrap-area full">
                         <label id="mauticform_label_newwebsitebeta_what_is_5_times_4" for="mauticform_input_newwebsitebeta_what_is_5_times_4" class="mauticform-label">what is 5 times 4?</label>
@@ -68,11 +68,11 @@
 
 
                     <div id="mauticform_<?php the_field('form_string_name')?>_submit" class="wrap-area half">
-                        <?php if (!is_page('beta-signup')):?>
+                        <?php if (!is_page('beta-signup') && !is_page('get-started')):?>
                         <button type="submit" name="mauticform[submit]" id="mauticform_input_<?php the_field('form_string_name')?>_submit" value="" class="mauticform-button btn btn-default">Submit</button>
                         <?php endif; ?>
 
-                        <?php if (is_page('beta-signup')):?>
+                        <?php if (is_page('beta-signup') || is_page('get-started')):?>
                         <button
 
                             type="submit"

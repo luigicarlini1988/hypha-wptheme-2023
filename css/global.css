@@ -2519,7 +2519,7 @@ span.paragraph2 span {
 }
 
 
-/* google Captcha things */
+/* google Captcha things 
 
 #mauticform_newwebsitebeta_submit.gone button {
     opacity: 0;
@@ -2532,3 +2532,4 @@ span.paragraph2 span {
     top: 20px;
     color: var(--light-blu);
 }
+/*
