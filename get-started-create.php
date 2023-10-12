@@ -7,6 +7,14 @@
  get_header();
  ?>
 <main class="dark-theme">
+    <div id="eos-banner">
+        <a href="https://eos.hypha.earth/hypha/create-your-dao/" target="_blank">
+            <div class="flex gap-20 align-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logos/eos-logo.png" />
+                <p class="white">Want to proceed on EOS? Click here</p>
+            </div>
+        </a>
+    </div>
     <section class="get-started-hero">
         <div class="get-started-hero-back">
             <div class="pin-area">
@@ -39,9 +47,7 @@
 
                 <div class="buttons gap-50 flex">
                     <a href="#begin" class="button primary">Let's begin</a>
-                    <a href="#" class="video-button"><img
-                            src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg" />Watch the
-                        tutorial</a>
+
                 </div>
             </div>
         </div>
@@ -132,42 +138,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
 
-                            <p class="subtitle">Step 3 > <span class="white">Make It Your Own</span> </p>
-                        </div>
-                        <p class="title-medium">Time to customize your brand new DAO!</p>
-                        <div class="get-image-resp flex align-center justify-center">
-                            <div class="full-screen-dao">
-                                <img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-dao/create-10.jpg" />
-                            </div>
-                        </div>
-                        <p>Your DAO, your way. Easily choose from a variety of pre-designed DAO templates for a seamless
-                            start, or unleash your creativity and design your perfect DAO from scratch.</p>
-                        <div class="buttons flex gap-20">
-                            <a href="#inside-anchor-4" class="button secondary">Next Step</a>
-                            <a href="<?php echo home_url(); ?>/features-details/templates/" target="_blank" class="button secondary">About Templates</a>
-                        </div>
-                    </div>
-                    <div class="col-half flex  justify-center">
-                        <div class="onb-images flex wrap align-center justify-center">
-
-                            <div class="full-screen-dao flex justify-center align-center">
-                                <img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-dao/create-10.jpg" />
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div id="inside-anchor-4" class="get-step flex gap-50 align-center">
-                    <div class="col-half">
-                        <div id="step4" class="sub-section flex align-center">
-                            <div class="icon small">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
-                            </div>
-
-                            <p class="subtitle">Step 4 > <span class="white">Let's DAO it!</span></p>
+                            <p class="subtitle">Step 3 > <span class="white">Let's DAO it!</span></p>
                         </div>
                         <p class="title-medium">Cleared for launch: your DAO is ready for takeoff!</p>
                         <div class="get-image-resp flex align-center justify-center">
@@ -190,8 +161,7 @@
                         <div class="onb-images flex wrap align-center justify-center">
 
                             <div class="full-screen-dao flex justify-center align-center">
-                                <img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-dao/create-11.png" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/get-started/create-dao/create-11.png" />
                             </div>
 
                         </div>
@@ -205,7 +175,6 @@
                     <div id="step1-counter" class="stp">1</div>
                     <div id="step2-counter" class="stp">2</div>
                     <div id="step3-counter" class="stp">3</div>
-                    <div id="step4-counter" class="stp">4</div>
                 </div>
             </div>
 

@@ -248,3 +248,17 @@ body.login .wp-core-ui .button-primary {
     vertical-align: top;
     border: none;
 }
+
+
+body.login form label[for=loginlockdown_captcha] {
+  position: relative;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+
+}
+
+body.login form label[for=loginlockdown_captcha] input {
+  margin:8px 0px 0px 0px;
+}

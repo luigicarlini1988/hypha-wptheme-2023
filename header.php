@@ -151,6 +151,7 @@
 
 
 
+
 </head>
 
 <body <?php body_class();?>>
@@ -200,8 +201,12 @@
 
     </header>
 
+    <?php if (!is_page_template('get-started.php') && !is_page_template('get-started-account.php') && !is_page_template('get-started-create.php') && !is_page_template('get-started-join.php') && !is_page_template('get-started-developers.php')):?>
+
     <div id="main-ctas">
         <div class="flex gap-20 justify-right">
-            <a href="<?php echo home_url(); ?>/beta-signup/" class="button primary">Signup for Beta</a>
+            <div class="button secondary beta"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/beta.svg" /><span>Our product is in Beta</span></div>
+            <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
         </div>
     </div>
+    <?php endif;?>

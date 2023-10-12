@@ -405,3 +405,49 @@
     color:var(--light-blu);
     text-decoration: underline;
   }
+
+  #eos-banner {
+    position:fixed;
+    bottom:-10px;
+    right:0;
+    background:var(--gradient);
+    padding:12px 20px;
+    z-index:100;
+    transition-duration: .3s;
+    border-radius:40px 0px 0px 0px;
+    opacity:0;
+  }
+
+  #eos-banner.eos-on {
+    opacity:1;
+    bottom:0;
+  }
+
+  #eos-banner:after {
+    content:">";
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    color: var(--white);
+    transform: translateY(-50%);
+    opacity:0;
+    transition-duration: .3s;
+  }
+
+  #eos-banner:hover {
+    padding-right:46px;
+  }
+
+  #eos-banner:hover img {
+    transform:scale(1.04);
+  }
+
+  #eos-banner:hover:after {
+    opacity:1;
+    right: 15px;
+  }
+
+  #eos-banner img {
+    width:52px;
+    transition-duration: .3s;
+  }

@@ -1300,7 +1300,7 @@
         border-radius: 16px;
     }
 
-   
+    
 }
 
 
@@ -1724,5 +1724,26 @@
 
     .service-hero .breadcrumbs {
         display:none;
+    }
+
+    #eos-banner,
+    #eos-banner:hover {
+        width:100%;
+        border-radius:0px;
+        padding:4px 14px;
+    }
+
+    #eos-banner:after {
+        display:none;
+    }
+
+    #eos-banner img {
+        width:40px;
+    }
+
+    .intro-ab-cont p {
+        font-size:20px;
+        line-height:1.8em;
+        margin:22px 0px;
     }
 }

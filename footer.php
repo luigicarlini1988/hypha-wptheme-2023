@@ -263,6 +263,31 @@ jQuery(document).ready(function($) {
 });
 </script>
 
+<!-- FreeScout BEGIN -->
+<?php if (!is_page('create-hypha-account') && !is_page('create-your-dao')  && !is_page('join-a-dao')):?>
+<script>
+var FreeScoutW = {
+    s: {
+        "color": "#17294a",
+        "position": "br",
+        "locale": "en",
+        "id": 4231256624
+    }
+};
+(function(d, e, s) {
+    if (d.getElementById("freescout-w")) return;
+    a = d.createElement(e);
+    m = d.getElementsByTagName(e)[0];
+    a.async = 1;
+    a.id = "freescout-w";
+    a.src = s;
+    m.parentNode.insertBefore(a, m)
+})(document, "script", "https://help.hypha.earth/modules/enduserportal/js/widget.js?v=1840");
+</script>
+<?php endif; ?>
+
+<!-- FreeScout END -->
+
 <?php wp_footer();
 // This fxn allows plugins to insert themselves/scripts/css/files (right here) into the footer of your website.
 // Removing this fxn call will disable all kinds of plugins.

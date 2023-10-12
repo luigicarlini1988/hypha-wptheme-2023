@@ -2277,6 +2277,18 @@ table td {
     margin-top:80px;
 }
 
+.intro-ab-cont {
+    max-width: 780px;
+    margin: auto;
+}
+
+.intro-ab-cont p {
+    font-size:22px;
+    line-height:2em;
+    margin:36px 0px;
+    display:inline-block
+}
+
 /* main top CTAs */
 
 #main-ctas {
@@ -2519,7 +2531,7 @@ span.paragraph2 span {
 }
 
 
-/* google Captcha things 
+/* google Captcha things */
 
 #mauticform_newwebsitebeta_submit.gone button {
     opacity: 0;
@@ -2532,4 +2544,3 @@ span.paragraph2 span {
     top: 20px;
     color: var(--light-blu);
 }
-/*

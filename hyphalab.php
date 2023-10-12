@@ -50,7 +50,7 @@
                 <p class="text-20 light-blu"> Receive Hypha tokens by publicly representing Hypha or actively
                     contributing to raising awareness of the Hypha Network worldwide. </p>
                 <div class="buttons hide-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/ambassador/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/ambassador/">Let's DAO it!</a>
                 </div>
             </div>
 
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="buttons show-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/ambassador/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/ambassador/">Let's DAO it!</a>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
                 <p class="text-20 light-blu">Receive Hypha Tokens whenever the organizations you onboard as DAOs in the
                     Hypha Network make payments for their recurring subscriptions.</p>
                 <div class="buttons hide-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/affiliate/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/affiliate/">Let's DAO it!</a>
                 </div>
             </div>
 
@@ -112,7 +112,7 @@
                 </div>
 
                 <div class="buttons show-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/affiliate/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/affiliate/">Let's DAO it!</a>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@
                     currency and Hypha tokens by providing consulting services on behalf of the Hypha DAO within the
                     Hypha Network. </p>
                 <div class="buttons hide-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/consultant/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/consultant/">Let's DAO it!</a>
                 </div>
             </div>
 
@@ -152,7 +152,7 @@
                 </div>
 
                 <div class="buttons show-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/consultant/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/consultant/">Let's DAO it!</a>
                 </div>
             </div>
         </div>
@@ -165,7 +165,7 @@
                     its visibility within the Hypha network, be recognized as one of Hypha DAO’s accredited partners
                     for DAO services and receive project leads from Hypha DAO.</p>
                 <div class="buttons hide-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/service-dao/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/service-dao/">Let's DAO it!</a>
                 </div>
             </div>
 
@@ -205,7 +205,7 @@
                     integrations with Hypha DAO for DAOs in the Hypha Network to use.</p>
 
                 <div class="buttons hide-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/developer/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/developer/">Let's DAO it!</a>
                 </div>
             </div>
 
@@ -232,7 +232,7 @@
                     </div>
                 </div>
                 <div class="buttons show-resp">
-                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/developer/">Let's Do it!</a>
+                    <a class="button primary" href="<?php echo home_url(); ?>/hyphalab/developer/">Let's DAO it!</a>
                 </div>
             </div>
         </div>

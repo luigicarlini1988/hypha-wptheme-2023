@@ -36,8 +36,20 @@
                 <div class="text-20 light-blu"><?php the_content(); ?></div>
 
                 <div class="buttons gap-50 flex">
-                    <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Sign-up for Free!</a>
+                    <a href="#about-intro" class="button primary">Discover More</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-intro">
+        <div class="area flex gap-20 align-bottom">
+            <div class="intro-ab-cont">
+                <p>Hypha’s story is one of steadfast commitment, creative experimentation, and courageous exploration into uncharted horizons.</p>
+                <p>We formed in 2019 with a deep understanding that our existing systems are breaking down and our economic and governance systems are no longer fit for purpose. We envisaged an operating system for humanity that incentivises harmony with our planet. A living system that is informed by nature. In fact the term Decentralized Autonomous Organizations isn’t the full story, it's more of a Decentralized Human Organism a DHO</p>
+                <p>We started with the goal of building Seeds, an adaptable self-governed currency to incentivise regeneration of our planet. We knew we could not build the new system from the old system so we felt we had to be decentralised from the beginning. There were no tools back in 2019 to run a truly decentralised team so we built the HyphaDao to allow us to coordinate ourselves, a space for transparent secure agreements and value exchange and used it for 4 years to build the product itself. So we used the DAO to build the DAO. Think of it as building a plane while flying a plane and while not being able to see out the window. It's been a journey but we have something which is very special as a result.</p>
+                <p>We envisage ourselves as the new planetary operating system, easy to use for every human focused on positive outcomes. A large-scale facilitator for the deployment of impact capital across the planet. A space where collective decision making creates the conditions for the emergence of human collective intelligence. We are accelerating into a change point and our vision is the beautiful sunrise on the other side. System change. </p>
+                <p>Join us.
             </div>
         </div>
     </section>

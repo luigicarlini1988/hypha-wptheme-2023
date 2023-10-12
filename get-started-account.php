@@ -7,6 +7,14 @@
  get_header();
  ?>
 <main class="dark-theme">
+    <div id="eos-banner">
+        <a href="https://eos.hypha.earth/hypha/login" target="_blank">
+            <div class="flex gap-20 align-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logos/eos-logo.png" />
+                <p class="white">Want to proceed on EOS? Click here</p>
+            </div>
+        </a>
+    </div>
     <section class="get-started-hero">
         <div class="get-started-hero-back">
             <div class="pin-area">
@@ -25,15 +33,15 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logos/logo-round.svg" />
             </div>
             <div class="col-9">
-                <!--<div class="sub-section flex align-center">
+                <div class="sub-section flex align-center">
                     <div class="icon small">
-                        <img src="<?php// echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                     </div>
 
                     <div class="breadcrumbs">
-                        <a href="<?php// echo home_url(); ?>/get-started/">Get Started</a> > <?php// the_title();  ?>
+                        <a href="<?php echo home_url(); ?>/get-started/">Get Started</a> > <?php the_title();  ?>
                     </div>
-                </div>-->
+                </div>
                 <h1 class="title-giga">Create your <br />Hypha Account</h1>
                 <div class="text-20 light-blu"><?php the_content();  ?></div>
 
@@ -342,12 +350,12 @@
 
     </section>
 
-    <!--<section id="pricing" class="get-pricing">
+    <section id="pricing" class="get-pricing">
         <div class="area with-titles  flex gap-20 align-bottom">
             <div class="col-8">
                 <div class="sub-section flex align-center">
                     <div class="icon small">
-                        <img src="<?php// echo get_template_directory_uri(); ?>/img/icons/rocket.svg">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg">
                     </div>
 
                     <p class="subtitle">What's Next?</p>
@@ -359,7 +367,7 @@
         </div>
         <div class="area flex gap-20">
             <div class="col-4">
-                <a class="nostyle" href="<?php// echo home_url(); ?>/get-started/join-a-dao/">
+                <a class="nostyle" href="<?php echo home_url(); ?>/get-started/join-a-dao/">
                     <div class="generic-card glow-back has-link">
                         <div class="wrappo">
                             <div class="icon in-card">
@@ -375,11 +383,11 @@
             </div>
 
             <div class="col-4">
-                <a class="nostyle" href="<?php// echo home_url(); ?>/get-started/create-your-dao/">
+                <a class="nostyle" href="<?php echo home_url(); ?>/get-started/create-your-dao/">
                     <div class="generic-card glow-back has-link">
                         <div class="wrappo">
                             <div class="icon in-card">
-                                <img src="<?php// echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/rocket.svg" />
                             </div>
                             <h3 class="title-medium">Create <br />your DAO</h3>
                             <div class="fake-button space">
@@ -408,7 +416,7 @@
 
 
         </div>
-    </section>-->
+    </section>
 
 
 </main>

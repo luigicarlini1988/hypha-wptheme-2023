@@ -117,6 +117,9 @@
                             </li>
                         </ul>
                     </div>
+                    <div style="width:100%;margin-top:26px">
+                        <a href="#lets-do-it" class="button primary" style="width:100%">Let's DAO it!</a>
+                    </div>
                 </div>
             </div>
 
@@ -200,6 +203,9 @@
                                 </ul>
                             </li>
                         </ul>
+                    </div>
+                    <div style="width:100%;margin-top:26px">
+                        <a href="#lets-do-it" class="button primary" style="width:100%">Let's DAO it!</a>
                     </div>
                 </div>
             </div>
@@ -285,6 +291,9 @@
                             </li>
                         </ul>
                     </div>
+                    <div style="width:100%;margin-top:26px">
+                        <a href="#lets-do-it" class="button primary" style="width:100%">Let's DAO it!</a>
+                    </div>
                 </div>
             </div>
 
@@ -369,6 +378,9 @@
                             </li>
                         </ul>
                     </div>
+                    <div style="width:100%;margin-top:26px">
+                        <a href="#lets-do-it" class="button primary" style="width:100%">Let's DAO it!</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -382,7 +394,7 @@
 
     </section>
 
-    <section>
+    <section id="lets-do-it">
         <div class="area flex align-center gap-20">
             <div class="col-half">
                 <div class="sub-section flex align-center">
@@ -410,9 +422,8 @@
                         <p>Check out our Get started guide to discover everything you need to know to get your DAO
                             up and running. If you are ready, click the blu button instead!</p>
                         <div class="buttons flex wrap gap-20">
-                            <a href="<?php echo home_url(); ?>/beta-signup/"
-                                class="button secondary">Signup for your DAO</a>
-                            <!--<a class="button primary" href="https://dao.hypha.earth/hypha/create-your-dao" target="_blank">Create DAO</a>-->
+                            <a href="<?php echo home_url(); ?>/get-started/create-your-dao" class="button secondary">Get Started Guide</a>
+                            <a class="button primary" href="https://dao.hypha.earth/hypha/create-your-dao" target="_blank">Create DAO</a>
                         </div>
                     </div>
                 </div>

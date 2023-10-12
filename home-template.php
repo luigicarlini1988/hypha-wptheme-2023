@@ -52,7 +52,7 @@
                     </div>
 
                     <div class="buttons gap-20 wrap">
-                        <a href="<?php echo home_url(); ?>/beta-signup/" class="button primary">Signup for Beta</a>
+                        <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
                         <a href="#opening" class="button secondary">Learn More</a>
                     </div>
                 </div>
@@ -672,7 +672,7 @@
                     <img class="wr-2" src="<?php echo get_template_directory_uri(); ?>/img/wallet-1.jpg" />
                 </div>
                 <div class="buttons wrap">
-                    <a href="<?php echo home_url(); ?>/beta-signup/" class="button primary">Signup for Beta</a>
+                    <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
                     <a href="" id="pop-scat" class="button secondary">Learn More</a>
                 </div>
 
@@ -791,50 +791,45 @@
             <?php foreach( $educational_home as $post ): 
                 setup_postdata($post); ?>
 
-            <div class="col-3">
+            <div class="col-4">
 
-                <article id="post-<?php the_ID(); ?>" class="education-item">
+                <article id="post-<?php the_ID(); ?>" class="news-item">
                     <div class="wrappo">
-                        <div class="top-right-link">
+                        <?php 
+                        if ( !has_post_format( 'video' )) {
+                        ?> <div class="top-right-link">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/top-right-link.svg">
                         </div>
-                        <div class="flex for-cat">
+
+                        <?php } ?>
+                        <p class="text-14 bold light-blu">
+                            <?php $tex = get_the_term_list( $post->ID, 'section'); echo $tex; ?>
+                        </p>
+                        <a href="<?php the_permalink(); ?>">
+                            <?php $medium_large = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'medium_large');?>
+                            <img class="news-thumb" src="<?php echo esc_url($medium_large['0']); ?>" loading="lazy" />
                             <?php 
-                            if ( has_post_format( 'video' )) {
-                                ?>
-                            <div class="small-player-icon flex align-center">
-                                <img
-                                    src="http://localhost:8000/wp-content/themes/hypha2023/img/icons/play-big-icon.svg">
-                                <p class="white">Video Article</p>
+                        if ( has_post_format( 'video' )) {
+                        ?>
+                            <div class="player-icon">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/play-big-icon.svg">
                             </div>
                             <?php } ?>
 
-                            <p class="text-14 bold light-blu">
-                                <?php $tex = get_the_term_list( $post->ID, 'section'); echo $tex; ?>
-                            </p>
-                        </div>
-                        <a href="<?php the_permalink(); ?>">
-                            <h3 class="text-24"><?php the_title(); ?></h3>
-                            <p>
-                                <?php $content = wp_kses_post( wp_trim_words( $post->post_content, 26 )) ; 
-                                    $regex = "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@";
-                                    echo preg_replace($regex, ' ', $content); ?>
-                            </p>
+                            <h3 class="text-22"><?php the_title(); ?></h3>
                         </a>
                         <div class="author-meta gap-10 flex align-center">
                             <?php echo get_avatar( get_the_author_meta( 'ID' ), 96 ); ?>
                             <p class="text-14 bold white">
                                 <?php $fname = get_the_author_meta('first_name');
-                                echo $fname; ?>
+                 echo $fname; ?>
                             </p>
                             <p class="text-12 grey">
                                 <i><?php $post_date = get_the_date( 'j M, Y' ); echo $post_date; ?></i>
                             </p>
                         </div>
-
                     </div>
                 </article>
-
             </div>
 
             <?php endforeach; ?>

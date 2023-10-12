@@ -25,22 +25,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const counter8 = document.getElementById('step8-counter');
 
 
+    const eosBanner = document.getElementById('eos-banner');
+
+
+
 
     window.onscroll = function () {
-
 
 
         //menu 
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("header").classList.remove('up');
-            document.getElementById("main-ctas").classList.remove('show');
         } if (prevScrollpos < currentScrollPos) {
             document.getElementById("header").classList.add('up');
-            document.getElementById("main-ctas").classList.add('show');
         } if (window.scrollY == 0) {
             document.getElementById("header").classList.remove('up');
-            document.getElementById("main-ctas").classList.remove('show');
         }
         prevScrollpos = currentScrollPos;
 
@@ -54,11 +54,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
         const stepIn7 = stepAnchor7.getBoundingClientRect();
         const stepIn8 = stepAnchor8.getBoundingClientRect();
 
+
+
         //step 1
         if (stepIn1.top >= 0 && stepIn1.bottom <= window.innerHeight) {
             counter1.classList.add('current');
             counter2.classList.remove('current');
-
+            eosBanner.classList.add('eos-on');
 
         } else {
 
@@ -133,11 +135,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
         if (stepIn8.top >= 0 && stepIn8.bottom <= window.innerHeight) {
             counter7.classList.remove('current');
             counter8.classList.add('current');
-            counter9.classList.remove('current');
+
 
         } else {
 
         }
+
+
 
 
     }
