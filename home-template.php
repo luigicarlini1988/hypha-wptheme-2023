@@ -567,7 +567,7 @@
                         </div>
                     </div>
                     <div class="testim-text">
-                        <p class="text-small"><?php echo wp_kses_post( wp_trim_words( $post->post_content, 45 ) ); ?>
+                        <p class="text-small"><?php /*echo wp_kses_post( wp_trim_words( $post->post_content, 45 ) ); */ the_content();?>
                         </p>
                     </div>
                     <div class="testim-bottom flex align-center">

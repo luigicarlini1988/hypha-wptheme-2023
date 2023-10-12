@@ -138,7 +138,7 @@
             </div>
 
             <div class="col-half">
-                <p class="title-big white">Responsability</p>
+                <p class="title-big white">Responsibility</p>
                 <p>Our sense of individual and collective responsibility drives how we take accountability for becoming
                     a mature and thriving organism while acting by our values.</p>
             </div>

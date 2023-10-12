@@ -105,7 +105,7 @@
                             <p class="subtitle">Step 2 > <span class="white"> Login to your Account</span>
                             </p>
                         </div>
-                        <p class="title-medium">Login to your Hypha Account to enter the Dao</p>
+                        <p class="title-medium">Login to your Hypha Account to enter the DAO</p>
                         <div class="get-image-resp flex align-center justify-center">
                             <div class="full-screen-dao">
                                 <img
