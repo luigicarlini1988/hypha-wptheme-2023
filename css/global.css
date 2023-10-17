@@ -2544,3 +2544,41 @@ span.paragraph2 span {
     top: 20px;
     color: var(--light-blu);
 }
+
+/* generic short header */
+
+.generic-hero.short {
+    min-height:0;
+}
+
+.generic-hero.short .area {
+    min-height: 0;
+    padding: 60px 0px;
+}
+
+.generic-hero-back.short {
+    height:100%;
+}
+
+#content-area .wpsm_panel-group .wpsm_panel-default {
+    border:none!important;
+}
+
+#content-area .wpsm_panel-group .wpsm_panel-default h4 .ac_title_class,
+#content-area .wpsm_panel-group .wpsm_panel-default  .wpsm_panel-body {
+
+    font-family:var(--text)!important;
+}
+
+#content-area .wpsm_panel-group .wpsm_panel-default .ac_title_class {
+    padding-left:0;
+}
+
+#content-area .wpsm_panel-group .wpsm_panel-default .wpsm_panel-body {
+    padding-top:0;
+    line-height:1.8em!important;
+}
+
+#content-area .wpsm_panel-group .wpsm_panel + .wpsm_panel {
+    margin-top:10px;
+}

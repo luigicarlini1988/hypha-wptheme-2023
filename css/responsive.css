@@ -941,6 +941,10 @@
         font-size: 13px;
         display: none;
     }
+
+    .generic-hero.short .area {
+        padding:0;
+    }
     
 }
 
