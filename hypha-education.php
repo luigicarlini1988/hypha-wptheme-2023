@@ -229,7 +229,7 @@
         </div>
 
         <div class="area blog-navigation flex align-center justify-center">
-            <a href="<?php echo home_url(); ?>/education-archive/" class="button secondary">Education Archive</a>
+            <a href="<?php echo home_url(); ?>/education-archive/" class="button secondary">Older Articles</a>
         </div>
     </section>
 

@@ -13,10 +13,10 @@
                 </div>
 
                 <div class="breadcrumbs">
-                    <a href="<?php echo home_url(); ?>/education/">Education</a> > Archive
+                    <a href="<?php echo home_url(); ?>/education/">Education</a> > All Articles
                 </div>
             </div>
-            <h1 class="title-big white">Education Archive</h1>
+            <h1 class="title-big white">All Education Articles</h1>
         </div>
 
 

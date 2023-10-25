@@ -206,7 +206,10 @@
     <div id="main-ctas">
         <div class="flex gap-20 justify-right">
             <div class="button secondary beta"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/beta.svg" /><span>Our product is in Beta</span></div>
+            <a href="https://dao.hypha.earth/" target="_blank" class="button secondary">Explore DAOs</a>
             <a href="<?php echo home_url(); ?>/get-started/" class="button primary">Get Started</a>
         </div>
+
+    </div>
     </div>
     <?php endif;?>
