@@ -89,64 +89,41 @@
             <div class="col-half">
                 <div class="form-wrap glow-back">
                     <div class="wrappo">
-                        <form autocomplete="false" role="form" method="post"
-                            action="https://mautic.hypha.earth/form/submit?formId=15" id="mauticform_hyphalabdevelopers"
-                            data-mautic-form="hyphalabdevelopers" enctype="multipart/form-data">
-                            <div class="mauticform-error" id="mauticform_hyphalabdevelopers_error"></div>
+                        <form autocomplete="false" role="form" method="post" action="https://mautic.hypha.earth/form/submit?formId=15" id="mauticform_hyphalabdevelopers" data-mautic-form="hyphalabdevelopers" enctype="multipart/form-data">
+                            <div class="mauticform-error" id="mauticform_15_error"></div>
                             <div class="mauticform-message" id="mauticform_hyphalabdevelopers_message"></div>
                             <div class="mauticform-innerform">
 
                                 <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
 
-                                    <div id="mauticform_hyphalabdevelopers_email" data-validate="email"
-                                        data-validation-type="email" class="wrap-area full">
-                                        <label id="mauticform_label_hyphalabdevelopers_email"
-                                            for="mauticform_input_hyphalabdevelopers_email"
-                                            class="mauticform-label">Email</label>
-                                        <input id="mauticform_input_hyphalabdevelopers_email" name="mauticform[email]"
-                                            value="" class="mauticform-input" type="email">
-                                        <span class="mauticform-errormsg" style="display: none;">This is
-                                            required.</span>
+                                    <div id="mauticform_hyphalabdevelopers_email" data-validate="email" data-validation-type="email" class="wrap-area full">
+                                        <label id="mauticform_label_hyphalabdevelopers_email" for="mauticform_input_hyphalabdevelopers_email" class="mauticform-label">Email</label>
+                                        <input id="mauticform_input_hyphalabdevelopers_email" name="mauticform[email]" value="" class="mauticform-input" type="email">
+                                        <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
-                                    <div id="mauticform_hyphalabdevelopers_first_name" data-validate="first_name"
-                                        data-validation-type="text" class="wrap-area half">
-                                        <label id="mauticform_label_hyphalabdevelopers_first_name"
-                                            for="mauticform_input_hyphalabdevelopers_first_name"
-                                            class="mauticform-label">First
-                                            name</label>
-                                        <input id="mauticform_input_hyphalabdevelopers_first_name"
-                                            name="mauticform[first_name]" value="" class="mauticform-input" type="text">
-                                        <span class="mauticform-errormsg" style="display: none;">This is
-                                            required.</span>
+                                    <div id="mauticform_hyphalabdevelopers_first_name" data-validate="first_name" data-validation-type="text" class="wrap-area half">
+                                        <label id="mauticform_label_hyphalabdevelopers_first_name" for="mauticform_input_hyphalabdevelopers_first_name" class="mauticform-label">First name</label>
+                                        <input id="mauticform_input_hyphalabdevelopers_first_name" name="mauticform[first_name]" value="" class="mauticform-input" type="text">
+                                        <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
                                     <div id="mauticform_hyphalabdevelopers_last_name" data-validate="last_name"
                                         data-validation-type="text" class="wrap-area half">
-                                        <label id="mauticform_label_hyphalabdevelopers_last_name"
-                                            for="mauticform_input_hyphalabdevelopers_last_name"
-                                            class="mauticform-label">Last
-                                            Name</label>
-                                        <input id="mauticform_input_hyphalabdevelopers_last_name"
-                                            name="mauticform[last_name]" value="" class="mauticform-input" type="text">
-                                        <span class="mauticform-errormsg" style="display: none;">This is
-                                            required.</span>
+                                        <label id="mauticform_label_hyphalabdevelopers_last_name" for="mauticform_input_hyphalabdevelopers_last_name" class="mauticform-label">Last Name</label>
+                                        <input id="mauticform_input_hyphalabdevelopers_last_name" name="mauticform[last_name]" value="" class="mauticform-input" type="text">
+                                        <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
-                                    <div id="mauticform_hyphalabdevelopers_your_full_message"
-                                        data-validate="your_full_message" data-validation-type="textarea"
-                                        class="wrap-area full">
-                                        <label id="mauticform_label_hyphalabdevelopers_your_full_message"
-                                            for="mauticform_input_hyphalabdevelopers_your_full_message"
-                                            class="mauticform-label">Your
-                                            Full
-                                            Message</label>
-                                        <textarea id="mauticform_input_hyphalabdevelopers_your_full_message"
-                                            name="mauticform[your_full_message]" rows="4"
-                                            class="mauticform-textarea"></textarea>
-                                        <span class="mauticform-errormsg" style="display: none;">This is
-                                            required.</span>
+
+
+                                    <div id="mauticform_hyphalabdevelopers_your_full_message" data-validate="your_full_message" data-validation-type="textarea" class="wrap-area full">
+                                        <label id="mauticform_label_hyphalabdevelopers_your_full_message" for="mauticform_input_hyphalabdevelopers_your_full_message" class="mauticform-label">Your Full Message</label>
+                                        <textarea id="mauticform_input_hyphalabdevelopers_your_full_message" name="mauticform[your_full_message]" rows="4" class="mauticform-textarea"></textarea>
+                                        <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
+
+
 
                                     <div id="mauticform_hyphalabdevelopers_privacy_consent" data-validate="privacy_consent" data-validation-type="checkboxgrp" class="wrap-area half">
                                         <div class="mauticform-checkboxgrp-row flex"> <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_consent][]" id="mauticform_checkboxgrp_checkbox_privacy_consent_Agree0" type="checkbox" value="Agree">
@@ -155,25 +132,21 @@
                                         <span class="mauticform-errormsg" style="display: none;">This is required.</span>
                                     </div>
 
+
                                     <div id="mauticform_hyphalabdevelopers_submit" class="wrap-area half">
-                                        <button type="submit" name="mauticform[submit]"
-                                            id="mauticform_input_hyphalabdevelopers_submit" value=""
-                                            class="mauticform-button btn btn-default">Submit</button>
+
+                                        <button type="submit" name="mauticform[submit]" id="mauticform_input_hyphalabdevelopers_submit" value="" class="mauticform-button btn btn-default">Submit</button>
 
                                     </div>
+
+
                                 </div>
 
-                                <input type="hidden" name="mauticform[formId]" id="mauticform_hyphalabdevelopers_id"
-                                    value="15">
-                                <input type="hidden" name="mauticform[return]" id="mauticform_hyphalabdevelopers_return"
-                                    value="">
-                                <input type="hidden" name="mauticform[formName]" id="mauticform_hyphalabdevelopers_name"
-                                    value="hyphalabdevelopers">
+                                <input type="hidden" name="mauticform[formId]" id="mauticform_hyphalabdevelopers_id" value="15">
+                                <input type="hidden" name="mauticform[return]" id="mauticform_hyphalabdevelopers_return" value="">
+                                <input type="hidden" name="mauticform[formName]" id="mauticform_hyphalabdevelopers_name" value="hyphalabdevelopers">
                             </div>
                         </form>
-
-
-
 
                     </div>
                 </div>
